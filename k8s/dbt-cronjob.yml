@@ -1,0 +1,16 @@
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: dbt-daily-run
+spec:
+  schedule: "*/5 * * * *"  # Every 5 minutes for testing
+  jobTemplate:
+    spec:
+      template:
+        spec:
+          containers:
+          - name: dbt
+            image: ghcr.io/jbluemel/dbt-analytics:latest
+            command: ["dbt", "build"]
+            imagePullPolicy: Always
+          restartPolicy: Never
