@@ -1,0 +1,36 @@
+version: '3.8'
+
+services:
+  # dbt service - runs transformations
+  dbt:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    image: my-dbt-project:dev
+    volumes:
+      # Code files (editable in VS Code)
+      - ./models:/usr/app/dbt/models
+      - ./seeds:/usr/app/dbt/seeds
+      - ./macros:/usr/app/dbt/macros
+      - ./tests:/usr/app/dbt/tests
+      - ./dbt_project.yml:/usr/app/dbt/dbt_project.yml
+      - ./profiles.yml:/usr/app/dbt/profiles.yml
+      - ./models/sources.yml:/usr/app/dbt/models/sources.yml
+      
+      # Database in Docker volume (shared with sql-client)
+      - duckdb-data:/usr/app/dbt/db
+    
+    environment:
+      - USER=${USER}
+      - DBX_DEV_TOKEN=${DBX_DEV_TOKEN}
+    
+    working_dir: /usr/app/dbt
+    stdin_open: true
+    tty: true
+  
+  # Web-based SQL client - query database via browser
+ 
+
+volumes:
+  duckdb-data:
+    driver: local

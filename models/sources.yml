@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: raw_data
+    schema: main 
+    tables:
+      - name: customers
+      - name: item
+      - name: bids

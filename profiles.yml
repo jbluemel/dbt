@@ -1,0 +1,36 @@
+my_dbt_project:
+  target: local  # Default to local DuckDB for fast development
+  
+  outputs:
+    # Local DuckDB - fast iteration, no external connection
+    local:
+      type: duckdb
+      path: /usr/app/dbt/db/dev.duckdb
+      threads: 4
+    
+    # Personal Databricks dev schema - for validation before PR
+    dev_databricks:
+      type: databricks
+      host: purplewave.cloud.databricks.com
+      http_path: /sql/1.0/warehouses/your_warehouse_path_here
+      schema: "dev_{{ env_var('USER') }}"
+      token: "{{ env_var('DBX_DEV_TOKEN') }}"
+      threads: 4
+    
+    # CI testing - used by GitHub Actions (future)
+    ci:
+      type: databricks
+      host: purplewave.cloud.databricks.com
+      http_path: /sql/1.0/warehouses/your_warehouse_path_here
+      schema: ci_testing
+      token: "{{ env_var('DBX_CI_TOKEN') }}"
+      threads: 4
+    
+    # Production - used by Kubernetes (future)
+    prod:
+      type: databricks
+      host: purplewave.cloud.databricks.com
+      http_path: /sql/1.0/warehouses/your_warehouse_path_here
+      schema: production
+      token: "{{ env_var('DBX_PROD_TOKEN') }}"
+      threads: 8
