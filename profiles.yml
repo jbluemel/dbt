@@ -15,7 +15,7 @@ my_dbt_project:
       host: purplewave.cloud.databricks.com
       http_path: /sql/1.0/warehouses/your_warehouse_path_here
       schema: "dev_{{ env_var('USER', 'default') }}"
-      token: "{{ env_var('DBX_DEV_TOKEN') }}"
+      token: "{{ env_var('DBX_DEV_TOKEN', 'dummy') }}"
       threads: 4
     
     # CI testing - used by GitHub Actions (future)
@@ -24,7 +24,7 @@ my_dbt_project:
       host: purplewave.cloud.databricks.com
       http_path: /sql/1.0/warehouses/your_warehouse_path_here
       schema: ci_testing
-      token: "{{ env_var('DBX_CI_TOKEN') }}"
+      token: "{{ env_var('DBX_CI_TOKEN', 'dummy') }}"
       threads: 4
     
     # Production - used by Kubernetes (future)
@@ -33,5 +33,5 @@ my_dbt_project:
       host: purplewave.cloud.databricks.com
       http_path: /sql/1.0/warehouses/your_warehouse_path_here
       schema: production
-      token: "{{ env_var('DBX_PROD_TOKEN') }}"
+      token: "{{ env_var('DBX_PROD_TOKEN', 'dummy') }}"
       threads: 8
