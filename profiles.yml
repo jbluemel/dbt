@@ -4,9 +4,13 @@ my_dbt_project:
   outputs:
     # Local DuckDB - fast iteration, no external connection
    local:
-    type: duckdb
-    path: /tmp/main.duckdb
-    schema: main
+    type: postgres
+    host: postgres
+    port: 5432
+    user: dbt_user
+    password: dbt_password
+    dbname: dbt_dev
+    schema: public
     threads: 4
     
     # Personal Databricks dev schema - for validation before PR

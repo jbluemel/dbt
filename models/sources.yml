@@ -2,8 +2,7 @@ version: 2
 
 sources:
   - name: raw_data
-    schema: main
-    database: ''
+    schema: public
     tables:
       - name: customers
       - name: item
