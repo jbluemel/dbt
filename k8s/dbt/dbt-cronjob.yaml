@@ -1,0 +1,27 @@
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: dbt-run
+  namespace: data-platform
+spec:
+  schedule: "*/15 * * * *"  # Run every 15 minutes (for testing)
+  successfulJobsHistoryLimit: 3
+  failedJobsHistoryLimit: 3
+  jobTemplate:
+    spec:
+      template:
+        spec:
+          restartPolicy: OnFailure
+          imagePullSecrets:           
+          - name: ghcr-secret       
+          containers:
+          - name: dbt
+            image: ghcr.io/jbluemel/dbt-postgres:latest
+            imagePullPolicy: Always
+            command: ["dbt", "run", "--select", "stg_orders"]
+            env:
+            - name: DBT_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: dbt-secrets
+                  key: DBT_PASSWORD
