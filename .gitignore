@@ -31,3 +31,9 @@ Thumbs.db
 *.swp
 *.swo
 *~
+
+# Backup files
+*.backup
+
+# K8s manifests (infrastructure, not code)
+github-runner-deployment.yaml
