@@ -12,14 +12,14 @@ my_dbt_project:
       schema: public
       threads: 4
     
-    # Dev environment in K8s (accessed from GitHub Actions)
+    # Dev environment in K8s
     dev:
       type: postgres
       host: "{{ env_var('DEV_DB_HOST') }}"
       port: 5432
       user: dbt_user
       password: "{{ env_var('DEV_DB_PASSWORD') }}"
-      dbname: analytics
+      dbname: dbt_dev
       schema: public
       threads: 4
     
@@ -30,7 +30,7 @@ my_dbt_project:
       port: 5432
       user: dbt_user
       password: "{{ env_var('STAGING_DB_PASSWORD') }}"
-      dbname: analytics
+      dbname: dbt_staging
       schema: public
       threads: 4
     
@@ -41,6 +41,6 @@ my_dbt_project:
       port: 5432
       user: dbt_user
       password: "{{ env_var('PROD_DB_PASSWORD') }}"
-      dbname: analytics
+      dbname: dbt_prod
       schema: public
       threads: 8
