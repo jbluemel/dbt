@@ -1,0 +1,28 @@
+name: Deploy to Production
+
+on:
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: self-hosted
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+      
+      - name: Install dbt
+        run: pip install dbt-postgres
+      
+      - name: Deploy to production
+        run: |
+          dbt seed --target prod
+          dbt run --target prod
+          dbt test --target prod
+        env:
+          PROD_DB_HOST: prod-postgres.data-platform-prod.svc.cluster.local
+          PROD_DB_PASSWORD: ${{ secrets.PROD_DB_PASSWORD }}

@@ -1,0 +1,28 @@
+name: Deploy to Staging
+
+on:
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: self-hosted
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+      
+      - name: Install dbt
+        run: pip install dbt-postgres
+      
+      - name: Deploy to staging
+        run: |
+          dbt seed --target staging
+          dbt run --target staging
+          dbt test --target staging
+        env:
+          STAGING_DB_HOST: staging-postgres.data-platform-staging.svc.cluster.local
+          STAGING_DB_PASSWORD: ${{ secrets.STAGING_DB_PASSWORD }}
