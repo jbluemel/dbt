@@ -1,0 +1,29 @@
+name: Deploy to Dev
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  deploy:
+    runs-on: self-hosted
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+      
+      - name: Install dbt
+        run: pip install dbt-postgres
+      
+      - name: Deploy to dev
+        run: |
+          dbt seed --target dev
+          dbt run --target dev
+          dbt test --target dev
+        env:
+          DEV_DB_HOST: dev-postgres.data-platform-dev.svc.cluster.local
+          DEV_DB_PASSWORD: ${{ secrets.DEV_DB_PASSWORD }}
