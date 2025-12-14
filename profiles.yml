@@ -1,7 +1,6 @@
 my_dbt_project:
   target: local
   outputs:
-    # Local development with Docker Compose
     local:
       type: postgres
       host: localhost
@@ -12,7 +11,6 @@ my_dbt_project:
       schema: public
       threads: 4
     
-    # Dev environment in K8s
     dev:
       type: postgres
       host: "{{ env_var('DEV_DB_HOST') }}"
@@ -23,24 +21,22 @@ my_dbt_project:
       schema: public
       threads: 4
     
-    # Staging environment in K8s
     staging:
       type: postgres
       host: "{{ env_var('STAGING_DB_HOST') }}"
       port: 5432
       user: dbt_user
       password: "{{ env_var('STAGING_DB_PASSWORD') }}"
-      dbname: dbt_staging
+      dbname: dbt_dev
       schema: public
       threads: 4
     
-    # Production environment in K8s
     prod:
       type: postgres
       host: "{{ env_var('PROD_DB_HOST') }}"
       port: 5432
       user: dbt_user
       password: "{{ env_var('PROD_DB_PASSWORD') }}"
-      dbname: dbt_prod
+      dbname: dbt_dev
       schema: public
       threads: 8
