@@ -7,3 +7,5 @@ sources:
       - name: customers
       - name: item
       - name: bids
+      - name: items_v2
+      - name: fees

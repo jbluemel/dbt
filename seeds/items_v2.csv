@@ -1,0 +1,1001 @@
+unique_id,icn,auctiondate,year,make,model,category,subcategory,location_st,location_city,hammer,contract_price,estimated_value,territory_id,district_id,region_id,business_segment
+1,YU6014,2025-10-23,2004,Caterpillar,330,Heavy Equipment,Excavators,NC,Raleigh,27070,29777,33403,49,2,1,Core Sales
+2,OS4311,2025-09-30,2005,Caterpillar,349,Heavy Equipment,Excavators,AR,Little Rock,13342,14676,13427,66,3,2,Enterprise
+3,UW9547,2025-10-01,2000,Case IH,Magnum 340,Agricultural,Tractors,AR,Little Rock,14868,16354,15554,44,2,1,Enterprise
+4,ZN1959,2025-08-14,2005,John Deere,S790,Agricultural,Combines,KS,Wichita,13431,14774,16778,61,3,2,Core Sales
+5,LT3221,2025-09-23,2010,Kubota,M7-172,Agricultural,Tractors,GA,Savannah,2571,2828,5713,18,1,1,Enterprise
+6,MH6612,2025-09-23,2015,Chevrolet,Silverado 2500,Trucks,Pickup Trucks,WA,Seattle,14430,15873,20597,22,1,1,Enterprise
+7,GT7116,2025-11-13,2013,John Deere,1775NT,Agricultural,Planters,IL,Peoria,30042,33046,32008,32,2,1,Enterprise
+8,VW6199,2025-09-25,2013,Ford,F-450,Trucks,Pickup Trucks,CA,San Diego,13299,14628,16860,1,1,1,Enterprise
+9,CE3202,2025-08-27,1995,Freightliner,Cascadia,Trucks,Semi Tractors,TX,Houston,25808,28388,32696,61,3,2,Enterprise
+10,QW7509,2025-08-13,2009,Kubota,M8-211,Agricultural,Tractors,NY,Rochester,12000,13200,12457,99,4,2,Core Sales
+11,ZP9838,2025-08-14,2018,John Deere,210G,Heavy Equipment,Excavators,OH,Columbus,22955,25250,24231,41,2,1,Enterprise
+12,XN7972,2025-11-04,2008,Kenworth,T880,Trucks,Dump Trucks,NC,Charlotte,8453,9298,11281,82,4,2,Enterprise
+13,DM0905,2025-08-19,2015,Komatsu,WA500,Heavy Equipment,Wheel Loaders,WI,Milwaukee,13664,15030,15281,10,1,1,Core Sales
+14,CL4254,2025-10-01,2019,John Deere,1775NT,Agricultural,Planters,IL,Peoria,15107,16617,18418,9,1,1,Core Sales
+15,RT9770,2025-08-27,1996,John Deere,DB60,Agricultural,Planters,NE,Omaha,8146,8960,12478,48,2,1,Core Sales
+16,MX6458,2025-09-11,2022,Peterbilt,579,Trucks,Semi Tractors,FL,Orlando,40493,44542,44409,95,4,2,Enterprise
+17,IP5813,2025-10-14,2011,John Deere,644K,Heavy Equipment,Wheel Loaders,TX,Austin,19299,21228,21762,96,4,2,Enterprise
+18,MO9766,2025-09-23,1994,Massey Ferguson,8735,Agricultural,Tractors,TX,San Antonio,27847,30631,28915,81,4,2,Core Sales
+19,SP2482,2025-10-23,2013,John Deere,644K,Heavy Equipment,Wheel Loaders,MO,St Louis,12270,13497,12582,7,1,1,Core Sales
+20,HT8308,2025-11-25,1999,Case IH,2150,Agricultural,Planters,TX,Dallas,27983,30781,31657,58,3,2,Enterprise
+21,IV1709,2025-09-16,2012,Kenworth,T680,Trucks,Semi Tractors,CA,Sacramento,24117,26528,26517,84,4,2,Core Sales
+22,HD2632,2025-11-18,2018,Volvo,VNL,Trucks,Semi Tractors,MI,Grand Rapids,16085,17693,20993,99,4,2,Enterprise
+23,FU1040,2025-11-26,2018,Case IH,9250,Agricultural,Combines,IA,Des Moines,30197,33216,34290,86,4,2,Enterprise
+24,AR6664,2025-08-19,2002,Gleaner,S98,Agricultural,Combines,CA,Los Angeles,43264,47590,44919,42,2,1,Enterprise
+25,XZ1823,2025-09-24,1993,Ford,F-450,Trucks,Pickup Trucks,GA,Atlanta,43207,47527,47173,93,4,2,Enterprise
+26,IG7757,2025-11-25,1991,Kenworth,T880,Trucks,Semi Tractors,CA,Sacramento,10260,11286,11033,59,3,2,Enterprise
+27,XZ5299,2025-08-14,2022,Komatsu,D65,Heavy Equipment,Dozers,CA,San Francisco,5804,6384,7269,99,4,2,Core Sales
+28,WT4282,2025-09-04,2015,Case,1650M,Heavy Equipment,Dozers,GA,Atlanta,46069,50675,50086,100,4,2,Core Sales
+29,WA7534,2025-08-26,2012,Volvo,EC480,Heavy Equipment,Excavators,FL,Jacksonville,28463,31309,34806,61,3,2,Enterprise
+30,TC5886,2025-10-28,2003,Komatsu,D85,Heavy Equipment,Dozers,NC,Raleigh,31226,34348,34450,61,3,2,Enterprise
+31,OK8257,2025-09-02,2006,John Deere,350G,Heavy Equipment,Excavators,GA,Atlanta,24912,27403,29841,92,4,2,Core Sales
+32,XN7840,2025-08-21,1991,Freightliner,Century,Trucks,Semi Tractors,CA,San Diego,30323,33355,37383,22,1,1,Enterprise
+33,QW9176,2025-10-16,2009,Ford,F-250,Trucks,Pickup Trucks,NY,Buffalo,11172,12289,12371,80,4,2,Core Sales
+34,TE6134,2025-09-03,1999,Komatsu,WA500,Heavy Equipment,Wheel Loaders,TX,San Antonio,28752,31627,30050,82,4,2,Enterprise
+35,IW9154,2025-11-13,2018,Kubota,M7-172,Agricultural,Tractors,NC,Raleigh,40599,44658,43456,68,3,2,Enterprise
+36,TF0521,2025-10-08,2024,New Holland,T9.565,Agricultural,Tractors,NY,Buffalo,23405,25745,24334,48,2,1,Enterprise
+37,BH5394,2025-09-16,2024,Caterpillar,972M,Heavy Equipment,Wheel Loaders,TX,Austin,18420,20262,18858,13,1,1,Core Sales
+38,CN6521,2025-11-27,2015,Caterpillar,D9,Heavy Equipment,Dozers,TX,Dallas,38856,42741,43147,77,4,2,Core Sales
+39,JU1443,2025-10-07,2011,Hitachi,ZX670,Heavy Equipment,Excavators,IL,Peoria,37697,41466,39057,67,3,2,Core Sales
+40,LX8214,2025-09-10,2021,Volvo,L150H,Heavy Equipment,Wheel Loaders,FL,Orlando,37254,40979,41310,47,2,1,Core Sales
+41,RI9334,2025-08-12,2009,Caterpillar,272D,Heavy Equipment,Skid Steers,TN,Memphis,23016,25317,25071,15,1,1,Core Sales
+42,ZN0280,2025-11-19,2014,Caterpillar,D8,Heavy Equipment,Dozers,MI,Detroit,18928,20820,22215,61,3,2,Enterprise
+43,MR7289,2025-09-17,2022,John Deere,1775NT,Agricultural,Planters,MN,Minneapolis,38719,42590,39439,59,3,2,Core Sales
+44,LL5643,2025-10-09,2010,Case IH,8250,Agricultural,Combines,NE,Omaha,21375,23512,25444,28,2,1,Core Sales
+45,II9254,2025-09-17,2023,Kenworth,T880,Trucks,Dump Trucks,CA,Los Angeles,43944,48338,52125,12,1,1,Core Sales
+46,US6764,2025-11-18,2006,Volvo,EC480,Heavy Equipment,Excavators,PA,Pittsburgh,7955,8750,9206,28,2,1,Core Sales
+47,YE9661,2025-08-07,2001,Case IH,1255,Agricultural,Planters,GA,Augusta,4436,4879,6123,7,1,1,Enterprise
+48,DU4032,2025-09-25,2015,Massey Ferguson,8735,Agricultural,Tractors,CA,San Diego,30011,33012,31763,49,2,1,Enterprise
+49,XB8498,2025-11-19,2004,Caterpillar,962M,Heavy Equipment,Wheel Loaders,IL,Springfield,16720,18392,17516,53,3,2,Enterprise
+50,JS9292,2025-08-20,2000,John Deere,644K,Heavy Equipment,Wheel Loaders,TN,Memphis,7738,8511,9573,95,4,2,Core Sales
+51,VD2776,2025-10-16,2004,Case IH,1255,Agricultural,Planters,TX,Austin,29619,32580,32918,93,4,2,Enterprise
+52,HL3081,2025-09-30,2012,Ram,2500,Trucks,Pickup Trucks,NY,New York,26057,28662,26813,94,4,2,Core Sales
+53,XF4097,2025-09-16,2010,Chevrolet,Silverado 3500,Trucks,Pickup Trucks,WI,Milwaukee,24046,26450,26988,53,3,2,Enterprise
+54,OA4274,2025-10-01,1994,Mack,Pinnacle,Trucks,Dump Trucks,CA,Los Angeles,6971,7668,9227,98,4,2,Enterprise
+55,RC2158,2025-10-07,2004,Komatsu,D85,Heavy Equipment,Dozers,TX,Houston,42558,46813,45514,62,3,2,Enterprise
+56,XZ6089,2025-11-19,1995,Ford,F-250,Trucks,Pickup Trucks,NC,Charlotte,12605,13865,14992,11,1,1,Enterprise
+57,WM1578,2025-08-26,2020,Komatsu,D155,Heavy Equipment,Dozers,GA,Savannah,39858,43843,40124,87,4,2,Enterprise
+58,SW1834,2025-10-02,1994,John Deere,332G,Heavy Equipment,Skid Steers,IL,Peoria,3646,4010,5163,25,1,1,Core Sales
+59,BC2676,2025-10-14,1992,John Deere,850K,Heavy Equipment,Dozers,WA,Seattle,48134,52947,48835,15,1,1,Enterprise
+60,PG1792,2025-08-07,2023,John Deere,6155R,Agricultural,Tractors,IA,Des Moines,35673,39240,39153,1,1,1,Core Sales
+61,UY5877,2025-11-20,2002,John Deere,8320R,Agricultural,Tractors,GA,Augusta,2501,2751,4329,41,2,1,Enterprise
+62,YR8607,2025-08-27,1990,Mack,Pinnacle,Trucks,Dump Trucks,CA,San Diego,9308,10238,12785,63,3,2,Enterprise
+63,UQ1611,2025-11-05,1995,Case,SV340,Heavy Equipment,Skid Steers,GA,Augusta,3675,4042,7164,27,2,1,Enterprise
+64,AL8520,2025-10-08,1998,Caterpillar,262D,Heavy Equipment,Skid Steers,NC,Charlotte,23595,25954,30413,43,2,1,Core Sales
+65,CM0031,2025-09-23,2016,Chevrolet,Silverado 2500,Trucks,Pickup Trucks,GA,Atlanta,28645,31509,36255,78,4,2,Enterprise
+66,VY9066,2025-11-27,1995,John Deere,700K,Heavy Equipment,Dozers,MO,Kansas City,41226,45348,49601,82,4,2,Enterprise
+67,YA1916,2025-08-26,2007,John Deere,1775NT,Agricultural,Planters,TX,Houston,32148,35362,39661,8,1,1,Enterprise
+68,KQ9408,2025-09-04,2010,John Deere,210G,Heavy Equipment,Excavators,NC,Charlotte,37290,41019,43809,43,2,1,Core Sales
+69,MZ0881,2025-10-30,2012,Bobcat,T650,Heavy Equipment,Skid Steers,OH,Columbus,37729,41501,44752,79,4,2,Enterprise
+70,IQ9620,2025-08-14,2013,Caterpillar,349,Heavy Equipment,Excavators,GA,Augusta,24481,26929,31330,41,2,1,Core Sales
+71,BP5336,2025-10-02,1994,Komatsu,D85,Heavy Equipment,Dozers,TX,San Antonio,46065,50671,51604,27,2,1,Core Sales
+72,QC7846,2025-09-16,1991,Ford,F-250,Trucks,Pickup Trucks,IN,Indianapolis,28083,30891,30448,91,4,2,Enterprise
+73,YS2147,2025-09-16,1993,Case IH,Magnum 380,Agricultural,Tractors,WA,Seattle,24964,27460,31843,98,4,2,Core Sales
+74,TG8910,2025-08-06,2016,Freightliner,Century,Trucks,Semi Tractors,IL,Peoria,48416,53257,51246,63,3,2,Enterprise
+75,FJ4304,2025-10-30,2017,John Deere,210G,Heavy Equipment,Excavators,NC,Raleigh,47699,52468,49759,16,1,1,Enterprise
+76,AU2203,2025-11-27,1990,New Holland,CR8.90,Agricultural,Combines,NC,Raleigh,19830,21813,23407,16,1,1,Enterprise
+77,TX8002,2025-08-13,2020,Chevrolet,Silverado 3500,Trucks,Pickup Trucks,NE,Omaha,22384,24622,24662,73,3,2,Enterprise
+78,QW5018,2025-10-28,1995,Case IH,1255,Agricultural,Planters,GA,Augusta,36534,40187,38524,79,4,2,Core Sales
+79,QS9239,2025-09-16,1992,Peterbilt,579,Trucks,Semi Tractors,CO,Denver,28371,31208,30588,98,4,2,Enterprise
+80,HE2456,2025-10-22,2019,Freightliner,Century,Trucks,Semi Tractors,NV,Las Vegas,24145,26559,27325,2,1,1,Enterprise
+81,VF7504,2025-09-02,2001,Case,SR270,Heavy Equipment,Skid Steers,MI,Detroit,7105,7815,10661,85,4,2,Enterprise
+82,UN4616,2025-10-29,1999,John Deere,850K,Heavy Equipment,Dozers,OH,Cincinnati,17033,18736,20478,84,4,2,Enterprise
+83,MY6615,2025-09-10,2005,Peterbilt,567,Trucks,Semi Tractors,TX,Austin,38287,42115,43479,87,4,2,Enterprise
+84,YP4183,2025-08-07,2004,Ram,3500,Trucks,Pickup Trucks,TX,Dallas,37742,41516,42857,62,3,2,Core Sales
+85,MJ6452,2025-10-23,2015,Mack,Pinnacle,Trucks,Dump Trucks,MA,Boston,26343,28977,30992,60,3,2,Core Sales
+86,XQ2726,2025-10-21,2023,John Deere,644K,Heavy Equipment,Wheel Loaders,OH,Cincinnati,37915,41706,46544,56,3,2,Core Sales
+87,UL4022,2025-09-30,1995,Case,SR270,Heavy Equipment,Skid Steers,TX,Austin,17178,18895,21941,16,1,1,Core Sales
+88,JY5115,2025-11-11,1999,Case IH,1255,Agricultural,Planters,TX,Houston,4730,5203,6026,91,4,2,Core Sales
+89,WC8365,2025-10-07,1998,Case IH,1255,Agricultural,Planters,CO,Denver,22619,24880,25349,30,2,1,Enterprise
+90,PO3200,2025-09-04,1999,Chevrolet,Silverado 2500,Trucks,Pickup Trucks,WA,Spokane,37977,41774,43884,28,2,1,Core Sales
+91,JL1085,2025-08-07,1994,Western Star,4900,Trucks,Dump Trucks,CA,San Francisco,29433,32376,35193,43,2,1,Core Sales
+92,EX9066,2025-08-20,2021,John Deere,8370R,Agricultural,Tractors,WI,Milwaukee,3023,3325,3132,64,3,2,Core Sales
+93,UY4114,2025-09-17,2017,Bobcat,T650,Heavy Equipment,Skid Steers,TX,Austin,8374,9211,9513,46,2,1,Core Sales
+94,MW5635,2025-10-23,2003,Peterbilt,348,Trucks,Dump Trucks,CA,San Diego,25215,27736,25514,9,1,1,Core Sales
+95,CJ8753,2025-11-06,1990,John Deere,S790,Agricultural,Combines,GA,Savannah,10222,11244,15167,67,3,2,Enterprise
+96,BO5045,2025-09-02,2011,Massey Ferguson,8737,Agricultural,Tractors,FL,Miami,13419,14760,16876,89,4,2,Core Sales
+97,LF4518,2025-08-06,2013,New Holland,CR8.90,Agricultural,Combines,IL,Springfield,19978,21975,20158,21,1,1,Core Sales
+98,MZ7113,2025-08-05,2008,Kenworth,W900,Trucks,Semi Tractors,FL,Miami,33007,36307,40578,85,4,2,Enterprise
+99,RO3264,2025-11-05,2021,Peterbilt,348,Trucks,Dump Trucks,MA,Boston,8872,9759,11567,73,3,2,Core Sales
+100,GU7295,2025-08-26,2004,John Deere,724K,Heavy Equipment,Wheel Loaders,MN,Minneapolis,14782,16260,19704,17,1,1,Enterprise
+101,XZ3132,2025-09-16,1999,Chevrolet,Silverado 3500,Trucks,Pickup Trucks,FL,Jacksonville,19652,21617,21338,16,1,1,Enterprise
+102,ZD5792,2025-09-30,2005,Ram,3500,Trucks,Pickup Trucks,MI,Detroit,20267,22293,22839,19,1,1,Enterprise
+103,ZS4820,2025-09-30,2015,John Deere,X9 1100,Agricultural,Combines,IL,Chicago,24870,27357,28077,47,2,1,Enterprise
+104,JS7394,2025-09-10,2003,Komatsu,PC210,Heavy Equipment,Excavators,TX,Austin,16457,18102,17547,70,3,2,Enterprise
+105,EY9400,2025-08-20,2015,Case IH,Magnum 340,Agricultural,Tractors,AR,Little Rock,9353,10288,11369,11,1,1,Enterprise
+106,BJ4159,2025-10-07,1996,Case IH,Magnum 340,Agricultural,Tractors,NY,Buffalo,5718,6289,9289,1,1,1,Enterprise
+107,XO9365,2025-08-21,2019,John Deere,1775NT,Agricultural,Planters,CA,Los Angeles,35904,39494,41086,59,3,2,Core Sales
+108,YN2513,2025-11-13,2010,Kenworth,T880,Trucks,Dump Trucks,GA,Atlanta,27738,30511,30280,72,3,2,Core Sales
+109,SO3145,2025-11-20,2021,John Deere,724K,Heavy Equipment,Wheel Loaders,GA,Savannah,29118,32029,36111,62,3,2,Core Sales
+110,LD4557,2025-10-08,2013,John Deere,7230R,Agricultural,Tractors,MO,St Louis,12785,14063,17303,64,3,2,Enterprise
+111,UA9609,2025-11-18,1998,Case IH,1255,Agricultural,Planters,OH,Cincinnati,47653,52418,52870,7,1,1,Core Sales
+112,MC0903,2025-09-03,2006,John Deere,950K,Heavy Equipment,Dozers,WI,Milwaukee,39680,43648,44509,47,2,1,Enterprise
+113,VH8688,2025-09-02,1992,John Deere,X9 1100,Agricultural,Combines,WA,Spokane,3056,3361,7184,56,3,2,Enterprise
+114,BH2757,2025-09-04,2011,Gleaner,S98,Agricultural,Combines,FL,Jacksonville,45182,49700,51130,39,2,1,Core Sales
+115,MA9398,2025-10-01,2017,Bobcat,T650,Heavy Equipment,Skid Steers,OK,Oklahoma City,19409,21349,19805,84,4,2,Enterprise
+116,WM8434,2025-09-09,2012,New Holland,CR10.90,Agricultural,Combines,IL,Peoria,38281,42109,43450,18,1,1,Core Sales
+117,FG5717,2025-10-30,2008,Mack,Pinnacle,Trucks,Dump Trucks,IN,Indianapolis,30795,33874,38284,61,3,2,Core Sales
+118,WW9566,2025-10-28,2012,Gleaner,S98,Agricultural,Combines,MI,Detroit,38460,42306,46087,8,1,1,Core Sales
+119,FZ0078,2025-10-08,2010,John Deere,DB60,Agricultural,Planters,KS,Wichita,37066,40772,37825,16,1,1,Enterprise
+120,YM4057,2025-09-25,2012,Ram,2500,Trucks,Pickup Trucks,AR,Little Rock,21857,24042,27083,81,4,2,Enterprise
+121,PL3836,2025-10-22,2017,Case IH,9250,Agricultural,Combines,OH,Columbus,40356,44391,48308,20,1,1,Core Sales
+122,UP0954,2025-09-04,2011,John Deere,X9 1100,Agricultural,Combines,AZ,Tucson,3261,3587,5694,95,4,2,Core Sales
+123,LN9666,2025-10-14,2024,Gleaner,S98,Agricultural,Combines,TX,San Antonio,31489,34637,37003,96,4,2,Enterprise
+124,QG8299,2025-09-24,2006,John Deere,DB60,Agricultural,Planters,IN,Indianapolis,16820,18502,23117,22,1,1,Core Sales
+125,RG5672,2025-11-26,2004,Ford,F-450,Trucks,Pickup Trucks,CA,Sacramento,46346,50980,55799,87,4,2,Enterprise
+126,CO7600,2025-11-18,2024,Case IH,2150,Agricultural,Planters,GA,Augusta,13220,14542,13289,2,1,1,Enterprise
+127,KO2914,2025-10-14,1997,Peterbilt,567,Trucks,Dump Trucks,KS,Wichita,41002,45102,42693,79,4,2,Enterprise
+128,WS3960,2025-08-06,2021,Massey Ferguson,8737,Agricultural,Tractors,TX,Houston,39436,43379,44654,39,2,1,Enterprise
+129,XC8172,2025-09-18,2015,Mack,Pinnacle,Trucks,Dump Trucks,CA,San Francisco,16101,17711,21799,47,2,1,Enterprise
+130,HF8122,2025-11-20,2007,Gleaner,S98,Agricultural,Combines,WI,Milwaukee,48409,53249,51155,25,1,1,Enterprise
+131,IC9882,2025-09-09,2006,John Deere,S790,Agricultural,Combines,MI,Grand Rapids,32608,35868,32901,5,1,1,Enterprise
+132,PV0624,2025-08-05,1991,Volvo,EC220,Heavy Equipment,Excavators,CO,Denver,42631,46894,47597,45,2,1,Enterprise
+133,MV9327,2025-10-23,2012,Hitachi,ZX350,Heavy Equipment,Excavators,OR,Portland,41841,46025,45548,58,3,2,Core Sales
+134,BM1754,2025-11-05,2002,Kenworth,T880,Trucks,Dump Trucks,NV,Las Vegas,9171,10088,10314,49,2,1,Core Sales
+135,PW0316,2025-11-05,2022,Case IH,8250,Agricultural,Combines,PA,Pittsburgh,19163,21079,26019,67,3,2,Enterprise
+136,NW8708,2025-10-23,2024,Case IH,2150,Agricultural,Planters,IL,Peoria,24729,27201,25239,32,2,1,Core Sales
+137,GL2443,2025-10-22,2008,Volvo,L220H,Heavy Equipment,Wheel Loaders,OH,Cleveland,44025,48427,44291,16,1,1,Enterprise
+138,PW5034,2025-09-30,2022,Case IH,Magnum 380,Agricultural,Tractors,OK,Oklahoma City,14945,16439,19037,41,2,1,Enterprise
+139,LC6268,2025-11-25,2023,Peterbilt,389,Trucks,Semi Tractors,TX,San Antonio,12791,14070,14093,33,2,1,Core Sales
+140,XX7465,2025-09-17,2005,Case IH,8250,Agricultural,Combines,OR,Portland,39848,43832,42405,94,4,2,Core Sales
+141,BZ6808,2025-09-25,2021,New Holland,CR10.90,Agricultural,Combines,PA,Pittsburgh,32417,35658,33612,62,3,2,Core Sales
+142,ZW3040,2025-11-25,2000,Ford,F-250,Trucks,Pickup Trucks,CA,Los Angeles,22425,24667,22809,62,3,2,Enterprise
+143,MS1691,2025-10-08,2009,John Deere,1775NT,Agricultural,Planters,CA,San Francisco,16902,18592,17242,11,1,1,Core Sales
+144,SN6863,2025-11-05,2016,Kenworth,T880,Trucks,Dump Trucks,MO,St Louis,44582,49040,48895,56,3,2,Core Sales
+145,PG6283,2025-09-10,2018,Chevrolet,Silverado 3500,Trucks,Pickup Trucks,OR,Portland,40009,44009,48043,45,2,1,Enterprise
+146,JU5177,2025-08-13,2019,New Holland,T7.270,Agricultural,Tractors,OH,Cleveland,8306,9136,10736,80,4,2,Core Sales
+147,EV0310,2025-09-25,2017,Case IH,2150,Agricultural,Planters,OH,Cleveland,31785,34963,34458,13,1,1,Core Sales
+148,GJ9505,2025-10-29,1995,Western Star,4900,Trucks,Dump Trucks,NC,Charlotte,24932,27425,26619,91,4,2,Enterprise
+149,TH1234,2025-09-11,2023,John Deere,1775NT,Agricultural,Planters,OH,Cincinnati,33045,36349,38859,17,1,1,Core Sales
+150,QD1648,2025-08-28,2012,John Deere,DB60,Agricultural,Planters,MO,St Louis,8261,9087,13287,89,4,2,Core Sales
+151,QB7092,2025-11-18,2005,Hitachi,ZX350,Heavy Equipment,Excavators,AZ,Tucson,10180,11198,10733,96,4,2,Core Sales
+152,WS0585,2025-09-24,2011,Kenworth,T880,Trucks,Dump Trucks,TN,Memphis,4316,4747,5333,98,4,2,Core Sales
+153,AT7879,2025-10-30,2018,Peterbilt,348,Trucks,Dump Trucks,TX,San Antonio,13862,15248,20012,43,2,1,Core Sales
+154,KZ1156,2025-10-22,1996,Case IH,2150,Agricultural,Planters,AR,Little Rock,3188,3506,5549,21,1,1,Core Sales
+155,JV9961,2025-08-26,2000,New Holland,CR8.90,Agricultural,Combines,WA,Seattle,18730,20603,22231,10,1,1,Enterprise
+156,OI0197,2025-10-22,1990,John Deere,DB60,Agricultural,Planters,OK,Oklahoma City,44993,49492,45798,82,4,2,Enterprise
+157,CA9371,2025-10-22,2002,Komatsu,D375,Heavy Equipment,Dozers,AZ,Phoenix,41792,45971,48983,32,2,1,Enterprise
+158,QJ5884,2025-10-08,2021,Caterpillar,962M,Heavy Equipment,Wheel Loaders,FL,Tampa,16541,18195,19877,19,1,1,Enterprise
+159,SU8355,2025-09-10,2015,New Holland,T7.270,Agricultural,Tractors,CA,Los Angeles,19284,21212,20427,97,4,2,Core Sales
+160,ML6849,2025-11-18,2019,John Deere,470G,Heavy Equipment,Excavators,NY,New York,15041,16545,16087,77,4,2,Core Sales
+161,NM5438,2025-08-26,2010,Caterpillar,D4K,Heavy Equipment,Dozers,TN,Memphis,7421,8163,9496,95,4,2,Enterprise
+162,QZ7207,2025-08-05,2003,John Deere,S780,Agricultural,Combines,FL,Orlando,49624,54586,53801,49,2,1,Core Sales
+163,OM1219,2025-11-25,1994,Case,850M,Heavy Equipment,Dozers,MA,Boston,33896,37285,40971,41,2,1,Core Sales
+164,UF0637,2025-08-19,1994,New Holland,CR10.90,Agricultural,Combines,CA,San Diego,33370,36707,40125,18,1,1,Enterprise
+165,CS2595,2025-10-01,1991,Mack,Pinnacle,Trucks,Dump Trucks,OK,Oklahoma City,36608,40268,41599,53,3,2,Core Sales
+166,YD3876,2025-11-05,1998,Peterbilt,389,Trucks,Semi Tractors,FL,Miami,45781,50359,51190,6,1,1,Enterprise
+167,ZQ5864,2025-10-23,2005,Case,850M,Heavy Equipment,Dozers,AZ,Tucson,31587,34745,37465,99,4,2,Enterprise
+168,WX5733,2025-08-05,2024,John Deere,S780,Agricultural,Combines,OH,Columbus,40519,44570,42675,83,4,2,Enterprise
+169,SP3144,2025-10-28,2008,John Deere,DB60,Agricultural,Planters,MN,Minneapolis,31114,34225,38047,16,1,1,Enterprise
+170,NH1225,2025-08-20,1991,Western Star,4900,Trucks,Dump Trucks,MA,Boston,37815,41596,46373,49,2,1,Core Sales
+171,AQ4419,2025-10-23,1992,Mack,Granite,Trucks,Dump Trucks,IL,Peoria,19359,21294,25604,44,2,1,Enterprise
+172,VS4268,2025-08-07,1990,Volvo,L120H,Heavy Equipment,Wheel Loaders,FL,Jacksonville,9089,9997,9790,31,2,1,Enterprise
+173,GA9768,2025-10-01,1993,Peterbilt,567,Trucks,Dump Trucks,GA,Atlanta,15772,17349,19268,76,4,2,Enterprise
+174,EV7595,2025-11-11,2018,Freightliner,Century,Trucks,Semi Tractors,CA,San Diego,29819,32800,33828,79,4,2,Enterprise
+175,UB8053,2025-08-21,2018,Bobcat,S750,Heavy Equipment,Skid Steers,CA,Los Angeles,10774,11851,11944,65,3,2,Enterprise
+176,GJ3172,2025-09-23,2009,Caterpillar,972M,Heavy Equipment,Wheel Loaders,MO,Kansas City,22809,25089,27027,92,4,2,Enterprise
+177,SF7714,2025-10-23,2009,Case IH,2150,Agricultural,Planters,TN,Memphis,20004,22004,21997,38,2,1,Core Sales
+178,VY6784,2025-11-18,2022,John Deere,1775NT,Agricultural,Planters,NY,Buffalo,48286,53114,48765,20,1,1,Enterprise
+179,US6799,2025-11-20,2011,Peterbilt,567,Trucks,Dump Trucks,MN,Minneapolis,17390,19129,22269,16,1,1,Core Sales
+180,LF6636,2025-11-26,1998,Mack,Pinnacle,Trucks,Dump Trucks,OH,Cleveland,40943,45037,47862,90,4,2,Core Sales
+181,MI9210,2025-09-16,2010,Caterpillar,349,Heavy Equipment,Excavators,CO,Denver,41188,45306,42866,20,1,1,Enterprise
+182,FS6065,2025-08-28,2001,Chevrolet,Silverado 2500,Trucks,Pickup Trucks,FL,Tampa,30556,33611,32943,17,1,1,Core Sales
+183,RF4693,2025-11-13,2009,John Deere,DB60,Agricultural,Planters,CO,Denver,36668,40334,40510,54,3,2,Core Sales
+184,AV7182,2025-09-16,1992,Case IH,2150,Agricultural,Planters,MI,Detroit,31423,34565,37121,27,2,1,Enterprise
+185,TF9944,2025-08-21,1998,Gleaner,S98,Agricultural,Combines,IL,Peoria,7146,7860,9863,25,1,1,Core Sales
+186,GT5202,2025-10-02,1996,Freightliner,Cascadia,Trucks,Semi Tractors,WI,Milwaukee,30241,33265,33918,58,3,2,Core Sales
+187,PN2782,2025-11-13,2010,New Holland,CR10.90,Agricultural,Combines,TX,Houston,34592,38051,40195,94,4,2,Core Sales
+188,HZ9316,2025-10-02,1991,Gleaner,S98,Agricultural,Combines,CA,Los Angeles,3809,4189,6276,23,1,1,Enterprise
+189,ZK5186,2025-10-09,2016,Kenworth,T880,Trucks,Dump Trucks,PA,Pittsburgh,32668,35934,36033,69,3,2,Core Sales
+190,AP4460,2025-08-06,2011,Freightliner,Century,Trucks,Semi Tractors,CA,Los Angeles,31152,34267,32164,65,3,2,Core Sales
+191,NA6573,2025-11-18,2021,Bobcat,T650,Heavy Equipment,Skid Steers,MI,Grand Rapids,45024,49526,52469,43,2,1,Core Sales
+192,WM0059,2025-11-13,1995,Case IH,1255,Agricultural,Planters,TX,Austin,13270,14597,16002,54,3,2,Enterprise
+193,MG8050,2025-11-04,2009,John Deere,8320R,Agricultural,Tractors,GA,Augusta,5234,5757,8572,12,1,1,Core Sales
+194,UX5038,2025-10-08,2008,Ford,F-250,Trucks,Pickup Trucks,OR,Portland,43661,48027,44819,60,3,2,Core Sales
+195,NN0927,2025-08-06,2023,Caterpillar,950M,Heavy Equipment,Wheel Loaders,WA,Seattle,24539,26992,31186,93,4,2,Enterprise
+196,NT2613,2025-11-13,2015,Case IH,2150,Agricultural,Planters,OH,Cincinnati,42923,47215,50522,89,4,2,Enterprise
+197,UL2502,2025-10-01,2008,John Deere,DB60,Agricultural,Planters,FL,Tampa,34735,38208,35223,87,4,2,Enterprise
+198,WM0756,2025-10-01,2023,Ram,2500,Trucks,Pickup Trucks,MO,Kansas City,25380,27918,32113,51,3,2,Enterprise
+199,VC6029,2025-10-02,2023,Chevrolet,Silverado 2500,Trucks,Pickup Trucks,FL,Tampa,22328,24560,27281,24,1,1,Enterprise
+200,AD6684,2025-10-07,2014,Volvo,EC300,Heavy Equipment,Excavators,MN,Minneapolis,5335,5868,5534,73,3,2,Core Sales
+201,JL8330,2025-09-11,2009,Mack,Granite,Trucks,Dump Trucks,AZ,Tucson,32457,35702,33050,33,2,1,Core Sales
+202,KK1571,2025-10-29,2014,Caterpillar,D7,Heavy Equipment,Dozers,TX,Houston,45868,50454,51836,3,1,1,Enterprise
+203,CC4843,2025-10-30,2010,Volvo,L120H,Heavy Equipment,Wheel Loaders,TX,San Antonio,14908,16398,16655,5,1,1,Core Sales
+204,DU9464,2025-10-16,1997,Bobcat,S750,Heavy Equipment,Skid Steers,OR,Portland,20810,22891,23590,47,2,1,Core Sales
+205,MZ9048,2025-11-20,2004,Massey Ferguson,8735,Agricultural,Tractors,IL,Peoria,48743,53617,54019,35,2,1,Core Sales
+206,ZI5620,2025-10-08,2010,Case,SR270,Heavy Equipment,Skid Steers,FL,Orlando,48900,53790,53784,10,1,1,Enterprise
+207,BR3826,2025-08-14,2014,John Deere,350G,Heavy Equipment,Excavators,CA,San Diego,8514,9365,10969,59,3,2,Enterprise
+208,UT8612,2025-10-21,2018,Bobcat,S650,Heavy Equipment,Skid Steers,IL,Chicago,22646,24910,22782,12,1,1,Enterprise
+209,NL5682,2025-09-11,2022,Ram,3500,Trucks,Pickup Trucks,IA,Des Moines,42526,46778,51676,1,1,1,Enterprise
+210,UA6513,2025-11-04,2001,Kenworth,W900,Trucks,Semi Tractors,TN,Nashville,18809,20689,24198,84,4,2,Enterprise
+211,FK2978,2025-08-12,1999,Komatsu,WA470,Heavy Equipment,Wheel Loaders,IA,Des Moines,18565,20421,22964,46,2,1,Enterprise
+212,KY4055,2025-10-21,1992,John Deere,DB60,Agricultural,Planters,FL,Orlando,25750,28325,28233,78,4,2,Enterprise
+213,HH4188,2025-11-05,2005,Peterbilt,567,Trucks,Dump Trucks,FL,Tampa,33522,36874,37371,16,1,1,Enterprise
+214,UK8891,2025-10-30,1994,Mack,Pinnacle,Trucks,Dump Trucks,AR,Little Rock,5344,5878,10314,58,3,2,Enterprise
+215,TJ5020,2025-11-11,2021,Case IH,1255,Agricultural,Planters,NY,Rochester,20314,22345,20366,47,2,1,Enterprise
+216,DC2077,2025-09-10,1990,Hitachi,ZX670,Heavy Equipment,Excavators,TN,Nashville,36828,40510,39864,89,4,2,Enterprise
+217,KH4818,2025-08-26,2008,Case IH,Magnum 280,Agricultural,Tractors,NY,New York,41303,45433,47084,9,1,1,Enterprise
+218,NG3137,2025-09-24,2009,Caterpillar,950M,Heavy Equipment,Wheel Loaders,TN,Memphis,34712,38183,40977,87,4,2,Enterprise
+219,QI1810,2025-10-29,2002,Massey Ferguson,8735,Agricultural,Tractors,WA,Spokane,7640,8404,11056,1,1,1,Enterprise
+220,VX5680,2025-08-26,2010,Komatsu,PC210,Heavy Equipment,Excavators,TN,Memphis,49483,54431,56698,49,2,1,Core Sales
+221,HJ7390,2025-08-20,2022,Komatsu,PC490,Heavy Equipment,Excavators,AZ,Tucson,47181,51899,50045,9,1,1,Enterprise
+222,VY6171,2025-11-13,1992,Case IH,Magnum 280,Agricultural,Tractors,AZ,Tucson,22280,24508,27663,87,4,2,Enterprise
+223,QL6397,2025-11-13,2012,Gleaner,S98,Agricultural,Combines,OK,Oklahoma City,46921,51613,50048,66,3,2,Enterprise
+224,AS3281,2025-11-12,2016,Ram,3500,Trucks,Pickup Trucks,TN,Nashville,28157,30972,29431,70,3,2,Enterprise
+225,RI2193,2025-10-01,2000,Ford,F-250,Trucks,Pickup Trucks,TN,Memphis,44872,49359,47950,3,1,1,Core Sales
+226,SP9599,2025-10-28,2012,Massey Ferguson,8735,Agricultural,Tractors,CO,Denver,2231,2454,5166,32,2,1,Core Sales
+227,HL2729,2025-09-24,2012,Komatsu,WA470,Heavy Equipment,Wheel Loaders,MO,St Louis,38043,41847,44495,52,3,2,Enterprise
+228,KU5292,2025-10-28,2014,Volvo,L220H,Heavy Equipment,Wheel Loaders,IN,Indianapolis,23643,26007,24559,84,4,2,Core Sales
+229,GL0416,2025-08-06,2005,New Holland,T9.565,Agricultural,Tractors,OH,Cleveland,35647,39211,40592,18,1,1,Enterprise
+230,CJ1500,2025-10-14,2022,Hitachi,ZX670,Heavy Equipment,Excavators,CO,Denver,49250,54175,57241,27,2,1,Core Sales
+231,NG6608,2025-11-19,1998,John Deere,724K,Heavy Equipment,Wheel Loaders,WA,Seattle,36431,40074,43478,25,1,1,Enterprise
+232,CJ2025,2025-09-11,2024,Freightliner,Columbia,Trucks,Semi Tractors,FL,Tampa,5109,5619,9839,17,1,1,Enterprise
+233,PK5404,2025-08-12,2023,Komatsu,PC210,Heavy Equipment,Excavators,AR,Little Rock,34347,37781,42726,83,4,2,Enterprise
+234,GS2603,2025-11-27,2022,Massey Ferguson,8735,Agricultural,Tractors,OK,Oklahoma City,16563,18219,20987,11,1,1,Core Sales
+235,SK2004,2025-08-19,1992,John Deere,DB60,Agricultural,Planters,WA,Spokane,7046,7750,12252,8,1,1,Enterprise
+236,ED0929,2025-10-02,2000,Mack,Granite,Trucks,Dump Trucks,IA,Des Moines,22224,24446,24032,25,1,1,Enterprise
+237,US6705,2025-09-03,2024,Caterpillar,962M,Heavy Equipment,Wheel Loaders,IL,Springfield,31821,35003,32771,56,3,2,Enterprise
+238,AD5685,2025-11-04,1995,Case IH,2150,Agricultural,Planters,GA,Augusta,19602,21562,25749,53,3,2,Enterprise
+239,UJ4433,2025-09-23,2000,Ford,F-450,Trucks,Pickup Trucks,CA,Los Angeles,32732,36005,36039,3,1,1,Core Sales
+240,LR3236,2025-10-16,1990,Freightliner,Cascadia,Trucks,Semi Tractors,FL,Jacksonville,7305,8035,9255,80,4,2,Core Sales
+241,PK3757,2025-11-05,1995,Ford,F-250,Trucks,Pickup Trucks,CA,Los Angeles,6231,6854,6634,86,4,2,Enterprise
+242,PV6894,2025-09-25,1999,Case IH,Magnum 280,Agricultural,Tractors,AZ,Phoenix,27643,30407,28442,54,3,2,Enterprise
+243,TV6834,2025-08-07,2008,Western Star,4700SF,Trucks,Dump Trucks,CA,Sacramento,41758,45933,46692,53,3,2,Enterprise
+244,PG1882,2025-08-06,1994,Caterpillar,D9,Heavy Equipment,Dozers,IL,Chicago,3019,3320,3472,30,2,1,Enterprise
+245,QD2376,2025-10-14,2012,Gleaner,S98,Agricultural,Combines,TX,Austin,43625,47987,52919,83,4,2,Core Sales
+246,XT9689,2025-08-28,1994,John Deere,7230R,Agricultural,Tractors,IL,Springfield,46065,50671,54983,45,2,1,Enterprise
+247,RY1188,2025-11-13,2020,Case IH,Magnum 340,Agricultural,Tractors,NC,Raleigh,31181,34299,32224,47,2,1,Enterprise
+248,JN3021,2025-11-20,2019,Volvo,EC220,Heavy Equipment,Excavators,CO,Denver,13726,15098,17421,69,3,2,Core Sales
+249,PN3706,2025-10-08,2002,Case IH,1255,Agricultural,Planters,CA,Sacramento,24725,27197,28070,46,2,1,Enterprise
+250,FA2032,2025-09-16,2023,Chevrolet,Silverado 2500,Trucks,Pickup Trucks,FL,Orlando,10192,11211,14381,2,1,1,Enterprise
+251,PF0227,2025-10-15,2006,Volvo,VNR,Trucks,Semi Tractors,GA,Augusta,39184,43102,40889,37,2,1,Enterprise
+252,XY2423,2025-08-07,2017,John Deere,1775NT,Agricultural,Planters,NE,Omaha,31116,34227,35325,30,2,1,Enterprise
+253,PE4812,2025-10-23,1996,Kubota,M7-172,Agricultural,Tractors,NC,Raleigh,37432,41175,37512,54,3,2,Core Sales
+254,RY6266,2025-08-14,1996,Freightliner,Cascadia,Trucks,Semi Tractors,KS,Wichita,13941,15335,16812,37,2,1,Enterprise
+255,OV8077,2025-10-21,1994,John Deere,950K,Heavy Equipment,Dozers,TX,Houston,26488,29136,31356,46,2,1,Core Sales
+256,OH9606,2025-11-18,2017,John Deere,332G,Heavy Equipment,Skid Steers,AZ,Phoenix,9392,10331,12844,32,2,1,Enterprise
+257,AE2685,2025-11-18,2007,Case,850M,Heavy Equipment,Dozers,CA,San Francisco,17178,18895,21895,32,2,1,Enterprise
+258,OH5327,2025-11-19,2024,Peterbilt,567,Trucks,Dump Trucks,WA,Spokane,43124,47436,45646,93,4,2,Enterprise
+259,HS7494,2025-09-10,2004,Volvo,L120H,Heavy Equipment,Wheel Loaders,GA,Atlanta,23618,25979,30168,63,3,2,Enterprise
+260,AD9665,2025-09-03,2020,Case IH,2150,Agricultural,Planters,GA,Augusta,28538,31391,34928,8,1,1,Core Sales
+261,HV7658,2025-10-07,1996,John Deere,S790,Agricultural,Combines,OH,Cleveland,20773,22850,26723,16,1,1,Enterprise
+262,YQ6921,2025-11-20,2019,Kubota,M8-211,Agricultural,Tractors,PA,Pittsburgh,4902,5392,9048,76,4,2,Enterprise
+263,SQ5171,2025-09-30,1998,John Deere,644K,Heavy Equipment,Wheel Loaders,TX,Dallas,20808,22888,24897,62,3,2,Core Sales
+264,LS3680,2025-11-27,2013,Kenworth,T680,Trucks,Semi Tractors,NY,New York,6020,6622,7239,63,3,2,Core Sales
+265,DH6131,2025-10-28,1992,New Holland,T8.380,Agricultural,Tractors,OK,Oklahoma City,45694,50263,46692,48,2,1,Enterprise
+266,VD7759,2025-11-26,2006,Case IH,2150,Agricultural,Planters,CA,San Francisco,33994,37393,34370,32,2,1,Enterprise
+267,DX2957,2025-10-07,1997,Hitachi,ZX670,Heavy Equipment,Excavators,FL,Orlando,22861,25147,27656,42,2,1,Core Sales
+268,FB5496,2025-11-04,1995,Bobcat,S750,Heavy Equipment,Skid Steers,IL,Springfield,16680,18348,21573,80,4,2,Enterprise
+269,ZX8231,2025-08-14,2004,Gleaner,S98,Agricultural,Combines,OR,Portland,45104,49614,49217,19,1,1,Enterprise
+270,KX9222,2025-09-23,2012,Case IH,9250,Agricultural,Combines,GA,Augusta,2369,2605,3894,72,3,2,Enterprise
+271,YQ9108,2025-09-09,1999,Ford,F-250,Trucks,Pickup Trucks,KS,Wichita,8600,9460,14021,49,2,1,Core Sales
+272,SZ7484,2025-09-04,2012,Bobcat,S750,Heavy Equipment,Skid Steers,OH,Cincinnati,44349,48783,52499,54,3,2,Core Sales
+273,GV9415,2025-10-14,1999,John Deere,6155R,Agricultural,Tractors,TX,Houston,47583,52341,56809,93,4,2,Core Sales
+274,ON6578,2025-08-20,1998,Chevrolet,Silverado 2500,Trucks,Pickup Trucks,NY,Buffalo,40581,44639,41810,1,1,1,Enterprise
+275,SF9061,2025-10-01,2020,Ford,F-450,Trucks,Pickup Trucks,NY,Rochester,30451,33496,37518,52,3,2,Core Sales
+276,JB5367,2025-09-04,1998,Case,SR270,Heavy Equipment,Skid Steers,CA,Sacramento,36508,40158,39375,86,4,2,Core Sales
+277,KY1364,2025-08-28,1992,Chevrolet,Silverado 2500,Trucks,Pickup Trucks,MI,Grand Rapids,36287,39915,39414,85,4,2,Enterprise
+278,EY2715,2025-10-21,1993,Western Star,4900,Trucks,Dump Trucks,AZ,Tucson,42879,47166,45289,1,1,1,Core Sales
+279,KS3993,2025-09-30,2022,Komatsu,PC290,Heavy Equipment,Excavators,TN,Nashville,45873,50460,51161,73,3,2,Core Sales
+280,US3151,2025-10-14,2023,Peterbilt,389,Trucks,Semi Tractors,OH,Cleveland,49143,54057,52109,45,2,1,Enterprise
+281,ZG4958,2025-08-19,2015,Kenworth,T880,Trucks,Dump Trucks,CA,San Francisco,29788,32766,35318,90,4,2,Enterprise
+282,LS0708,2025-09-03,2015,Case,SR250,Heavy Equipment,Skid Steers,WA,Seattle,15481,17029,15795,24,1,1,Core Sales
+283,HH9073,2025-09-02,2014,Ford,F-250,Trucks,Pickup Trucks,WA,Spokane,11891,13080,17784,2,1,1,Core Sales
+284,NA3370,2025-10-09,1990,Case IH,2150,Agricultural,Planters,MN,Minneapolis,38094,41903,40159,22,1,1,Core Sales
+285,RZ5128,2025-11-18,2021,John Deere,332G,Heavy Equipment,Skid Steers,TN,Nashville,18838,20721,25482,9,1,1,Core Sales
+286,XG7326,2025-09-17,2011,Freightliner,Century,Trucks,Semi Tractors,IL,Springfield,36676,40343,41398,89,4,2,Enterprise
+287,XJ4099,2025-09-02,2016,Kubota,M8-211,Agricultural,Tractors,GA,Atlanta,18195,20014,23957,89,4,2,Enterprise
+288,BM8983,2025-09-23,2023,Peterbilt,389,Trucks,Semi Tractors,TX,Houston,19216,21137,24293,44,2,1,Core Sales
+289,HV0032,2025-09-02,2021,Komatsu,D65,Heavy Equipment,Dozers,FL,Jacksonville,33367,36703,34990,84,4,2,Enterprise
+290,CM3797,2025-11-13,2005,Case,2050M,Heavy Equipment,Dozers,TX,Houston,27546,30300,30889,2,1,1,Enterprise
+291,BA2777,2025-11-05,2010,Ram,2500,Trucks,Pickup Trucks,MI,Detroit,16130,17743,18059,12,1,1,Core Sales
+292,WX1875,2025-09-04,2009,John Deere,DB60,Agricultural,Planters,FL,Miami,42337,46570,44440,46,2,1,Enterprise
+293,AZ7454,2025-08-26,2007,John Deere,DB60,Agricultural,Planters,PA,Philadelphia,15509,17059,18512,11,1,1,Core Sales
+294,UA3881,2025-09-04,1994,Peterbilt,579,Trucks,Semi Tractors,OK,Oklahoma City,7221,7943,11869,33,2,1,Enterprise
+295,LH6849,2025-10-07,1993,John Deere,624K,Heavy Equipment,Wheel Loaders,PA,Pittsburgh,48977,53874,53396,19,1,1,Enterprise
+296,UY0484,2025-09-04,1996,Komatsu,WA470,Heavy Equipment,Wheel Loaders,IL,Peoria,18018,19819,21485,87,4,2,Core Sales
+297,SP8026,2025-10-09,1992,Chevrolet,Silverado 2500,Trucks,Pickup Trucks,AR,Little Rock,40898,44987,41552,66,3,2,Core Sales
+298,BW2380,2025-11-06,2021,Mack,Granite,Trucks,Dump Trucks,FL,Tampa,29970,32967,34579,45,2,1,Core Sales
+299,YN3943,2025-10-08,1996,John Deere,724K,Heavy Equipment,Wheel Loaders,OR,Portland,44774,49251,52498,7,1,1,Enterprise
+300,NW8686,2025-11-12,1992,Mack,Pinnacle,Trucks,Dump Trucks,GA,Atlanta,11186,12304,15744,73,3,2,Core Sales
+301,IG5713,2025-10-30,2015,Massey Ferguson,8737,Agricultural,Tractors,TX,Austin,18694,20563,24358,78,4,2,Core Sales
+302,QF2454,2025-10-14,1997,John Deere,DB60,Agricultural,Planters,WI,Milwaukee,32641,35905,39983,14,1,1,Core Sales
+303,ZL8938,2025-09-16,1994,Kubota,M7-172,Agricultural,Tractors,NY,New York,19062,20968,21289,81,4,2,Enterprise
+304,TD9117,2025-08-05,2023,Ford,F-450,Trucks,Pickup Trucks,GA,Augusta,28250,31075,34626,94,4,2,Enterprise
+305,WL4890,2025-10-30,2009,Komatsu,D65,Heavy Equipment,Dozers,MA,Boston,19484,21432,24047,45,2,1,Core Sales
+306,GM5539,2025-11-27,2009,Bobcat,S750,Heavy Equipment,Skid Steers,WA,Seattle,14371,15808,19374,87,4,2,Enterprise
+307,GY6025,2025-08-06,2013,Case,850M,Heavy Equipment,Dozers,PA,Philadelphia,14397,15836,17448,69,3,2,Enterprise
+308,OB0483,2025-10-16,2000,Case,SR250,Heavy Equipment,Skid Steers,FL,Orlando,10894,11983,14768,81,4,2,Enterprise
+309,KO0935,2025-08-05,2002,Volvo,VNR,Trucks,Semi Tractors,WI,Milwaukee,23879,26266,30223,34,2,1,Core Sales
+310,PA1141,2025-10-30,2013,Western Star,4700SF,Trucks,Dump Trucks,TX,Houston,28617,31478,31430,13,1,1,Core Sales
+311,TO7038,2025-11-20,2020,Kenworth,T880,Trucks,Dump Trucks,MI,Grand Rapids,34506,37956,40231,85,4,2,Core Sales
+312,VP4255,2025-08-14,2005,Hitachi,ZX490,Heavy Equipment,Excavators,OH,Cleveland,18591,20450,23902,35,2,1,Enterprise
+313,WQ7547,2025-08-07,1996,Peterbilt,567,Trucks,Semi Tractors,GA,Atlanta,3735,4108,4786,31,2,1,Enterprise
+314,VJ9505,2025-10-01,2003,Freightliner,Century,Trucks,Semi Tractors,OK,Oklahoma City,25867,28453,26068,48,2,1,Core Sales
+315,RB9011,2025-11-05,2018,Ram,2500,Trucks,Pickup Trucks,AZ,Phoenix,10948,12042,15090,84,4,2,Core Sales
+316,DO2041,2025-08-26,2000,Bobcat,S850,Heavy Equipment,Skid Steers,NY,New York,12680,13948,14699,35,2,1,Enterprise
+317,OY8881,2025-10-29,2020,Volvo,L150H,Heavy Equipment,Wheel Loaders,TX,Houston,16664,18330,18226,86,4,2,Core Sales
+318,AK6139,2025-09-10,2021,New Holland,CR10.90,Agricultural,Combines,GA,Savannah,49173,54090,52111,26,2,1,Enterprise
+319,FT6798,2025-10-21,1997,John Deere,950K,Heavy Equipment,Dozers,TX,Dallas,5137,5650,5399,24,1,1,Core Sales
+320,YC6577,2025-10-02,1998,John Deere,624K,Heavy Equipment,Wheel Loaders,NC,Charlotte,46810,51491,50440,45,2,1,Core Sales
+321,NA9818,2025-11-04,2007,Bobcat,T650,Heavy Equipment,Skid Steers,OH,Columbus,13328,14660,13588,1,1,1,Core Sales
+322,FW0749,2025-09-25,1991,Ford,F-450,Trucks,Pickup Trucks,NY,New York,41818,45999,45790,99,4,2,Core Sales
+323,JW5272,2025-09-25,2013,Chevrolet,Silverado 3500,Trucks,Pickup Trucks,IL,Chicago,2017,2218,6885,88,4,2,Core Sales
+324,XT5579,2025-09-11,2017,Case,1650M,Heavy Equipment,Dozers,KS,Wichita,47582,52340,52423,18,1,1,Enterprise
+325,KL2499,2025-09-02,2018,Freightliner,Century,Trucks,Semi Tractors,OH,Columbus,12191,13410,12797,80,4,2,Enterprise
+326,FG7935,2025-08-27,2010,Caterpillar,D9,Heavy Equipment,Dozers,WI,Milwaukee,15950,17545,17986,48,2,1,Enterprise
+327,DV7938,2025-10-14,2011,Case,2050M,Heavy Equipment,Dozers,OH,Cleveland,6368,7004,7856,38,2,1,Core Sales
+328,UZ4855,2025-11-06,2021,John Deere,8320R,Agricultural,Tractors,TX,San Antonio,35100,38610,37093,9,1,1,Core Sales
+329,IV2100,2025-08-13,1997,Ram,3500,Trucks,Pickup Trucks,FL,Orlando,13030,14333,16297,91,4,2,Core Sales
+330,OG0917,2025-08-12,2001,New Holland,T9.565,Agricultural,Tractors,WA,Seattle,36334,39967,44129,62,3,2,Core Sales
+331,WO0334,2025-10-14,2013,Volvo,EC380,Heavy Equipment,Excavators,MO,St Louis,22515,24766,22822,79,4,2,Core Sales
+332,GS0185,2025-10-08,2005,Gleaner,S98,Agricultural,Combines,WI,Milwaukee,44192,48611,47958,16,1,1,Enterprise
+333,IE0648,2025-10-21,2008,Mack,Granite,Trucks,Dump Trucks,NC,Raleigh,48453,53298,58151,55,3,2,Enterprise
+334,AQ5796,2025-10-01,1996,John Deere,333G,Heavy Equipment,Skid Steers,GA,Savannah,6279,6906,10409,37,2,1,Enterprise
+335,IR5615,2025-10-22,1993,Case IH,1255,Agricultural,Planters,OH,Columbus,18462,20308,19107,28,2,1,Core Sales
+336,ZG5390,2025-09-24,2021,Case IH,1255,Agricultural,Planters,NY,Buffalo,31721,34893,35728,11,1,1,Enterprise
+337,JO1476,2025-09-10,2013,Bobcat,S850,Heavy Equipment,Skid Steers,TX,Houston,36935,40628,38128,66,3,2,Enterprise
+338,BU6843,2025-08-14,2008,Caterpillar,D7,Heavy Equipment,Dozers,IL,Springfield,26187,28805,33418,80,4,2,Enterprise
+339,AM7498,2025-10-02,1998,Volvo,EC480,Heavy Equipment,Excavators,OH,Cincinnati,6274,6901,6574,21,1,1,Enterprise
+340,ED3193,2025-11-11,2013,Peterbilt,348,Trucks,Dump Trucks,NC,Charlotte,21575,23732,22079,14,1,1,Enterprise
+341,HA2727,2025-09-11,1996,Komatsu,WA380,Heavy Equipment,Wheel Loaders,AZ,Phoenix,27528,30280,29501,61,3,2,Enterprise
+342,PJ6551,2025-11-04,1997,Case IH,1255,Agricultural,Planters,TX,Dallas,19104,21014,23138,11,1,1,Core Sales
+343,TG9516,2025-09-03,1996,Ram,3500,Trucks,Pickup Trucks,TX,Houston,6140,6754,9647,89,4,2,Core Sales
+344,PW2971,2025-09-04,2004,Case IH,8250,Agricultural,Combines,MI,Grand Rapids,47841,52625,51789,80,4,2,Core Sales
+345,FQ2238,2025-11-26,2003,Ram,3500,Trucks,Pickup Trucks,WA,Spokane,29397,32336,37097,26,2,1,Enterprise
+346,LO1685,2025-09-25,2012,John Deere,8370R,Agricultural,Tractors,NY,Rochester,29537,32490,34242,13,1,1,Core Sales
+347,WK2813,2025-08-13,1999,Volvo,VNR,Trucks,Semi Tractors,OH,Columbus,13584,14942,14863,89,4,2,Enterprise
+348,KX9388,2025-08-12,2020,John Deere,DB60,Agricultural,Planters,GA,Augusta,16163,17779,20681,71,3,2,Core Sales
+349,JU7585,2025-10-14,2011,Volvo,VNR,Trucks,Semi Tractors,IN,Indianapolis,2402,2642,6966,77,4,2,Core Sales
+350,EA9069,2025-09-16,2020,Ram,3500,Trucks,Pickup Trucks,CA,San Francisco,40900,44990,45149,40,2,1,Enterprise
+351,AU5930,2025-10-02,2021,New Holland,CR10.90,Agricultural,Combines,AZ,Phoenix,49507,54457,55164,1,1,1,Core Sales
+352,TO8697,2025-11-12,1992,Komatsu,D155,Heavy Equipment,Dozers,CA,Sacramento,23563,25919,30612,28,2,1,Core Sales
+353,CP7288,2025-11-06,2002,Bobcat,T650,Heavy Equipment,Skid Steers,NV,Las Vegas,41709,45879,46019,95,4,2,Enterprise
+354,VU0629,2025-10-16,2022,John Deere,DB60,Agricultural,Planters,OH,Cincinnati,17694,19463,20154,72,3,2,Enterprise
+355,DS3384,2025-09-10,1993,Western Star,4900,Trucks,Dump Trucks,TX,Houston,47368,52104,54685,88,4,2,Core Sales
+356,OE6986,2025-09-16,2023,Massey Ferguson,8737,Agricultural,Tractors,AZ,Tucson,7456,8201,7645,56,3,2,Core Sales
+357,NX3874,2025-08-28,2007,Ram,3500,Trucks,Pickup Trucks,WI,Milwaukee,32873,36160,33901,47,2,1,Core Sales
+358,PH2016,2025-09-30,2003,Caterpillar,330,Heavy Equipment,Excavators,AZ,Phoenix,49225,54147,49688,47,2,1,Enterprise
+359,OC1252,2025-11-04,1996,John Deere,8370R,Agricultural,Tractors,TX,Austin,8930,9823,11485,56,3,2,Core Sales
+360,YN9229,2025-10-23,2020,Caterpillar,272D,Heavy Equipment,Skid Steers,OK,Oklahoma City,47278,52005,49116,66,3,2,Enterprise
+361,FK0297,2025-08-13,2009,Volvo,VNL,Trucks,Semi Tractors,CA,San Francisco,33409,36749,34233,100,4,2,Core Sales
+362,JH0810,2025-11-04,2006,Case,1650M,Heavy Equipment,Dozers,GA,Augusta,17282,19010,20173,51,3,2,Enterprise
+363,EQ9047,2025-09-02,2007,Kenworth,T880,Trucks,Dump Trucks,CA,Los Angeles,15309,16839,18937,27,2,1,Core Sales
+364,SO9561,2025-08-19,2005,Kenworth,T680,Trucks,Semi Tractors,IL,Peoria,26666,29332,29184,20,1,1,Enterprise
+365,XN4417,2025-09-25,2007,Case IH,Magnum 340,Agricultural,Tractors,FL,Jacksonville,35036,38539,38356,42,2,1,Enterprise
+366,TW4051,2025-11-06,2018,Peterbilt,348,Trucks,Dump Trucks,NC,Charlotte,49589,54547,53148,21,1,1,Enterprise
+367,TN8485,2025-10-29,2012,John Deere,7230R,Agricultural,Tractors,OH,Cincinnati,3776,4153,8876,50,2,1,Enterprise
+368,UR1809,2025-09-18,2022,Caterpillar,D8,Heavy Equipment,Dozers,NY,Rochester,46009,50609,49169,33,2,1,Enterprise
+369,IF7642,2025-09-10,2010,Mack,Granite,Trucks,Dump Trucks,AR,Little Rock,15974,17571,16040,15,1,1,Core Sales
+370,ED7630,2025-11-04,2002,Komatsu,D375,Heavy Equipment,Dozers,NC,Raleigh,11177,12294,13467,90,4,2,Core Sales
+371,JG9499,2025-08-26,2002,Case IH,1255,Agricultural,Planters,CA,San Diego,13076,14383,17929,62,3,2,Enterprise
+372,AK9609,2025-10-29,2017,Case IH,2150,Agricultural,Planters,OR,Portland,25737,28310,27105,47,2,1,Enterprise
+373,IK0533,2025-08-21,2019,Komatsu,D65,Heavy Equipment,Dozers,CA,San Diego,26513,29164,33726,54,3,2,Enterprise
+374,BZ9291,2025-10-02,2015,Case IH,Magnum 280,Agricultural,Tractors,IL,Chicago,34899,38388,36466,37,2,1,Enterprise
+375,NF9536,2025-09-09,2011,Peterbilt,567,Trucks,Dump Trucks,IA,Des Moines,34626,38088,39640,26,2,1,Enterprise
+376,TG0635,2025-08-19,2015,Peterbilt,579,Trucks,Semi Tractors,NE,Omaha,26083,28691,31475,13,1,1,Enterprise
+377,HP2072,2025-08-21,2001,Caterpillar,336,Heavy Equipment,Excavators,CA,Sacramento,37793,41572,41868,37,2,1,Enterprise
+378,NB7291,2025-08-07,2005,Volvo,EC220,Heavy Equipment,Excavators,TX,Austin,20534,22587,23930,14,1,1,Enterprise
+379,VQ0691,2025-11-26,2002,Ram,2500,Trucks,Pickup Trucks,AR,Little Rock,4409,4849,9228,47,2,1,Enterprise
+380,UV2312,2025-10-29,1991,Case IH,Magnum 380,Agricultural,Tractors,NY,New York,35425,38967,40807,50,2,1,Core Sales
+381,NA7308,2025-09-11,2012,Gleaner,S98,Agricultural,Combines,TX,Houston,5612,6173,9738,91,4,2,Core Sales
+382,ZR8753,2025-10-08,1991,Caterpillar,D4K,Heavy Equipment,Dozers,NE,Omaha,20037,22040,21059,16,1,1,Core Sales
+383,KP0452,2025-11-12,2015,John Deere,350G,Heavy Equipment,Excavators,PA,Philadelphia,20143,22157,24540,22,1,1,Enterprise
+384,RR1872,2025-08-27,2002,Case IH,1255,Agricultural,Planters,MO,Kansas City,28280,31108,33902,63,3,2,Enterprise
+385,QD2960,2025-11-20,1993,Kubota,M7-172,Agricultural,Tractors,MI,Detroit,10655,11720,13616,44,2,1,Core Sales
+386,DG1408,2025-11-11,2019,Volvo,VNR,Trucks,Semi Tractors,NC,Charlotte,8518,9369,11773,47,2,1,Core Sales
+387,IH3943,2025-11-19,2008,Gleaner,S98,Agricultural,Combines,GA,Augusta,35727,39299,41561,87,4,2,Enterprise
+388,NS0730,2025-09-02,2023,Case IH,Magnum 340,Agricultural,Tractors,CA,San Diego,3676,4043,8252,37,2,1,Core Sales
+389,BD8668,2025-08-07,2021,Caterpillar,D6,Heavy Equipment,Dozers,CA,Los Angeles,49374,54311,59128,43,2,1,Core Sales
+390,BV7776,2025-08-14,2023,Case,2050M,Heavy Equipment,Dozers,MO,Kansas City,36615,40276,41602,90,4,2,Enterprise
+391,ZB0738,2025-10-09,2013,Gleaner,S98,Agricultural,Combines,NE,Omaha,34975,38472,37039,42,2,1,Enterprise
+392,EA9066,2025-09-23,2008,John Deere,350G,Heavy Equipment,Excavators,TX,Austin,21325,23457,24470,62,3,2,Core Sales
+393,QU2222,2025-09-09,1994,Case IH,1255,Agricultural,Planters,MI,Grand Rapids,33622,36984,39166,21,1,1,Enterprise
+394,LC1722,2025-09-04,2001,New Holland,T9.565,Agricultural,Tractors,NV,Las Vegas,48427,53269,49490,13,1,1,Enterprise
+395,JC1429,2025-10-29,2024,Komatsu,D375,Heavy Equipment,Dozers,KS,Wichita,44993,49492,51447,1,1,1,Enterprise
+396,ZR1695,2025-11-26,2020,Peterbilt,567,Trucks,Semi Tractors,FL,Tampa,20796,22875,22337,18,1,1,Enterprise
+397,YS8012,2025-09-16,2022,New Holland,T9.565,Agricultural,Tractors,MO,St Louis,24669,27135,24707,30,2,1,Core Sales
+398,EM3505,2025-10-23,2011,Case IH,Magnum 380,Agricultural,Tractors,GA,Savannah,36271,39898,40907,56,3,2,Enterprise
+399,KR4452,2025-10-21,2015,Volvo,L220H,Heavy Equipment,Wheel Loaders,TX,Dallas,2085,2293,4747,88,4,2,Core Sales
+400,XN0351,2025-09-25,2012,John Deere,750K,Heavy Equipment,Dozers,IN,Indianapolis,25159,27674,31885,57,3,2,Enterprise
+401,WP0084,2025-09-24,1996,Peterbilt,389,Trucks,Semi Tractors,NY,Rochester,12407,13647,14787,26,2,1,Core Sales
+402,QU6741,2025-11-05,1992,Case IH,1255,Agricultural,Planters,NY,New York,6810,7491,12315,26,2,1,Enterprise
+403,IU8842,2025-08-21,1992,Kenworth,T880,Trucks,Semi Tractors,FL,Miami,44877,49364,48882,74,3,2,Enterprise
+404,QZ8928,2025-08-06,2018,Case IH,9250,Agricultural,Combines,FL,Miami,36827,40509,38251,4,1,1,Core Sales
+405,SE7662,2025-10-08,1996,Massey Ferguson,8735,Agricultural,Tractors,FL,Miami,21183,23301,24124,30,2,1,Core Sales
+406,DM9062,2025-09-16,2015,Komatsu,WA500,Heavy Equipment,Wheel Loaders,CA,San Francisco,45344,49878,45483,22,1,1,Core Sales
+407,DM6662,2025-10-21,1998,Mack,Granite,Trucks,Dump Trucks,TN,Memphis,18945,20839,24779,58,3,2,Enterprise
+408,EF2766,2025-10-21,2010,John Deere,DB60,Agricultural,Planters,NY,Buffalo,47357,52092,49718,44,2,1,Core Sales
+409,MV1019,2025-08-07,2017,Case IH,2150,Agricultural,Planters,WI,Milwaukee,40105,44115,46628,61,3,2,Enterprise
+410,NR4020,2025-11-18,2019,John Deere,X9 1100,Agricultural,Combines,OK,Oklahoma City,30002,33002,32314,97,4,2,Core Sales
+411,GP6186,2025-11-27,1998,Ram,3500,Trucks,Pickup Trucks,OH,Cincinnati,26751,29426,27784,34,2,1,Enterprise
+412,PN9614,2025-11-18,2024,New Holland,CR10.90,Agricultural,Combines,IL,Springfield,41302,45432,46881,39,2,1,Enterprise
+413,IQ5076,2025-10-28,2021,John Deere,8320R,Agricultural,Tractors,OH,Cleveland,35315,38846,36615,25,1,1,Core Sales
+414,CE8765,2025-08-14,2016,Kenworth,W900,Trucks,Semi Tractors,OH,Cincinnati,7327,8059,11709,34,2,1,Enterprise
+415,PN3027,2025-09-10,2018,Hitachi,ZX670,Heavy Equipment,Excavators,NC,Raleigh,21578,23735,24741,75,3,2,Core Sales
+416,QM6471,2025-08-12,2021,Massey Ferguson,8735,Agricultural,Tractors,IL,Chicago,12886,14174,18449,44,2,1,Enterprise
+417,WV5989,2025-10-09,1998,Massey Ferguson,8737,Agricultural,Tractors,CO,Denver,16580,18238,21747,16,1,1,Core Sales
+418,YX7672,2025-09-10,1993,John Deere,700K,Heavy Equipment,Dozers,PA,Philadelphia,48331,53164,51280,97,4,2,Core Sales
+419,MW3116,2025-08-21,2018,John Deere,DB60,Agricultural,Planters,CA,Los Angeles,44774,49251,51379,96,4,2,Core Sales
+420,YA7915,2025-09-10,2024,Ford,F-250,Trucks,Pickup Trucks,MO,St Louis,16854,18539,17825,33,2,1,Core Sales
+421,IP3021,2025-10-29,2024,Freightliner,Columbia,Trucks,Semi Tractors,CA,San Francisco,45757,50332,50573,98,4,2,Enterprise
+422,PO3438,2025-11-20,1999,Caterpillar,950M,Heavy Equipment,Wheel Loaders,NY,Buffalo,19897,21886,22904,83,4,2,Enterprise
+423,TH4627,2025-11-13,2004,Ford,F-450,Trucks,Pickup Trucks,GA,Savannah,49274,54201,50523,34,2,1,Core Sales
+424,NI5917,2025-10-22,2024,Komatsu,WA500,Heavy Equipment,Wheel Loaders,IL,Peoria,20930,23023,21095,91,4,2,Enterprise
+425,EA8129,2025-08-05,1990,John Deere,8320R,Agricultural,Tractors,FL,Jacksonville,37478,41225,41700,93,4,2,Core Sales
+426,JD1792,2025-10-14,1994,Caterpillar,262D,Heavy Equipment,Skid Steers,PA,Pittsburgh,43997,48396,48555,78,4,2,Core Sales
+427,HJ4917,2025-11-05,2016,Volvo,VNL,Trucks,Semi Tractors,MO,St Louis,44554,49009,53181,100,4,2,Enterprise
+428,IC2590,2025-08-12,2009,John Deere,350G,Heavy Equipment,Excavators,CA,San Diego,49313,54244,53884,46,2,1,Enterprise
+429,QY8069,2025-09-09,2013,Peterbilt,567,Trucks,Dump Trucks,WA,Spokane,5092,5601,9140,7,1,1,Core Sales
+430,QI6387,2025-08-26,2020,Bobcat,S750,Heavy Equipment,Skid Steers,OH,Cincinnati,44113,48524,46921,75,3,2,Core Sales
+431,SP1297,2025-11-26,2017,Komatsu,D65,Heavy Equipment,Dozers,MO,St Louis,43486,47834,43871,40,2,1,Enterprise
+432,GM5316,2025-08-12,2007,Caterpillar,272D,Heavy Equipment,Skid Steers,CO,Denver,21681,23849,26073,18,1,1,Core Sales
+433,ZB3221,2025-11-13,2012,New Holland,T9.565,Agricultural,Tractors,GA,Augusta,20882,22970,23520,55,3,2,Core Sales
+434,JU1504,2025-08-13,2016,John Deere,470G,Heavy Equipment,Excavators,CO,Denver,2828,3110,6519,68,3,2,Enterprise
+435,NG5669,2025-11-18,2003,John Deere,333G,Heavy Equipment,Skid Steers,TX,Houston,29654,32619,31252,8,1,1,Enterprise
+436,UC8511,2025-10-30,2010,Kenworth,T880,Trucks,Dump Trucks,OK,Oklahoma City,20159,22174,26002,49,2,1,Core Sales
+437,EI7520,2025-11-18,2014,Western Star,4700SF,Trucks,Dump Trucks,GA,Atlanta,2456,2701,5379,5,1,1,Core Sales
+438,FB1321,2025-11-05,2001,Case,SV340,Heavy Equipment,Skid Steers,NY,New York,46224,50846,50523,22,1,1,Core Sales
+439,VY6177,2025-09-04,2017,Case,1650M,Heavy Equipment,Dozers,OK,Oklahoma City,47902,52692,51938,78,4,2,Enterprise
+440,VP4702,2025-09-09,2001,Kenworth,T880,Trucks,Dump Trucks,WA,Seattle,26051,28656,31882,75,3,2,Enterprise
+441,GM9243,2025-10-14,1996,John Deere,210G,Heavy Equipment,Excavators,MI,Detroit,37471,41218,38930,90,4,2,Enterprise
+442,IZ1902,2025-10-30,1999,Ford,F-350,Trucks,Pickup Trucks,OH,Cincinnati,23402,25742,25303,12,1,1,Enterprise
+443,MW3990,2025-08-21,2012,Caterpillar,D9,Heavy Equipment,Dozers,IL,Chicago,7635,8398,9804,38,2,1,Core Sales
+444,EB2170,2025-08-20,2001,Case,SV340,Heavy Equipment,Skid Steers,TX,Dallas,22333,24566,23757,91,4,2,Core Sales
+445,XP5590,2025-11-25,1994,John Deere,S790,Agricultural,Combines,MA,Boston,18394,20233,19578,12,1,1,Enterprise
+446,BJ8918,2025-11-12,2012,Case IH,Magnum 340,Agricultural,Tractors,TN,Memphis,32379,35616,34567,35,2,1,Enterprise
+447,DD7844,2025-11-06,2004,Chevrolet,Silverado 2500,Trucks,Pickup Trucks,CA,San Francisco,21381,23519,27671,93,4,2,Enterprise
+448,VN5336,2025-08-06,2011,Caterpillar,390,Heavy Equipment,Excavators,MI,Grand Rapids,28857,31742,33346,49,2,1,Enterprise
+449,BW9592,2025-08-06,2018,Kenworth,W900,Trucks,Semi Tractors,GA,Atlanta,16231,17854,18980,31,2,1,Core Sales
+450,HG6878,2025-11-12,2011,Case IH,9250,Agricultural,Combines,FL,Tampa,42649,46913,44511,72,3,2,Enterprise
+451,BO3250,2025-09-30,2023,Komatsu,WA500,Heavy Equipment,Wheel Loaders,TX,San Antonio,20035,22038,20445,12,1,1,Core Sales
+452,CM8273,2025-10-23,1999,Ram,2500,Trucks,Pickup Trucks,NY,Buffalo,19430,21373,21571,20,1,1,Core Sales
+453,JD3840,2025-09-09,1996,Case IH,1255,Agricultural,Planters,OK,Oklahoma City,20867,22953,24791,38,2,1,Enterprise
+454,MN9233,2025-08-19,2013,Caterpillar,390,Heavy Equipment,Excavators,MO,Kansas City,39310,43241,41218,63,3,2,Enterprise
+455,QH0041,2025-09-02,1996,Chevrolet,Silverado 2500,Trucks,Pickup Trucks,PA,Philadelphia,28701,31571,36076,28,2,1,Enterprise
+456,BI7687,2025-08-07,2009,Kenworth,W900,Trucks,Semi Tractors,IL,Peoria,35971,39568,41956,26,2,1,Enterprise
+457,AE8793,2025-10-29,1993,Case IH,Magnum 380,Agricultural,Tractors,NC,Charlotte,28070,30877,34441,51,3,2,Core Sales
+458,QX7442,2025-08-06,2011,Ram,3500,Trucks,Pickup Trucks,TN,Nashville,26424,29066,31150,97,4,2,Core Sales
+459,NE9173,2025-10-28,2017,Ram,3500,Trucks,Pickup Trucks,GA,Augusta,21043,23147,22817,44,2,1,Enterprise
+460,PV3148,2025-09-24,2006,Kenworth,T880,Trucks,Dump Trucks,NY,Buffalo,16975,18672,21402,62,3,2,Enterprise
+461,WF2875,2025-09-16,2013,Ram,2500,Trucks,Pickup Trucks,PA,Pittsburgh,25101,27611,30145,53,3,2,Core Sales
+462,NB7256,2025-08-13,2015,Case IH,Magnum 380,Agricultural,Tractors,PA,Pittsburgh,21526,23678,28338,39,2,1,Enterprise
+463,JQ2515,2025-09-30,2001,Case IH,2150,Agricultural,Planters,TN,Memphis,12185,13403,18038,61,3,2,Enterprise
+464,LJ0275,2025-09-17,1993,Case IH,Magnum 380,Agricultural,Tractors,NV,Las Vegas,38263,42089,39260,100,4,2,Enterprise
+465,LY1445,2025-09-24,2019,Caterpillar,D7,Heavy Equipment,Dozers,CA,San Francisco,21626,23788,22565,48,2,1,Enterprise
+466,GQ9657,2025-10-14,2023,Kubota,M7-172,Agricultural,Tractors,FL,Jacksonville,37094,40803,42385,41,2,1,Enterprise
+467,EH8731,2025-08-26,2001,Kenworth,T880,Trucks,Semi Tractors,NC,Charlotte,21654,23819,28690,77,4,2,Enterprise
+468,RY8155,2025-09-03,2002,John Deere,X9 1100,Agricultural,Combines,OH,Columbus,35383,38921,37621,10,1,1,Core Sales
+469,QS5379,2025-09-18,1991,Komatsu,WA500,Heavy Equipment,Wheel Loaders,NY,New York,24863,27349,26465,9,1,1,Core Sales
+470,GS3173,2025-10-29,2012,Volvo,EC480,Heavy Equipment,Excavators,WA,Seattle,19176,21093,23531,31,2,1,Core Sales
+471,HU8525,2025-09-16,2018,New Holland,CR10.90,Agricultural,Combines,FL,Jacksonville,29024,31926,32309,29,2,1,Enterprise
+472,PP3988,2025-11-04,2022,Gleaner,S98,Agricultural,Combines,OH,Cleveland,15933,17526,16336,73,3,2,Enterprise
+473,QV7610,2025-11-27,1999,Case,2050M,Heavy Equipment,Dozers,AZ,Tucson,43981,48379,50361,79,4,2,Core Sales
+474,CV2377,2025-08-28,2021,John Deere,DB60,Agricultural,Planters,TX,San Antonio,30132,33145,33783,70,3,2,Core Sales
+475,ZP0746,2025-08-20,1998,Kenworth,T680,Trucks,Semi Tractors,GA,Savannah,48366,53202,50285,96,4,2,Core Sales
+476,KT4102,2025-10-29,1999,Chevrolet,Silverado 3500,Trucks,Pickup Trucks,CA,San Diego,26739,29412,29531,49,2,1,Enterprise
+477,XZ9633,2025-09-30,2017,John Deere,700K,Heavy Equipment,Dozers,CA,Los Angeles,32361,35597,33513,65,3,2,Core Sales
+478,CE1464,2025-08-19,2006,Western Star,4700SF,Trucks,Dump Trucks,FL,Tampa,13041,14345,15442,78,4,2,Core Sales
+479,MT1218,2025-09-09,1996,Case IH,2150,Agricultural,Planters,MO,St Louis,16216,17837,18957,16,1,1,Enterprise
+480,WD3694,2025-08-14,2011,Volvo,EC380,Heavy Equipment,Excavators,PA,Pittsburgh,45577,50134,48514,44,2,1,Enterprise
+481,AK2742,2025-08-27,2002,Komatsu,WA380,Heavy Equipment,Wheel Loaders,NC,Charlotte,12646,13910,14712,2,1,1,Core Sales
+482,XK1716,2025-11-26,1994,Ford,F-250,Trucks,Pickup Trucks,OH,Columbus,26596,29255,32888,38,2,1,Core Sales
+483,VB8345,2025-11-18,1992,John Deere,1775NT,Agricultural,Planters,CA,Los Angeles,20858,22943,23178,43,2,1,Enterprise
+484,PD0034,2025-08-28,2011,New Holland,T9.565,Agricultural,Tractors,TX,Austin,23573,25930,28126,44,2,1,Core Sales
+485,NG5664,2025-11-05,2012,New Holland,T8.380,Agricultural,Tractors,NY,New York,43049,47353,43623,14,1,1,Core Sales
+486,BK8159,2025-09-04,2021,Chevrolet,Silverado 2500,Trucks,Pickup Trucks,MI,Grand Rapids,19873,21860,25941,29,2,1,Core Sales
+487,UW9157,2025-09-25,2011,Caterpillar,972M,Heavy Equipment,Wheel Loaders,OK,Oklahoma City,13405,14745,13932,68,3,2,Core Sales
+488,RQ5975,2025-10-14,2001,Case IH,Magnum 280,Agricultural,Tractors,FL,Miami,46669,51335,49764,38,2,1,Core Sales
+489,HC2054,2025-11-25,1996,Hitachi,ZX490,Heavy Equipment,Excavators,MI,Detroit,23004,25304,23912,47,2,1,Core Sales
+490,OJ6172,2025-11-27,2019,John Deere,DB60,Agricultural,Planters,TX,San Antonio,7100,7810,11791,88,4,2,Enterprise
+491,GH6750,2025-08-05,2023,Ford,F-250,Trucks,Pickup Trucks,CA,Los Angeles,22312,24543,27108,46,2,1,Enterprise
+492,DI8314,2025-09-16,2004,Caterpillar,962M,Heavy Equipment,Wheel Loaders,NY,New York,48885,53773,50313,43,2,1,Enterprise
+493,MZ3872,2025-09-16,2008,New Holland,CR8.90,Agricultural,Combines,NY,Buffalo,32104,35314,39803,39,2,1,Enterprise
+494,SO6918,2025-08-21,2017,Case IH,Magnum 280,Agricultural,Tractors,IL,Springfield,44038,48441,45192,36,2,1,Core Sales
+495,YL3860,2025-09-11,2022,John Deere,8370R,Agricultural,Tractors,IL,Springfield,19904,21894,24471,54,3,2,Core Sales
+496,UK5391,2025-09-18,1993,John Deere,DB60,Agricultural,Planters,CA,San Diego,7322,8054,10410,38,2,1,Core Sales
+497,XY9242,2025-09-03,2010,Kubota,M8-211,Agricultural,Tractors,FL,Miami,23911,26302,24705,23,1,1,Core Sales
+498,KX6829,2025-09-24,1992,Kenworth,T880,Trucks,Dump Trucks,NE,Omaha,13338,14671,16573,95,4,2,Enterprise
+499,YT9462,2025-08-21,1997,Western Star,4900,Trucks,Dump Trucks,IL,Peoria,35783,39361,35887,32,2,1,Core Sales
+500,NS9009,2025-11-26,2007,Western Star,4900,Trucks,Dump Trucks,MO,Kansas City,10102,11112,13674,60,3,2,Core Sales
+501,BH3542,2025-08-07,2010,Volvo,VNL,Trucks,Semi Tractors,AR,Little Rock,38034,41837,42149,98,4,2,Enterprise
+502,NO0110,2025-11-04,2001,Caterpillar,D6,Heavy Equipment,Dozers,WA,Seattle,47529,52281,56106,96,4,2,Enterprise
+503,TK2214,2025-09-24,2011,Caterpillar,262D,Heavy Equipment,Skid Steers,WA,Spokane,20524,22576,25254,65,3,2,Enterprise
+504,KX6137,2025-08-28,2000,Volvo,EC300,Heavy Equipment,Excavators,WI,Milwaukee,37917,41708,46401,68,3,2,Core Sales
+505,WS8918,2025-09-02,1991,John Deere,8320R,Agricultural,Tractors,WA,Seattle,3188,3506,5340,78,4,2,Enterprise
+506,GC7547,2025-09-03,2019,John Deere,950K,Heavy Equipment,Dozers,WA,Spokane,40589,44647,42801,38,2,1,Core Sales
+507,PN3852,2025-10-21,2012,Ford,F-250,Trucks,Pickup Trucks,FL,Miami,20537,22590,23318,38,2,1,Enterprise
+508,CF2821,2025-09-24,1992,Gleaner,S98,Agricultural,Combines,NC,Raleigh,22428,24670,25310,31,2,1,Core Sales
+509,ZV1318,2025-09-11,2005,Peterbilt,389,Trucks,Semi Tractors,OH,Columbus,13588,14946,19458,28,2,1,Core Sales
+510,YB9090,2025-11-27,2000,John Deere,950K,Heavy Equipment,Dozers,MA,Boston,28711,31582,30745,67,3,2,Core Sales
+511,YO9534,2025-10-07,2003,Case IH,2150,Agricultural,Planters,NY,Rochester,16413,18054,18662,18,1,1,Core Sales
+512,LF2591,2025-11-05,2023,Volvo,L120H,Heavy Equipment,Wheel Loaders,CA,San Francisco,9554,10509,15505,46,2,1,Core Sales
+513,ZT8884,2025-08-07,2004,Gleaner,S98,Agricultural,Combines,NC,Raleigh,23014,25315,29995,34,2,1,Core Sales
+514,YC3046,2025-09-10,2001,John Deere,DB60,Agricultural,Planters,NV,Las Vegas,11277,12404,14192,1,1,1,Core Sales
+515,TS7211,2025-08-21,2005,Caterpillar,349,Heavy Equipment,Excavators,WA,Seattle,42803,47083,48117,58,3,2,Enterprise
+516,AS9697,2025-09-25,2002,New Holland,CR10.90,Agricultural,Combines,NC,Charlotte,25936,28529,26251,98,4,2,Enterprise
+517,CC4956,2025-09-23,1991,Case IH,8250,Agricultural,Combines,NC,Raleigh,36308,39938,38892,28,2,1,Core Sales
+518,IK4059,2025-09-18,2015,John Deere,S780,Agricultural,Combines,GA,Augusta,21818,23999,23660,78,4,2,Core Sales
+519,GL6624,2025-10-16,2020,Caterpillar,262D,Heavy Equipment,Skid Steers,IL,Springfield,35575,39132,40629,37,2,1,Core Sales
+520,LA7335,2025-10-09,2007,John Deere,8320R,Agricultural,Tractors,MO,Kansas City,8375,9212,11642,62,3,2,Enterprise
+521,HL1839,2025-08-28,1991,Freightliner,Columbia,Trucks,Semi Tractors,FL,Orlando,26339,28972,31288,69,3,2,Enterprise
+522,ZU1603,2025-10-23,2000,Volvo,VNL,Trucks,Semi Tractors,TN,Nashville,47345,52079,47692,15,1,1,Core Sales
+523,UY1559,2025-09-18,2014,John Deere,644K,Heavy Equipment,Wheel Loaders,NC,Charlotte,20035,22038,26133,12,1,1,Core Sales
+524,YB5953,2025-08-12,2006,John Deere,DB60,Agricultural,Planters,AR,Little Rock,22356,24591,23202,39,2,1,Enterprise
+525,NB6457,2025-08-27,2006,Ram,2500,Trucks,Pickup Trucks,AR,Little Rock,29617,32578,33340,62,3,2,Enterprise
+526,AN6865,2025-09-02,2015,Case,SV340,Heavy Equipment,Skid Steers,MO,Kansas City,40311,44342,45846,39,2,1,Enterprise
+527,SR8929,2025-09-11,2008,New Holland,CR8.90,Agricultural,Combines,IN,Indianapolis,28748,31622,36322,23,1,1,Core Sales
+528,JF4334,2025-10-21,2012,John Deere,DB60,Agricultural,Planters,FL,Orlando,8368,9204,12258,41,2,1,Core Sales
+529,FV0737,2025-11-06,2018,Komatsu,D375,Heavy Equipment,Dozers,GA,Atlanta,18786,20664,21653,83,4,2,Core Sales
+530,GA0565,2025-09-11,2007,John Deere,S780,Agricultural,Combines,CA,Los Angeles,48551,53406,49432,3,1,1,Core Sales
+531,UO3582,2025-09-25,2003,Caterpillar,D6,Heavy Equipment,Dozers,IA,Des Moines,6115,6726,11258,55,3,2,Enterprise
+532,RZ9505,2025-10-02,1997,Chevrolet,Silverado 2500,Trucks,Pickup Trucks,WA,Spokane,23852,26237,27009,70,3,2,Enterprise
+533,CV6352,2025-08-07,1995,Ram,3500,Trucks,Pickup Trucks,NC,Charlotte,34814,38295,41391,35,2,1,Enterprise
+534,ND2364,2025-11-05,2002,Peterbilt,567,Trucks,Semi Tractors,OH,Columbus,48914,53805,53145,42,2,1,Enterprise
+535,OW1354,2025-08-28,2020,Hitachi,ZX490,Heavy Equipment,Excavators,CO,Denver,49599,54558,56620,22,1,1,Enterprise
+536,PV8637,2025-11-13,2011,New Holland,CR10.90,Agricultural,Combines,MO,St Louis,41592,45751,42637,32,2,1,Core Sales
+537,XJ2535,2025-10-28,2011,Ford,F-250,Trucks,Pickup Trucks,GA,Augusta,13788,15166,19264,25,1,1,Enterprise
+538,GQ0091,2025-08-28,2004,Volvo,EC480,Heavy Equipment,Excavators,TN,Memphis,46195,50814,50739,7,1,1,Enterprise
+539,KI8569,2025-08-20,2009,New Holland,CR8.90,Agricultural,Combines,IL,Chicago,35976,39573,39094,80,4,2,Enterprise
+540,QI4528,2025-11-20,2010,Case IH,8250,Agricultural,Combines,TX,Dallas,39601,43561,46907,6,1,1,Core Sales
+541,EG1901,2025-11-04,2013,Ford,F-450,Trucks,Pickup Trucks,WA,Seattle,44236,48659,45236,60,3,2,Core Sales
+542,ER9197,2025-10-22,1995,Case IH,2150,Agricultural,Planters,MO,Kansas City,49050,53955,53620,15,1,1,Enterprise
+543,UG2924,2025-08-07,2015,John Deere,333G,Heavy Equipment,Skid Steers,TN,Memphis,28208,31028,30125,22,1,1,Core Sales
+544,TH9726,2025-08-14,2013,Freightliner,Columbia,Trucks,Semi Tractors,FL,Miami,39348,43282,42276,41,2,1,Enterprise
+545,HM1345,2025-08-07,2006,Caterpillar,289D,Heavy Equipment,Skid Steers,WI,Milwaukee,43042,47346,51594,77,4,2,Core Sales
+546,LM3575,2025-11-19,2023,Kenworth,T680,Trucks,Semi Tractors,NE,Omaha,16047,17651,17303,48,2,1,Core Sales
+547,KB4345,2025-08-26,2001,Western Star,4900,Trucks,Dump Trucks,MO,Kansas City,38512,42363,39679,80,4,2,Enterprise
+548,WP3167,2025-09-18,2009,Caterpillar,262D,Heavy Equipment,Skid Steers,IL,Springfield,40927,45019,48872,33,2,1,Enterprise
+549,UT7003,2025-08-19,2012,Ford,F-350,Trucks,Pickup Trucks,GA,Augusta,7897,8686,9043,8,1,1,Enterprise
+550,KV4358,2025-10-16,1995,Ram,2500,Trucks,Pickup Trucks,FL,Jacksonville,46409,51049,55327,21,1,1,Core Sales
+551,LQ7894,2025-08-05,2009,Case,850M,Heavy Equipment,Dozers,NC,Charlotte,46778,51455,50499,27,2,1,Enterprise
+552,KR1082,2025-11-11,2018,John Deere,DB60,Agricultural,Planters,MN,Minneapolis,4239,4662,6738,21,1,1,Core Sales
+553,XW7347,2025-08-27,2019,Peterbilt,579,Trucks,Semi Tractors,MI,Grand Rapids,7921,8713,9079,65,3,2,Enterprise
+554,AW0199,2025-08-26,2005,Gleaner,S98,Agricultural,Combines,OR,Portland,23909,26299,26801,47,2,1,Enterprise
+555,DV9876,2025-09-25,1995,Kenworth,T880,Trucks,Dump Trucks,OH,Cincinnati,37021,40723,40200,31,2,1,Enterprise
+556,OK5835,2025-11-19,2005,Mack,Pinnacle,Trucks,Dump Trucks,CA,Los Angeles,9689,10657,13381,98,4,2,Enterprise
+557,OS6546,2025-08-26,2001,Case IH,9250,Agricultural,Combines,IL,Springfield,24654,27119,31961,38,2,1,Core Sales
+558,JZ0692,2025-09-18,2017,Western Star,4700SF,Trucks,Dump Trucks,KS,Wichita,29379,32316,30751,81,4,2,Core Sales
+559,AU8635,2025-09-30,1994,Case IH,9250,Agricultural,Combines,NC,Raleigh,31532,34685,35005,17,1,1,Enterprise
+560,BT3467,2025-09-25,2008,Peterbilt,567,Trucks,Semi Tractors,MI,Grand Rapids,46803,51483,48430,77,4,2,Enterprise
+561,TB7029,2025-10-02,2021,John Deere,950K,Heavy Equipment,Dozers,MA,Boston,25173,27690,28703,12,1,1,Core Sales
+562,KI5239,2025-08-28,2009,Case IH,2150,Agricultural,Planters,OH,Columbus,2172,2389,5798,43,2,1,Core Sales
+563,RB4330,2025-09-16,2009,Volvo,EC300,Heavy Equipment,Excavators,IA,Des Moines,10365,11401,15533,18,1,1,Core Sales
+564,TV1395,2025-10-15,2024,Freightliner,Century,Trucks,Semi Tractors,CA,Sacramento,30834,33917,31151,54,3,2,Core Sales
+565,FP2521,2025-09-16,2015,John Deere,332G,Heavy Equipment,Skid Steers,MO,Kansas City,22838,25121,25404,66,3,2,Core Sales
+566,UR2200,2025-09-25,2024,Peterbilt,567,Trucks,Semi Tractors,NC,Charlotte,40766,44842,46379,65,3,2,Core Sales
+567,LR2075,2025-08-13,1990,Mack,Granite,Trucks,Dump Trucks,MO,St Louis,42875,47162,43867,77,4,2,Core Sales
+568,XX8079,2025-08-07,1996,Gleaner,S98,Agricultural,Combines,IL,Chicago,14653,16118,19385,17,1,1,Enterprise
+569,QI6629,2025-10-07,2014,Bobcat,S750,Heavy Equipment,Skid Steers,IL,Peoria,23845,26229,27154,92,4,2,Core Sales
+570,LB2274,2025-09-10,2023,Mack,Granite,Trucks,Dump Trucks,GA,Savannah,30629,33691,32634,69,3,2,Core Sales
+571,WA5309,2025-10-08,2016,Bobcat,T650,Heavy Equipment,Skid Steers,TX,Houston,28400,31240,31599,64,3,2,Enterprise
+572,RU1460,2025-08-27,1991,Chevrolet,Silverado 3500,Trucks,Pickup Trucks,TX,Houston,19270,21197,24561,24,1,1,Core Sales
+573,KB7104,2025-08-07,1994,Case IH,1255,Agricultural,Planters,TX,Dallas,24798,27277,27850,59,3,2,Core Sales
+574,LG0818,2025-11-12,2022,Hitachi,ZX490,Heavy Equipment,Excavators,MO,St Louis,36373,40010,42135,88,4,2,Core Sales
+575,QC4532,2025-09-18,2017,Gleaner,S98,Agricultural,Combines,OH,Cleveland,14603,16063,18817,60,3,2,Core Sales
+576,UK7569,2025-11-05,2016,New Holland,CR8.90,Agricultural,Combines,NY,Buffalo,2082,2290,3893,90,4,2,Core Sales
+577,RU6297,2025-10-21,2005,Ford,F-250,Trucks,Pickup Trucks,IL,Chicago,38513,42364,40155,44,2,1,Enterprise
+578,DO7393,2025-10-23,1998,Case IH,1255,Agricultural,Planters,AZ,Phoenix,21743,23917,22719,6,1,1,Enterprise
+579,SP2181,2025-10-22,1991,Case IH,Magnum 280,Agricultural,Tractors,PA,Philadelphia,43927,48319,51703,49,2,1,Core Sales
+580,EK3114,2025-09-17,2011,Massey Ferguson,8737,Agricultural,Tractors,OH,Cincinnati,9896,10885,14263,82,4,2,Enterprise
+581,BJ9536,2025-10-22,2013,Massey Ferguson,8735,Agricultural,Tractors,FL,Orlando,40627,44689,44263,17,1,1,Core Sales
+582,BW0927,2025-10-07,1995,Western Star,4900,Trucks,Dump Trucks,OH,Columbus,11463,12609,16918,84,4,2,Enterprise
+583,CQ3169,2025-10-21,2000,John Deere,8370R,Agricultural,Tractors,GA,Augusta,3906,4296,8472,15,1,1,Core Sales
+584,LR8434,2025-09-30,1991,Bobcat,T650,Heavy Equipment,Skid Steers,NC,Charlotte,23116,25427,24826,9,1,1,Core Sales
+585,FB0578,2025-09-09,2016,Case IH,9250,Agricultural,Combines,TX,Dallas,5315,5846,5937,74,3,2,Core Sales
+586,LF5425,2025-11-27,2023,Ram,3500,Trucks,Pickup Trucks,MO,Kansas City,3627,3989,4874,4,1,1,Enterprise
+587,KN3831,2025-09-10,1994,Massey Ferguson,8737,Agricultural,Tractors,NC,Raleigh,28947,31841,30293,5,1,1,Core Sales
+588,NV9056,2025-08-27,1996,Case IH,2150,Agricultural,Planters,NC,Charlotte,14671,16138,18175,64,3,2,Enterprise
+589,SO7296,2025-09-17,2018,Volvo,L220H,Heavy Equipment,Wheel Loaders,FL,Jacksonville,14057,15462,15899,38,2,1,Core Sales
+590,HO5936,2025-08-06,1991,John Deere,1775NT,Agricultural,Planters,WA,Spokane,37390,41129,45374,98,4,2,Core Sales
+591,KX7909,2025-09-17,2017,Volvo,VNR,Trucks,Semi Tractors,WA,Seattle,2778,3055,3040,31,2,1,Enterprise
+592,XQ4677,2025-09-02,2000,Case IH,2150,Agricultural,Planters,AZ,Phoenix,32243,35467,36227,82,4,2,Enterprise
+593,SR1344,2025-10-14,2024,Case IH,1255,Agricultural,Planters,GA,Augusta,31782,34960,35272,27,2,1,Enterprise
+594,FD4881,2025-11-18,2012,Hitachi,ZX670,Heavy Equipment,Excavators,IN,Indianapolis,21271,23398,24488,32,2,1,Enterprise
+595,YT2094,2025-08-20,1999,Komatsu,D375,Heavy Equipment,Dozers,NC,Raleigh,42274,46501,48425,51,3,2,Core Sales
+596,WS7019,2025-08-06,2018,Peterbilt,567,Trucks,Dump Trucks,TX,San Antonio,5343,5877,6864,18,1,1,Core Sales
+597,TW2208,2025-11-18,2024,Komatsu,WA380,Heavy Equipment,Wheel Loaders,CO,Denver,20998,23097,26322,97,4,2,Enterprise
+598,GA5263,2025-09-30,2002,John Deere,S790,Agricultural,Combines,IA,Des Moines,42854,47139,51140,22,1,1,Enterprise
+599,OF6755,2025-11-20,2000,Caterpillar,262D,Heavy Equipment,Skid Steers,PA,Pittsburgh,2531,2784,2688,15,1,1,Enterprise
+600,BA7338,2025-10-01,1999,Ford,F-450,Trucks,Pickup Trucks,IN,Indianapolis,42189,46407,48898,42,2,1,Enterprise
+601,KL0822,2025-11-12,2012,Caterpillar,972M,Heavy Equipment,Wheel Loaders,TX,Austin,19749,21723,24727,72,3,2,Core Sales
+602,PS2028,2025-09-23,2021,John Deere,470G,Heavy Equipment,Excavators,CA,Los Angeles,11678,12845,17503,48,2,1,Enterprise
+603,IN3655,2025-09-16,2005,Caterpillar,972M,Heavy Equipment,Wheel Loaders,IN,Indianapolis,13026,14328,15008,59,3,2,Enterprise
+604,LU5951,2025-09-16,2014,Caterpillar,330,Heavy Equipment,Excavators,NC,Raleigh,22984,25282,28222,73,3,2,Enterprise
+605,AY9757,2025-11-27,2009,Komatsu,WA470,Heavy Equipment,Wheel Loaders,OH,Cincinnati,35143,38657,43233,59,3,2,Core Sales
+606,CW0658,2025-09-16,2023,Case IH,8250,Agricultural,Combines,CA,Los Angeles,47709,52479,48786,31,2,1,Enterprise
+607,ZY2488,2025-09-10,2022,Komatsu,PC290,Heavy Equipment,Excavators,IA,Des Moines,30557,33612,36608,16,1,1,Core Sales
+608,KT4988,2025-11-04,2016,Volvo,EC380,Heavy Equipment,Excavators,FL,Tampa,12607,13867,16631,31,2,1,Core Sales
+609,KZ8443,2025-11-06,2019,John Deere,8320R,Agricultural,Tractors,NV,Las Vegas,25003,27503,32135,43,2,1,Core Sales
+610,ND5630,2025-09-17,2021,Peterbilt,567,Trucks,Dump Trucks,IN,Indianapolis,8527,9379,12345,44,2,1,Enterprise
+611,FO9011,2025-08-12,2020,Komatsu,WA500,Heavy Equipment,Wheel Loaders,AZ,Phoenix,39045,42949,47277,67,3,2,Enterprise
+612,IN7843,2025-08-13,2023,New Holland,T7.270,Agricultural,Tractors,AZ,Phoenix,17935,19728,21500,52,3,2,Core Sales
+613,HL3162,2025-11-18,2017,Freightliner,Century,Trucks,Semi Tractors,TX,San Antonio,32024,35226,36094,62,3,2,Core Sales
+614,DC1396,2025-08-07,1997,Caterpillar,D5K,Heavy Equipment,Dozers,AR,Little Rock,6272,6899,9164,75,3,2,Core Sales
+615,SR5125,2025-11-27,2019,Caterpillar,D4K,Heavy Equipment,Dozers,GA,Savannah,18578,20435,23911,38,2,1,Enterprise
+616,BO5929,2025-11-20,2018,John Deere,8370R,Agricultural,Tractors,FL,Tampa,12352,13587,17605,32,2,1,Core Sales
+617,QV1091,2025-08-27,1997,Gleaner,S98,Agricultural,Combines,AR,Little Rock,32593,35852,33075,81,4,2,Enterprise
+618,MS3438,2025-10-23,1999,Komatsu,D155,Heavy Equipment,Dozers,CA,Sacramento,10914,12005,13607,23,1,1,Core Sales
+619,NM1992,2025-09-04,2004,Ford,F-450,Trucks,Pickup Trucks,NY,Buffalo,36865,40551,43932,24,1,1,Core Sales
+620,YQ1993,2025-10-02,2005,John Deere,700K,Heavy Equipment,Dozers,NY,Rochester,38972,42869,42192,8,1,1,Core Sales
+621,JI6784,2025-08-05,2013,John Deere,332G,Heavy Equipment,Skid Steers,GA,Savannah,32241,35465,34484,38,2,1,Enterprise
+622,JL0152,2025-11-27,1993,Kenworth,T880,Trucks,Dump Trucks,TN,Memphis,5953,6548,6124,94,4,2,Enterprise
+623,VT8377,2025-11-12,1994,John Deere,724K,Heavy Equipment,Wheel Loaders,TN,Nashville,9775,10752,15243,27,2,1,Core Sales
+624,VC7419,2025-09-10,2009,Komatsu,D85,Heavy Equipment,Dozers,AZ,Phoenix,46418,51059,49929,64,3,2,Core Sales
+625,PW7960,2025-09-16,2012,Case,SR250,Heavy Equipment,Skid Steers,NY,Buffalo,24182,26600,25506,67,3,2,Core Sales
+626,EZ3199,2025-11-11,2015,Case IH,Magnum 280,Agricultural,Tractors,TX,Austin,12033,13236,15164,47,2,1,Enterprise
+627,RO4651,2025-09-24,2009,Bobcat,S850,Heavy Equipment,Skid Steers,IL,Springfield,47239,51962,56186,4,1,1,Enterprise
+628,LQ3587,2025-09-09,2007,Volvo,VNL,Trucks,Semi Tractors,OH,Columbus,34708,38178,37560,60,3,2,Core Sales
+629,IO1813,2025-11-06,1994,John Deere,DB60,Agricultural,Planters,FL,Jacksonville,5782,6360,7743,50,2,1,Core Sales
+630,PP7042,2025-11-05,2005,Gleaner,S98,Agricultural,Combines,PA,Pittsburgh,26918,29609,29832,96,4,2,Enterprise
+631,NK9596,2025-11-18,2007,Peterbilt,348,Trucks,Dump Trucks,IN,Indianapolis,44659,49124,52830,9,1,1,Enterprise
+632,UF7466,2025-11-20,1998,Komatsu,D85,Heavy Equipment,Dozers,TX,Dallas,11253,12378,11829,41,2,1,Core Sales
+633,RH7495,2025-08-12,2015,John Deere,7230R,Agricultural,Tractors,TX,San Antonio,8911,9802,11624,75,3,2,Core Sales
+634,IU1946,2025-10-07,2008,Western Star,4900,Trucks,Dump Trucks,FL,Miami,15063,16569,18795,53,3,2,Core Sales
+635,AA7172,2025-10-09,1996,Freightliner,Columbia,Trucks,Semi Tractors,TX,San Antonio,23357,25692,24764,23,1,1,Core Sales
+636,DT7672,2025-10-22,2007,Freightliner,Columbia,Trucks,Semi Tractors,WA,Spokane,15761,17337,16521,45,2,1,Enterprise
+637,OB0437,2025-09-04,2020,Case,SV340,Heavy Equipment,Skid Steers,IN,Indianapolis,30541,33595,31755,3,1,1,Enterprise
+638,OX5700,2025-09-25,2013,Case IH,2150,Agricultural,Planters,IL,Peoria,25133,27646,25956,57,3,2,Core Sales
+639,JR6630,2025-09-17,1991,Case IH,2150,Agricultural,Planters,FL,Jacksonville,11995,13194,14123,76,4,2,Enterprise
+640,SD4802,2025-10-08,2012,Volvo,VNR,Trucks,Semi Tractors,FL,Jacksonville,25039,27542,30899,20,1,1,Core Sales
+641,FZ9104,2025-10-14,2013,Western Star,4900,Trucks,Dump Trucks,MN,Minneapolis,34599,38058,38010,41,2,1,Enterprise
+642,XH0818,2025-09-04,2010,Caterpillar,D10,Heavy Equipment,Dozers,MI,Grand Rapids,18725,20597,23555,56,3,2,Enterprise
+643,YT7398,2025-11-13,1996,John Deere,1775NT,Agricultural,Planters,TN,Memphis,5716,6287,10924,89,4,2,Enterprise
+644,DE6787,2025-11-19,1997,Peterbilt,389,Trucks,Semi Tractors,IA,Des Moines,10264,11290,14473,76,4,2,Core Sales
+645,GE8440,2025-11-25,2024,John Deere,644K,Heavy Equipment,Wheel Loaders,IN,Indianapolis,40463,44509,45506,92,4,2,Core Sales
+646,SJ4268,2025-10-29,2006,Komatsu,D155,Heavy Equipment,Dozers,NV,Las Vegas,46496,51145,50407,88,4,2,Enterprise
+647,TZ1089,2025-09-09,2002,Ram,2500,Trucks,Pickup Trucks,IL,Springfield,4999,5498,8450,61,3,2,Enterprise
+648,NK7281,2025-08-06,2001,Caterpillar,D9,Heavy Equipment,Dozers,MA,Boston,11823,13005,13348,67,3,2,Enterprise
+649,XY0700,2025-10-15,2006,Kenworth,W900,Trucks,Semi Tractors,OH,Cincinnati,20991,23090,26600,88,4,2,Core Sales
+650,EL1301,2025-08-07,1995,Volvo,VNR,Trucks,Semi Tractors,MO,St Louis,10488,11536,13775,56,3,2,Enterprise
+651,BY8410,2025-09-09,1995,Gleaner,S98,Agricultural,Combines,KS,Wichita,8682,9550,12870,28,2,1,Enterprise
+652,EO1703,2025-09-04,2001,Peterbilt,348,Trucks,Dump Trucks,CO,Denver,3494,3843,5394,84,4,2,Core Sales
+653,BE9659,2025-08-07,1999,Ram,3500,Trucks,Pickup Trucks,TX,Dallas,42219,46440,47007,65,3,2,Enterprise
+654,QP9964,2025-09-30,2005,Ford,F-450,Trucks,Pickup Trucks,CA,San Diego,30530,33583,31210,11,1,1,Core Sales
+655,QY3588,2025-08-20,2009,Caterpillar,D9,Heavy Equipment,Dozers,MI,Detroit,3274,3601,3865,4,1,1,Enterprise
+656,LD1474,2025-09-24,1993,New Holland,CR10.90,Agricultural,Combines,TX,Houston,3857,4242,8913,74,3,2,Core Sales
+657,MM8647,2025-10-16,1991,Hitachi,ZX350,Heavy Equipment,Excavators,TN,Nashville,37413,41154,39631,68,3,2,Enterprise
+658,PP0050,2025-09-09,2005,Kenworth,T880,Trucks,Dump Trucks,CA,San Diego,17418,19159,22483,92,4,2,Core Sales
+659,LE5776,2025-08-07,1999,Freightliner,Cascadia,Trucks,Semi Tractors,GA,Atlanta,48889,53777,50767,5,1,1,Enterprise
+660,DN3194,2025-10-15,1993,Kubota,M7-172,Agricultural,Tractors,OH,Columbus,48977,53874,55668,83,4,2,Enterprise
+661,FG1160,2025-08-27,2011,Caterpillar,390,Heavy Equipment,Excavators,FL,Orlando,32974,36271,36300,30,2,1,Core Sales
+662,CL4185,2025-10-02,2014,Case,SR270,Heavy Equipment,Skid Steers,IL,Chicago,37533,41286,41201,92,4,2,Core Sales
+663,RC6160,2025-08-20,2007,Ram,3500,Trucks,Pickup Trucks,OH,Columbus,18262,20088,18644,46,2,1,Enterprise
+664,XZ5765,2025-09-30,2019,Gleaner,S98,Agricultural,Combines,CO,Denver,17343,19077,23347,51,3,2,Core Sales
+665,LW5706,2025-11-26,2000,Peterbilt,348,Trucks,Dump Trucks,TX,Dallas,30470,33517,34372,73,3,2,Enterprise
+666,QL4837,2025-10-01,2002,Komatsu,WA470,Heavy Equipment,Wheel Loaders,TN,Nashville,44787,49265,53090,42,2,1,Enterprise
+667,WD8105,2025-09-30,2001,Case IH,2150,Agricultural,Planters,GA,Augusta,17029,18731,23083,4,1,1,Enterprise
+668,GE5278,2025-10-08,1991,Ford,F-450,Trucks,Pickup Trucks,AZ,Phoenix,9466,10412,14410,32,2,1,Core Sales
+669,JX3897,2025-09-24,2012,Bobcat,S650,Heavy Equipment,Skid Steers,PA,Philadelphia,27802,30582,34357,38,2,1,Enterprise
+670,XO0611,2025-10-01,2024,Chevrolet,Silverado 2500,Trucks,Pickup Trucks,CA,San Francisco,43028,47330,48789,53,3,2,Core Sales
+671,YM1569,2025-09-23,2009,Mack,Granite,Trucks,Dump Trucks,WA,Spokane,45960,50556,46497,31,2,1,Enterprise
+672,VH7027,2025-10-01,2014,John Deere,1775NT,Agricultural,Planters,MO,Kansas City,10913,12004,11240,17,1,1,Enterprise
+673,LA8640,2025-11-13,1997,Bobcat,S650,Heavy Equipment,Skid Steers,NE,Omaha,18065,19871,24434,31,2,1,Enterprise
+674,BU6485,2025-09-04,1996,Komatsu,PC290,Heavy Equipment,Excavators,MO,Kansas City,34191,37610,39684,62,3,2,Core Sales
+675,BJ7448,2025-09-16,1994,Caterpillar,980M,Heavy Equipment,Wheel Loaders,TX,Houston,45694,50263,50474,18,1,1,Enterprise
+676,PM8453,2025-08-27,1991,Caterpillar,262D,Heavy Equipment,Skid Steers,TX,Dallas,43438,47781,52517,20,1,1,Enterprise
+677,RU2848,2025-10-23,2018,Ram,3500,Trucks,Pickup Trucks,CA,Sacramento,30577,33634,35549,61,3,2,Core Sales
+678,WN0433,2025-11-26,1999,Komatsu,PC490,Heavy Equipment,Excavators,NE,Omaha,36461,40107,38746,35,2,1,Enterprise
+679,ZI7692,2025-09-09,1992,John Deere,333G,Heavy Equipment,Skid Steers,NY,Rochester,20574,22631,23478,53,3,2,Core Sales
+680,BY6165,2025-10-28,2002,John Deere,333G,Heavy Equipment,Skid Steers,FL,Orlando,39224,43146,47078,78,4,2,Core Sales
+681,HF0765,2025-10-08,2017,John Deere,S780,Agricultural,Combines,TX,San Antonio,47386,52124,51242,44,2,1,Enterprise
+682,TG8012,2025-10-23,1994,Case IH,9250,Agricultural,Combines,NY,Buffalo,34726,38198,35609,36,2,1,Enterprise
+683,XI4009,2025-10-09,2009,John Deere,7230R,Agricultural,Tractors,CA,San Francisco,9195,10114,9439,58,3,2,Enterprise
+684,PO3148,2025-09-23,2021,Caterpillar,336,Heavy Equipment,Excavators,IA,Des Moines,41584,45742,45901,49,2,1,Core Sales
+685,XW1839,2025-08-14,1997,John Deere,470G,Heavy Equipment,Excavators,OH,Cleveland,6004,6604,6557,68,3,2,Core Sales
+686,VH8633,2025-08-21,1999,Kenworth,W900,Trucks,Semi Tractors,FL,Tampa,34411,37852,41531,40,2,1,Core Sales
+687,LK2882,2025-09-11,2015,Kubota,M8-211,Agricultural,Tractors,WA,Spokane,8784,9662,9900,84,4,2,Enterprise
+688,YS3180,2025-11-05,2014,Case,SR250,Heavy Equipment,Skid Steers,MI,Detroit,19571,21528,20142,1,1,1,Core Sales
+689,BJ1543,2025-11-13,2010,Case,2050M,Heavy Equipment,Dozers,GA,Atlanta,46539,51192,53441,4,1,1,Enterprise
+690,YR4016,2025-09-23,1999,Hitachi,ZX490,Heavy Equipment,Excavators,OR,Portland,36288,39916,39082,68,3,2,Core Sales
+691,YP7430,2025-08-20,1998,Kubota,M7-172,Agricultural,Tractors,WA,Seattle,23927,26319,30733,70,3,2,Core Sales
+692,HW0511,2025-10-01,2019,John Deere,950K,Heavy Equipment,Dozers,MA,Boston,37427,41169,40079,19,1,1,Core Sales
+693,IP4934,2025-10-14,2011,Caterpillar,D5K,Heavy Equipment,Dozers,OH,Cincinnati,35064,38570,36786,24,1,1,Core Sales
+694,VV5944,2025-08-12,2009,Mack,Pinnacle,Trucks,Dump Trucks,TX,Dallas,32236,35459,34640,77,4,2,Core Sales
+695,JE2245,2025-11-20,2013,Chevrolet,Silverado 2500,Trucks,Pickup Trucks,CA,Los Angeles,37667,41433,45028,8,1,1,Enterprise
+696,KI0127,2025-08-14,2016,John Deere,624K,Heavy Equipment,Wheel Loaders,TN,Nashville,21694,23863,23296,54,3,2,Core Sales
+697,BR2324,2025-10-07,1996,Caterpillar,D9,Heavy Equipment,Dozers,CA,San Diego,16907,18597,22780,67,3,2,Core Sales
+698,EB7616,2025-09-02,2008,Case,SR270,Heavy Equipment,Skid Steers,MO,Kansas City,7379,8116,9621,97,4,2,Enterprise
+699,IS9290,2025-10-09,2003,Komatsu,PC490,Heavy Equipment,Excavators,NC,Raleigh,6783,7461,9820,80,4,2,Core Sales
+700,XI0959,2025-11-11,1997,Chevrolet,Silverado 2500,Trucks,Pickup Trucks,IL,Chicago,34183,37601,34339,6,1,1,Core Sales
+701,OS8054,2025-11-18,2021,Gleaner,S98,Agricultural,Combines,TN,Memphis,25211,27732,31016,32,2,1,Enterprise
+702,PT3737,2025-09-24,2006,Mack,Pinnacle,Trucks,Dump Trucks,OH,Cincinnati,42523,46775,49564,50,2,1,Core Sales
+703,OB9710,2025-08-06,2021,John Deere,X9 1100,Agricultural,Combines,FL,Orlando,11630,12793,15940,31,2,1,Core Sales
+704,SO5411,2025-11-12,1993,Gleaner,S98,Agricultural,Combines,FL,Miami,31934,35127,39041,46,2,1,Core Sales
+705,BA1521,2025-11-26,1991,New Holland,CR8.90,Agricultural,Combines,NE,Omaha,37195,40914,44292,36,2,1,Core Sales
+706,JM0562,2025-08-14,2002,Western Star,4900,Trucks,Dump Trucks,GA,Savannah,48752,53627,49236,71,3,2,Enterprise
+707,ZE6400,2025-10-08,2000,Case,1650M,Heavy Equipment,Dozers,IL,Peoria,10910,12001,14798,59,3,2,Enterprise
+708,BQ5607,2025-11-11,1997,Case IH,Magnum 380,Agricultural,Tractors,NC,Charlotte,27396,30135,32288,26,2,1,Core Sales
+709,JR1872,2025-11-04,1998,Komatsu,D375,Heavy Equipment,Dozers,TX,Houston,17104,18814,18457,65,3,2,Enterprise
+710,YK8453,2025-09-09,1992,Case IH,1255,Agricultural,Planters,GA,Atlanta,36457,40102,36485,40,2,1,Enterprise
+711,FE1645,2025-10-07,1998,Caterpillar,336,Heavy Equipment,Excavators,OH,Columbus,14302,15732,15205,3,1,1,Core Sales
+712,UI8360,2025-11-05,2001,Caterpillar,272D,Heavy Equipment,Skid Steers,WI,Milwaukee,23564,25920,27520,43,2,1,Enterprise
+713,OD0652,2025-10-28,2021,John Deere,S780,Agricultural,Combines,MO,St Louis,14347,15781,19882,71,3,2,Core Sales
+714,EP3300,2025-10-22,2015,Volvo,VNR,Trucks,Semi Tractors,IL,Peoria,13751,15126,16083,67,3,2,Enterprise
+715,EL6865,2025-11-05,2024,Western Star,4700SF,Trucks,Dump Trucks,PA,Philadelphia,39286,43214,43197,90,4,2,Core Sales
+716,HI3952,2025-08-13,2019,Gleaner,S98,Agricultural,Combines,CA,San Francisco,28224,31046,29874,95,4,2,Core Sales
+717,MU2299,2025-10-21,2014,Peterbilt,579,Trucks,Semi Tractors,TX,San Antonio,31483,34631,37986,63,3,2,Core Sales
+718,YN2286,2025-09-16,1996,Caterpillar,262D,Heavy Equipment,Skid Steers,GA,Savannah,30436,33479,34536,49,2,1,Enterprise
+719,BQ4996,2025-11-05,2000,Volvo,EC380,Heavy Equipment,Excavators,TX,San Antonio,30131,33144,31348,70,3,2,Enterprise
+720,KL5049,2025-11-26,2011,Kenworth,T880,Trucks,Dump Trucks,MN,Minneapolis,45633,50196,48523,45,2,1,Core Sales
+721,LK7096,2025-08-28,2004,Freightliner,Columbia,Trucks,Semi Tractors,AR,Little Rock,39543,43497,43035,75,3,2,Enterprise
+722,LO3786,2025-08-27,2010,John Deere,DB60,Agricultural,Planters,OH,Columbus,23949,26343,25926,24,1,1,Core Sales
+723,HB4716,2025-09-03,1991,Mack,Granite,Trucks,Dump Trucks,MI,Detroit,2742,3016,7921,61,3,2,Enterprise
+724,YU7961,2025-08-19,2000,Case IH,2150,Agricultural,Planters,TN,Nashville,4705,5175,6103,42,2,1,Core Sales
+725,PQ0518,2025-11-05,2011,Ram,2500,Trucks,Pickup Trucks,OK,Oklahoma City,38953,42848,43914,91,4,2,Enterprise
+726,MV1169,2025-08-21,2023,Peterbilt,579,Trucks,Semi Tractors,AR,Little Rock,6044,6648,8599,76,4,2,Enterprise
+727,SJ1729,2025-08-28,2023,Case IH,1255,Agricultural,Planters,CA,San Diego,35286,38814,43329,77,4,2,Enterprise
+728,DO7661,2025-11-05,2011,Volvo,VNR,Trucks,Semi Tractors,NY,Rochester,22009,24209,27423,82,4,2,Enterprise
+729,BH5939,2025-09-03,2003,Chevrolet,Silverado 2500,Trucks,Pickup Trucks,GA,Augusta,19446,21390,20990,58,3,2,Enterprise
+730,VX1246,2025-11-25,2022,John Deere,DB60,Agricultural,Planters,WA,Seattle,32100,35310,38581,63,3,2,Enterprise
+731,DJ5992,2025-08-20,2002,Ram,3500,Trucks,Pickup Trucks,CA,San Francisco,19673,21640,25420,57,3,2,Core Sales
+732,BI4049,2025-09-03,1995,Case IH,8250,Agricultural,Combines,OH,Cincinnati,3551,3906,7989,81,4,2,Enterprise
+733,YA0155,2025-09-11,1994,John Deere,1775NT,Agricultural,Planters,FL,Orlando,19515,21466,24371,48,2,1,Enterprise
+734,KF0918,2025-08-20,1994,Volvo,EC480,Heavy Equipment,Excavators,FL,Tampa,13572,14929,16023,67,3,2,Enterprise
+735,WX6951,2025-08-05,1995,John Deere,332G,Heavy Equipment,Skid Steers,TX,Houston,10724,11796,12364,34,2,1,Enterprise
+736,LC7244,2025-10-01,2002,New Holland,T8.380,Agricultural,Tractors,OH,Cleveland,34070,37477,35696,61,3,2,Core Sales
+737,CR3461,2025-11-13,2000,Case,1650M,Heavy Equipment,Dozers,MO,St Louis,25076,27583,26550,26,2,1,Core Sales
+738,LO5931,2025-11-20,2006,John Deere,350G,Heavy Equipment,Excavators,WA,Spokane,47793,52572,56309,15,1,1,Core Sales
+739,HL6229,2025-10-22,2022,Case,2050M,Heavy Equipment,Dozers,AR,Little Rock,32386,35624,37852,74,3,2,Core Sales
+740,JA2349,2025-11-18,2000,Case,2050M,Heavy Equipment,Dozers,CA,San Francisco,6596,7255,8536,59,3,2,Enterprise
+741,QD4821,2025-10-28,2019,Case IH,9250,Agricultural,Combines,NC,Raleigh,23298,25627,30606,80,4,2,Core Sales
+742,IQ4639,2025-09-16,2008,Volvo,VNL,Trucks,Semi Tractors,PA,Pittsburgh,29748,32722,35682,43,2,1,Enterprise
+743,AD4521,2025-09-02,1996,Chevrolet,Silverado 3500,Trucks,Pickup Trucks,WA,Spokane,49618,54579,55788,47,2,1,Core Sales
+744,CA5012,2025-09-23,2011,Komatsu,PC290,Heavy Equipment,Excavators,NC,Charlotte,16635,18298,21750,81,4,2,Core Sales
+745,BO9500,2025-09-16,1999,New Holland,CR8.90,Agricultural,Combines,AR,Little Rock,15501,17051,17547,28,2,1,Core Sales
+746,SL5076,2025-11-18,1995,John Deere,333G,Heavy Equipment,Skid Steers,OH,Cleveland,47204,51924,50249,6,1,1,Core Sales
+747,MV6446,2025-08-26,2009,Case IH,1255,Agricultural,Planters,MI,Grand Rapids,12296,13525,15647,61,3,2,Core Sales
+748,KX0992,2025-10-09,2005,John Deere,X9 1100,Agricultural,Combines,MO,Kansas City,31221,34343,36658,72,3,2,Core Sales
+749,YK3800,2025-08-13,2017,John Deere,350G,Heavy Equipment,Excavators,NE,Omaha,42262,46488,44361,46,2,1,Core Sales
+750,UM4698,2025-10-09,1996,John Deere,700K,Heavy Equipment,Dozers,TX,Austin,4553,5008,7921,34,2,1,Core Sales
+751,MU4934,2025-10-30,2009,Case IH,2150,Agricultural,Planters,WA,Spokane,34123,37535,34506,73,3,2,Core Sales
+752,XY3186,2025-09-17,2011,Caterpillar,D8,Heavy Equipment,Dozers,OR,Portland,18298,20127,22807,70,3,2,Enterprise
+753,MN2795,2025-11-18,2006,John Deere,1775NT,Agricultural,Planters,GA,Atlanta,47520,52272,56218,9,1,1,Core Sales
+754,MX5765,2025-11-19,1996,John Deere,350G,Heavy Equipment,Excavators,TX,Austin,28117,30928,30281,4,1,1,Enterprise
+755,QE1062,2025-11-13,2013,Case,1650M,Heavy Equipment,Dozers,PA,Philadelphia,26900,29590,28281,93,4,2,Core Sales
+756,FL9677,2025-11-13,1995,Kenworth,T880,Trucks,Dump Trucks,FL,Miami,40285,44313,44471,88,4,2,Enterprise
+757,DI3998,2025-09-03,1997,Case,SR250,Heavy Equipment,Skid Steers,IL,Chicago,31909,35099,33459,5,1,1,Enterprise
+758,KM1146,2025-10-29,2001,Case IH,9250,Agricultural,Combines,NY,Rochester,30560,33616,31322,67,3,2,Core Sales
+759,NL1583,2025-10-14,2004,John Deere,333G,Heavy Equipment,Skid Steers,NC,Raleigh,47086,51794,49024,52,3,2,Core Sales
+760,QU2522,2025-09-04,2005,John Deere,1775NT,Agricultural,Planters,FL,Miami,41910,46101,45291,68,3,2,Enterprise
+761,QN6692,2025-11-25,2011,Hitachi,ZX350,Heavy Equipment,Excavators,TN,Memphis,46787,51465,49135,87,4,2,Enterprise
+762,HQ9306,2025-10-02,1995,Chevrolet,Silverado 3500,Trucks,Pickup Trucks,KS,Wichita,32449,35693,37367,5,1,1,Core Sales
+763,QA6014,2025-11-05,1995,John Deere,X9 1100,Agricultural,Combines,MN,Minneapolis,46410,51051,47897,72,3,2,Core Sales
+764,TI6747,2025-08-06,2018,Case,2050M,Heavy Equipment,Dozers,IA,Des Moines,2386,2624,3319,62,3,2,Enterprise
+765,UP2627,2025-08-26,2016,Freightliner,Cascadia,Trucks,Semi Tractors,NC,Charlotte,33203,36523,41030,41,2,1,Enterprise
+766,VC5212,2025-09-25,1992,Hitachi,ZX350,Heavy Equipment,Excavators,AR,Little Rock,17804,19584,20199,68,3,2,Enterprise
+767,YK1626,2025-11-13,2019,John Deere,470G,Heavy Equipment,Excavators,NC,Raleigh,16992,18691,22393,44,2,1,Enterprise
+768,TY2242,2025-08-06,2012,New Holland,T8.380,Agricultural,Tractors,TX,Houston,7919,8710,10639,12,1,1,Enterprise
+769,AP6060,2025-10-29,2003,Massey Ferguson,8737,Agricultural,Tractors,CA,Sacramento,4624,5086,4846,8,1,1,Enterprise
+770,AX8221,2025-09-18,2019,Caterpillar,320,Heavy Equipment,Excavators,FL,Miami,31668,34834,33710,20,1,1,Enterprise
+771,MU2163,2025-09-09,1995,Chevrolet,Silverado 3500,Trucks,Pickup Trucks,TN,Nashville,16349,17983,18468,30,2,1,Core Sales
+772,QX7629,2025-10-07,2019,Case IH,1255,Agricultural,Planters,AZ,Tucson,25969,28565,30419,75,3,2,Core Sales
+773,KX5257,2025-11-26,1992,Chevrolet,Silverado 2500,Trucks,Pickup Trucks,AZ,Tucson,37299,41028,45790,55,3,2,Core Sales
+774,PS9010,2025-08-27,2018,Chevrolet,Silverado 3500,Trucks,Pickup Trucks,GA,Savannah,5029,5531,5316,77,4,2,Core Sales
+775,HG4833,2025-09-18,1997,Volvo,VNR,Trucks,Semi Tractors,FL,Miami,39953,43948,44159,65,3,2,Enterprise
+776,XI9103,2025-09-10,2009,John Deere,750K,Heavy Equipment,Dozers,CA,San Francisco,8857,9742,10543,50,2,1,Enterprise
+777,AE0545,2025-10-21,2001,Komatsu,PC490,Heavy Equipment,Excavators,CA,Sacramento,8692,9561,9366,38,2,1,Enterprise
+778,PF2169,2025-09-02,2012,New Holland,T8.380,Agricultural,Tractors,NC,Raleigh,28055,30860,30450,44,2,1,Core Sales
+779,EA3834,2025-10-01,2013,Peterbilt,567,Trucks,Dump Trucks,TX,Austin,19936,21929,20522,41,2,1,Enterprise
+780,ZO1565,2025-10-15,2000,Chevrolet,Silverado 2500,Trucks,Pickup Trucks,AR,Little Rock,36545,40199,42314,44,2,1,Enterprise
+781,AG2833,2025-09-10,2011,Hitachi,ZX350,Heavy Equipment,Excavators,FL,Tampa,45104,49614,51691,34,2,1,Enterprise
+782,WU4339,2025-08-19,2009,Ram,2500,Trucks,Pickup Trucks,MO,St Louis,44598,49057,51331,42,2,1,Enterprise
+783,CU1956,2025-10-30,2001,Case IH,1255,Agricultural,Planters,MA,Boston,15279,16806,18395,92,4,2,Enterprise
+784,UV7192,2025-10-16,2008,John Deere,724K,Heavy Equipment,Wheel Loaders,OH,Columbus,23031,25334,28456,96,4,2,Core Sales
+785,WC4160,2025-08-07,2009,Western Star,4900,Trucks,Dump Trucks,TX,San Antonio,9999,10998,13634,34,2,1,Core Sales
+786,TM7975,2025-10-22,2021,Western Star,4900,Trucks,Dump Trucks,IL,Chicago,5301,5831,9778,31,2,1,Core Sales
+787,QP3206,2025-11-25,2008,Caterpillar,349,Heavy Equipment,Excavators,FL,Tampa,19951,21946,22267,92,4,2,Enterprise
+788,GE3445,2025-11-04,1990,Massey Ferguson,8737,Agricultural,Tractors,WI,Milwaukee,45797,50376,47570,68,3,2,Core Sales
+789,DO6406,2025-11-11,2012,Volvo,L120H,Heavy Equipment,Wheel Loaders,NC,Charlotte,27300,30030,34372,9,1,1,Core Sales
+790,RJ5453,2025-08-07,2022,Kenworth,T880,Trucks,Dump Trucks,GA,Atlanta,18516,20367,21956,49,2,1,Enterprise
+791,DZ5169,2025-10-14,2011,Case IH,1255,Agricultural,Planters,PA,Philadelphia,15927,17519,21182,50,2,1,Enterprise
+792,VX6431,2025-10-08,1994,Komatsu,PC210,Heavy Equipment,Excavators,NC,Raleigh,43601,47961,51475,28,2,1,Core Sales
+793,ZN0239,2025-10-22,2004,Freightliner,Century,Trucks,Semi Tractors,PA,Philadelphia,30644,33708,36593,32,2,1,Enterprise
+794,HX3031,2025-10-28,2008,New Holland,CR8.90,Agricultural,Combines,AR,Little Rock,10653,11718,11910,91,4,2,Enterprise
+795,VQ4833,2025-08-13,1996,Volvo,VNR,Trucks,Semi Tractors,FL,Tampa,38776,42653,42324,78,4,2,Core Sales
+796,QH0875,2025-11-19,1990,Peterbilt,567,Trucks,Dump Trucks,OR,Portland,49629,54591,58225,71,3,2,Core Sales
+797,GK0068,2025-08-21,2008,John Deere,X9 1100,Agricultural,Combines,CA,San Diego,10740,11814,12950,58,3,2,Enterprise
+798,GS7322,2025-11-13,2008,Ram,3500,Trucks,Pickup Trucks,PA,Philadelphia,43124,47436,49262,10,1,1,Enterprise
+799,YZ1060,2025-10-14,2003,Peterbilt,579,Trucks,Semi Tractors,TX,Austin,25518,28069,30362,38,2,1,Enterprise
+800,QK4777,2025-09-16,1990,Ram,3500,Trucks,Pickup Trucks,OH,Cincinnati,15113,16624,17039,26,2,1,Enterprise
+801,ZG0366,2025-08-14,1997,Ram,3500,Trucks,Pickup Trucks,NY,Buffalo,15891,17480,21712,28,2,1,Core Sales
+802,IN3842,2025-08-28,2013,Case IH,2150,Agricultural,Planters,OH,Columbus,35208,38728,39984,83,4,2,Core Sales
+803,ZY4968,2025-11-27,2002,John Deere,X9 1100,Agricultural,Combines,CO,Denver,14073,15480,16715,12,1,1,Core Sales
+804,QB2584,2025-09-24,2000,Kenworth,T680,Trucks,Semi Tractors,MA,Boston,26879,29566,32362,10,1,1,Enterprise
+805,RU5800,2025-10-08,2016,Gleaner,S98,Agricultural,Combines,OR,Portland,40179,44196,49062,98,4,2,Enterprise
+806,AQ5968,2025-10-02,2021,New Holland,T9.565,Agricultural,Tractors,IL,Springfield,44863,49349,48325,49,2,1,Core Sales
+807,KZ8736,2025-09-25,2008,Case IH,8250,Agricultural,Combines,IN,Indianapolis,26726,29398,32985,86,4,2,Core Sales
+808,ED7279,2025-09-09,2015,Freightliner,Columbia,Trucks,Semi Tractors,WA,Seattle,46133,50746,55542,96,4,2,Enterprise
+809,OV9807,2025-10-14,2010,Case IH,1255,Agricultural,Planters,NC,Raleigh,43685,48053,47003,62,3,2,Enterprise
+810,VP5099,2025-09-16,2006,Western Star,4700SF,Trucks,Dump Trucks,TX,Dallas,29973,32970,33351,43,2,1,Enterprise
+811,XC6389,2025-10-30,1996,Komatsu,WA470,Heavy Equipment,Wheel Loaders,NY,New York,8948,9842,14804,35,2,1,Enterprise
+812,JW7655,2025-10-29,2005,New Holland,T7.270,Agricultural,Tractors,IL,Springfield,45928,50520,51126,53,3,2,Core Sales
+813,QJ4857,2025-10-23,2006,Peterbilt,348,Trucks,Dump Trucks,MN,Minneapolis,46622,51284,55231,80,4,2,Core Sales
+814,AU1032,2025-09-10,2000,Kubota,M8-211,Agricultural,Tractors,AR,Little Rock,46429,51071,47526,93,4,2,Core Sales
+815,LU1859,2025-11-20,1993,Ford,F-350,Trucks,Pickup Trucks,OH,Columbus,14137,15550,15302,64,3,2,Enterprise
+816,AS4625,2025-11-20,2006,Komatsu,D65,Heavy Equipment,Dozers,TX,Houston,4169,4585,4551,89,4,2,Enterprise
+817,ZB2069,2025-08-19,2013,New Holland,CR8.90,Agricultural,Combines,NV,Las Vegas,25416,27957,30998,24,1,1,Core Sales
+818,GE5216,2025-11-05,2020,Ram,2500,Trucks,Pickup Trucks,OH,Columbus,46551,51206,48412,65,3,2,Core Sales
+819,TN0464,2025-09-10,2010,Komatsu,D155,Heavy Equipment,Dozers,NE,Omaha,21711,23882,26490,51,3,2,Core Sales
+820,QJ2963,2025-08-13,2006,New Holland,T7.270,Agricultural,Tractors,NV,Las Vegas,22603,24863,28346,76,4,2,Core Sales
+821,JS0827,2025-08-19,2004,Caterpillar,D4K,Heavy Equipment,Dozers,CA,San Francisco,41277,45404,43767,26,2,1,Core Sales
+822,PU7076,2025-09-25,2002,Chevrolet,Silverado 2500,Trucks,Pickup Trucks,MI,Grand Rapids,49624,54586,52559,82,4,2,Core Sales
+823,JY7790,2025-10-09,2005,Kubota,M8-211,Agricultural,Tractors,NY,Rochester,17812,19593,24178,60,3,2,Core Sales
+824,AE4784,2025-08-19,2013,Komatsu,PC210,Heavy Equipment,Excavators,CA,San Diego,27221,29943,33281,51,3,2,Core Sales
+825,HE6714,2025-08-05,1993,Peterbilt,567,Trucks,Dump Trucks,WA,Spokane,44392,48831,48734,87,4,2,Enterprise
+826,JN8866,2025-11-04,1997,Komatsu,WA500,Heavy Equipment,Wheel Loaders,IA,Des Moines,30886,33974,37688,20,1,1,Core Sales
+827,DF3205,2025-09-10,2006,Massey Ferguson,8735,Agricultural,Tractors,CA,Sacramento,31272,34399,34534,20,1,1,Core Sales
+828,MX5127,2025-08-05,2012,Caterpillar,336,Heavy Equipment,Excavators,OH,Cincinnati,3280,3608,6986,17,1,1,Core Sales
+829,LX6693,2025-09-23,1992,Ram,3500,Trucks,Pickup Trucks,CA,Sacramento,44532,48985,50641,95,4,2,Core Sales
+830,JW2987,2025-10-16,1995,Komatsu,WA470,Heavy Equipment,Wheel Loaders,OH,Columbus,25274,27801,29507,78,4,2,Enterprise
+831,RF8149,2025-08-05,2003,Caterpillar,D10,Heavy Equipment,Dozers,MA,Boston,44419,48860,52101,33,2,1,Enterprise
+832,IE5619,2025-11-13,2015,Freightliner,Century,Trucks,Semi Tractors,TX,Houston,49627,54589,56984,17,1,1,Core Sales
+833,PE7430,2025-09-25,2003,John Deere,8370R,Agricultural,Tractors,AR,Little Rock,11813,12994,13833,89,4,2,Enterprise
+834,FO4022,2025-08-26,2010,Komatsu,WA470,Heavy Equipment,Wheel Loaders,GA,Augusta,44527,48979,47518,1,1,1,Enterprise
+835,UX7800,2025-11-04,2009,Peterbilt,389,Trucks,Semi Tractors,IL,Springfield,13741,15115,19721,60,3,2,Core Sales
+836,CB6292,2025-09-16,2016,Hitachi,ZX490,Heavy Equipment,Excavators,WA,Seattle,49399,54338,50211,94,4,2,Enterprise
+837,VA6140,2025-11-06,2016,Volvo,VNR,Trucks,Semi Tractors,CA,Sacramento,11084,12192,11890,79,4,2,Enterprise
+838,SC1956,2025-08-12,2004,Case IH,Magnum 380,Agricultural,Tractors,NY,Rochester,28534,31387,31644,26,2,1,Enterprise
+839,CR1684,2025-09-18,2021,Komatsu,PC210,Heavy Equipment,Excavators,OH,Columbus,24509,26959,28475,89,4,2,Enterprise
+840,XW3072,2025-10-01,2011,Kubota,M7-172,Agricultural,Tractors,FL,Jacksonville,42535,46788,51038,29,2,1,Enterprise
+841,PC7086,2025-11-20,1990,Kenworth,T880,Trucks,Semi Tractors,IN,Indianapolis,11626,12788,15110,95,4,2,Enterprise
+842,UK6440,2025-08-28,2018,Komatsu,PC210,Heavy Equipment,Excavators,OH,Columbus,37963,41759,39044,85,4,2,Enterprise
+843,HE2466,2025-09-17,2000,Case IH,Magnum 340,Agricultural,Tractors,AR,Little Rock,30912,34003,34197,27,2,1,Core Sales
+844,VH8179,2025-09-04,2008,Caterpillar,390,Heavy Equipment,Excavators,MA,Boston,44834,49317,46187,94,4,2,Core Sales
+845,YE2027,2025-09-09,2018,John Deere,X9 1100,Agricultural,Combines,WI,Milwaukee,27036,29739,30974,4,1,1,Enterprise
+846,ZW4356,2025-09-23,2005,Case,2050M,Heavy Equipment,Dozers,MO,St Louis,15639,17202,18219,90,4,2,Core Sales
+847,DC0598,2025-09-25,1993,Peterbilt,567,Trucks,Dump Trucks,TX,San Antonio,12720,13992,18650,87,4,2,Core Sales
+848,NF3602,2025-11-11,2001,Massey Ferguson,8735,Agricultural,Tractors,TX,Dallas,27016,29717,27796,9,1,1,Core Sales
+849,QS4083,2025-09-17,2016,John Deere,8370R,Agricultural,Tractors,PA,Philadelphia,37001,40701,44818,3,1,1,Core Sales
+850,CT2626,2025-11-13,2006,John Deere,DB60,Agricultural,Planters,WI,Milwaukee,42871,47158,47443,31,2,1,Enterprise
+851,EJ8271,2025-08-21,2003,John Deere,DB60,Agricultural,Planters,WA,Spokane,42776,47053,51338,69,3,2,Enterprise
+852,FS7080,2025-11-19,1996,New Holland,T7.270,Agricultural,Tractors,WI,Milwaukee,48241,53065,49915,24,1,1,Core Sales
+853,RA3503,2025-11-26,1993,John Deere,624K,Heavy Equipment,Wheel Loaders,TX,Houston,18905,20795,19109,27,2,1,Core Sales
+854,LM5354,2025-09-03,2005,Ford,F-250,Trucks,Pickup Trucks,NY,Rochester,2777,3054,4017,67,3,2,Enterprise
+855,QS6168,2025-11-13,2005,Freightliner,Cascadia,Trucks,Semi Tractors,FL,Jacksonville,13785,15163,15437,74,3,2,Enterprise
+856,QL3027,2025-09-09,2022,John Deere,DB60,Agricultural,Planters,PA,Pittsburgh,3905,4295,8924,74,3,2,Core Sales
+857,IU8834,2025-08-14,2003,Case IH,Magnum 280,Agricultural,Tractors,PA,Pittsburgh,25882,28470,31392,48,2,1,Core Sales
+858,PP6259,2025-08-28,2019,New Holland,T9.565,Agricultural,Tractors,TN,Memphis,14925,16417,19850,7,1,1,Core Sales
+859,JF7732,2025-09-23,1994,Gleaner,S98,Agricultural,Combines,GA,Augusta,36494,40143,41458,94,4,2,Enterprise
+860,KY8572,2025-08-19,2021,John Deere,DB60,Agricultural,Planters,MA,Boston,41808,45988,49144,42,2,1,Core Sales
+861,CI7514,2025-10-08,1997,Case IH,2150,Agricultural,Planters,CO,Denver,13074,14381,18932,54,3,2,Core Sales
+862,TP3513,2025-08-14,2020,Caterpillar,272D,Heavy Equipment,Skid Steers,TX,Houston,20385,22423,23294,26,2,1,Enterprise
+863,GX9898,2025-10-08,2015,John Deere,6155R,Agricultural,Tractors,WA,Seattle,45466,50012,47051,99,4,2,Enterprise
+864,RH9073,2025-10-15,2008,Caterpillar,289D,Heavy Equipment,Skid Steers,TN,Nashville,30261,33287,34440,96,4,2,Enterprise
+865,VA4447,2025-11-13,2014,Case IH,1255,Agricultural,Planters,FL,Orlando,2370,2607,2541,91,4,2,Core Sales
+866,II5799,2025-08-13,2001,Chevrolet,Silverado 3500,Trucks,Pickup Trucks,IL,Peoria,31295,34424,33201,80,4,2,Enterprise
+867,VZ1658,2025-08-13,2014,Komatsu,D375,Heavy Equipment,Dozers,TX,Houston,26621,29283,33253,25,1,1,Core Sales
+868,WN4883,2025-09-18,2002,Kenworth,T880,Trucks,Semi Tractors,KS,Wichita,31250,34375,38918,98,4,2,Enterprise
+869,JB3635,2025-08-05,1993,Western Star,4700SF,Trucks,Dump Trucks,OH,Cleveland,12280,13508,15199,35,2,1,Core Sales
+870,XR2289,2025-10-07,1997,Gleaner,S98,Agricultural,Combines,IL,Springfield,2574,2831,3890,66,3,2,Enterprise
+871,DD2965,2025-09-11,2016,Chevrolet,Silverado 3500,Trucks,Pickup Trucks,PA,Pittsburgh,19272,21199,19871,53,3,2,Enterprise
+872,MT3665,2025-08-20,2011,Komatsu,WA380,Heavy Equipment,Wheel Loaders,AZ,Tucson,7943,8737,9966,50,2,1,Core Sales
+873,JA6684,2025-10-01,1993,Ram,2500,Trucks,Pickup Trucks,NV,Las Vegas,13412,14753,14825,62,3,2,Enterprise
+874,FL9397,2025-09-30,1991,Case IH,1255,Agricultural,Planters,NV,Las Vegas,25383,27921,30812,29,2,1,Core Sales
+875,VE7908,2025-10-08,2005,Kenworth,T680,Trucks,Semi Tractors,FL,Orlando,46786,51464,55971,40,2,1,Core Sales
+876,WD9980,2025-10-30,2002,Komatsu,D375,Heavy Equipment,Dozers,TX,Houston,34884,38372,34913,13,1,1,Enterprise
+877,WX0262,2025-09-16,2017,John Deere,644K,Heavy Equipment,Wheel Loaders,MN,Minneapolis,46145,50759,49432,50,2,1,Enterprise
+878,YM2036,2025-10-23,1992,John Deere,470G,Heavy Equipment,Excavators,OH,Columbus,30287,33315,37168,96,4,2,Core Sales
+879,WM8502,2025-08-27,2000,Volvo,EC220,Heavy Equipment,Excavators,IA,Des Moines,15045,16549,15213,66,3,2,Enterprise
+880,SF0216,2025-09-11,1990,Kenworth,W900,Trucks,Semi Tractors,CA,San Francisco,2333,2566,5735,24,1,1,Core Sales
+881,JV4431,2025-11-11,1993,Volvo,L150H,Heavy Equipment,Wheel Loaders,NY,Rochester,32049,35253,37941,24,1,1,Core Sales
+882,BQ5316,2025-10-21,2011,Massey Ferguson,8737,Agricultural,Tractors,OH,Columbus,21523,23675,24798,96,4,2,Core Sales
+883,VS6091,2025-10-16,2021,Volvo,L220H,Heavy Equipment,Wheel Loaders,WI,Milwaukee,16347,17981,17004,62,3,2,Core Sales
+884,FH8819,2025-09-16,1999,John Deere,1775NT,Agricultural,Planters,IN,Indianapolis,33073,36380,35616,46,2,1,Core Sales
+885,BG0615,2025-10-15,2024,Western Star,4700SF,Trucks,Dump Trucks,OH,Cleveland,16761,18437,22701,95,4,2,Core Sales
+886,OB9262,2025-08-21,2004,Kubota,M8-211,Agricultural,Tractors,NY,Rochester,37473,41220,39975,28,2,1,Core Sales
+887,US0694,2025-10-08,2005,Chevrolet,Silverado 2500,Trucks,Pickup Trucks,IL,Peoria,39911,43902,40241,39,2,1,Core Sales
+888,XE2107,2025-09-16,2004,John Deere,1775NT,Agricultural,Planters,CA,San Francisco,15682,17250,20255,39,2,1,Core Sales
+889,CQ2081,2025-08-13,2003,John Deere,S780,Agricultural,Combines,NY,New York,33441,36785,35036,34,2,1,Core Sales
+890,XN0288,2025-08-12,2006,John Deere,332G,Heavy Equipment,Skid Steers,IL,Peoria,34837,38320,36698,77,4,2,Core Sales
+891,NK1186,2025-08-20,2016,John Deere,DB60,Agricultural,Planters,WI,Milwaukee,21879,24066,27706,26,2,1,Core Sales
+892,IO5275,2025-09-10,2000,Kenworth,T880,Trucks,Dump Trucks,NY,Buffalo,42087,46295,43025,3,1,1,Enterprise
+893,UY4247,2025-11-13,2021,Freightliner,Columbia,Trucks,Semi Tractors,PA,Pittsburgh,20790,22869,22158,15,1,1,Enterprise
+894,PJ6701,2025-10-22,2002,Volvo,EC220,Heavy Equipment,Excavators,MO,St Louis,10267,11293,15504,22,1,1,Enterprise
+895,BV2611,2025-11-04,1998,John Deere,350G,Heavy Equipment,Excavators,IL,Peoria,24033,26436,26870,19,1,1,Enterprise
+896,DZ7740,2025-09-04,2011,Massey Ferguson,8737,Agricultural,Tractors,TN,Nashville,24134,26547,29973,5,1,1,Enterprise
+897,JY7848,2025-08-21,2024,Caterpillar,390,Heavy Equipment,Excavators,WI,Milwaukee,20915,23006,26214,49,2,1,Core Sales
+898,WK7391,2025-10-29,2015,Case IH,1255,Agricultural,Planters,TX,Houston,12790,14069,14977,95,4,2,Enterprise
+899,BX3456,2025-11-20,2014,Bobcat,T650,Heavy Equipment,Skid Steers,OH,Cleveland,6901,7591,11369,44,2,1,Core Sales
+900,SA9982,2025-08-06,2002,Case,1650M,Heavy Equipment,Dozers,WI,Milwaukee,28212,31033,32666,84,4,2,Core Sales
+901,HY6037,2025-11-27,2020,John Deere,S780,Agricultural,Combines,WA,Seattle,28861,31747,29119,34,2,1,Enterprise
+902,YI6484,2025-11-06,2023,John Deere,S780,Agricultural,Combines,IA,Des Moines,44123,48535,52461,69,3,2,Core Sales
+903,LN2321,2025-11-18,2015,Kenworth,T880,Trucks,Dump Trucks,NC,Raleigh,43305,47635,45260,19,1,1,Core Sales
+904,FM2418,2025-08-27,1990,Gleaner,S98,Agricultural,Combines,FL,Tampa,25294,27823,26602,64,3,2,Enterprise
+905,RN2384,2025-08-13,1998,Kenworth,T880,Trucks,Dump Trucks,GA,Augusta,38398,42237,39046,77,4,2,Core Sales
+906,SI9736,2025-08-27,2013,Massey Ferguson,8735,Agricultural,Tractors,MI,Detroit,18993,20892,22048,75,3,2,Enterprise
+907,SX2789,2025-09-18,2009,Case,SR270,Heavy Equipment,Skid Steers,OH,Columbus,5867,6453,10378,70,3,2,Core Sales
+908,BI2518,2025-10-16,2024,John Deere,1775NT,Agricultural,Planters,TX,Austin,9301,10231,11276,12,1,1,Enterprise
+909,VR9939,2025-10-22,2000,Kenworth,T880,Trucks,Semi Tractors,GA,Savannah,48633,53496,53154,33,2,1,Enterprise
+910,VF3425,2025-10-30,1994,Volvo,L220H,Heavy Equipment,Wheel Loaders,NY,New York,27325,30057,27463,36,2,1,Core Sales
+911,ZE0380,2025-08-07,2020,Kenworth,W900,Trucks,Semi Tractors,GA,Atlanta,35678,39245,43466,52,3,2,Core Sales
+912,CM8161,2025-08-27,2023,Freightliner,Cascadia,Trucks,Semi Tractors,NC,Charlotte,2685,2953,5289,70,3,2,Enterprise
+913,EQ0419,2025-08-26,2002,John Deere,1775NT,Agricultural,Planters,CA,San Diego,41721,45893,45931,10,1,1,Core Sales
+914,EJ4449,2025-08-06,1991,Bobcat,T650,Heavy Equipment,Skid Steers,OH,Cleveland,46863,51549,49393,91,4,2,Enterprise
+915,RB3573,2025-11-12,2006,Kenworth,T880,Trucks,Dump Trucks,NY,Rochester,31599,34758,32443,70,3,2,Core Sales
+916,DD4152,2025-09-11,2024,Ford,F-250,Trucks,Pickup Trucks,WA,Seattle,16694,18363,21307,95,4,2,Enterprise
+917,VN9396,2025-11-12,2018,Caterpillar,962M,Heavy Equipment,Wheel Loaders,WA,Seattle,49120,54032,50674,60,3,2,Core Sales
+918,SR2191,2025-11-18,2014,Case,SV340,Heavy Equipment,Skid Steers,OK,Oklahoma City,4173,4590,6938,30,2,1,Core Sales
+919,QN9645,2025-10-01,2024,Western Star,4700SF,Trucks,Dump Trucks,IL,Chicago,28664,31530,34193,51,3,2,Core Sales
+920,JR9947,2025-11-20,1997,Kenworth,T880,Trucks,Dump Trucks,NY,Buffalo,3770,4147,4722,20,1,1,Enterprise
+921,FY2593,2025-11-06,2006,Ram,2500,Trucks,Pickup Trucks,TX,Dallas,47673,52440,54956,21,1,1,Enterprise
+922,VV8900,2025-11-13,2006,Case IH,8250,Agricultural,Combines,IL,Springfield,27629,30391,30283,14,1,1,Core Sales
+923,XD4135,2025-11-04,2017,John Deere,DB60,Agricultural,Planters,MN,Minneapolis,40406,44446,42198,59,3,2,Enterprise
+924,AJ7382,2025-08-27,2022,Freightliner,Cascadia,Trucks,Semi Tractors,KS,Wichita,15039,16542,16455,78,4,2,Core Sales
+925,HS5532,2025-09-16,1995,John Deere,1775NT,Agricultural,Planters,OR,Portland,3464,3810,6532,6,1,1,Core Sales
+926,DH7151,2025-11-12,2001,Volvo,L220H,Heavy Equipment,Wheel Loaders,MA,Boston,46135,50748,54014,6,1,1,Core Sales
+927,KW1212,2025-10-02,1999,New Holland,CR8.90,Agricultural,Combines,TX,Houston,49743,54717,51879,9,1,1,Core Sales
+928,PA3792,2025-11-19,2009,New Holland,T8.380,Agricultural,Tractors,IN,Indianapolis,30835,33918,38887,8,1,1,Core Sales
+929,VW6265,2025-08-13,1997,Peterbilt,567,Trucks,Dump Trucks,GA,Savannah,5234,5757,7742,40,2,1,Core Sales
+930,TZ5306,2025-09-04,2015,Kenworth,W900,Trucks,Semi Tractors,TN,Nashville,32667,35933,33193,55,3,2,Enterprise
+931,PV0233,2025-10-23,2003,Kenworth,T680,Trucks,Semi Tractors,NV,Las Vegas,25676,28243,26947,15,1,1,Core Sales
+932,OH4279,2025-11-20,1992,Kenworth,T880,Trucks,Dump Trucks,WA,Seattle,44943,49437,46321,80,4,2,Core Sales
+933,SB9088,2025-08-19,1994,Gleaner,S98,Agricultural,Combines,OH,Cleveland,28398,31237,35213,23,1,1,Enterprise
+934,AX4293,2025-08-07,2005,Ram,3500,Trucks,Pickup Trucks,IL,Chicago,31473,34620,39330,24,1,1,Enterprise
+935,JK6590,2025-08-20,1992,Case,850M,Heavy Equipment,Dozers,MA,Boston,39006,42906,44083,39,2,1,Enterprise
+936,NQ2879,2025-09-03,2017,Ford,F-250,Trucks,Pickup Trucks,IN,Indianapolis,17173,18890,18793,52,3,2,Enterprise
+937,OZ4893,2025-09-30,2006,Ram,3500,Trucks,Pickup Trucks,WA,Seattle,44672,49139,50740,79,4,2,Enterprise
+938,HJ4376,2025-11-25,2007,Peterbilt,579,Trucks,Semi Tractors,NY,Rochester,42074,46281,46482,19,1,1,Core Sales
+939,QW3122,2025-08-05,2002,Ford,F-350,Trucks,Pickup Trucks,PA,Philadelphia,25536,28089,29591,44,2,1,Core Sales
+940,JG7353,2025-11-04,2010,Case,SV340,Heavy Equipment,Skid Steers,MA,Boston,5612,6173,6071,11,1,1,Enterprise
+941,TH0442,2025-11-12,2016,Kenworth,T880,Trucks,Dump Trucks,PA,Philadelphia,25362,27898,28518,45,2,1,Core Sales
+942,AY7669,2025-08-13,2006,Gleaner,S98,Agricultural,Combines,NY,Rochester,36037,39640,40771,46,2,1,Enterprise
+943,YB1392,2025-11-06,2004,Volvo,EC380,Heavy Equipment,Excavators,MN,Minneapolis,31624,34786,37662,40,2,1,Enterprise
+944,GT8715,2025-09-03,2009,New Holland,T7.270,Agricultural,Tractors,OH,Cleveland,29047,31951,31872,12,1,1,Enterprise
+945,DJ2216,2025-10-22,2009,Case,SV340,Heavy Equipment,Skid Steers,TX,Austin,30734,33807,35405,78,4,2,Core Sales
+946,PY5180,2025-08-21,2012,Ford,F-350,Trucks,Pickup Trucks,KS,Wichita,31029,34131,35415,86,4,2,Core Sales
+947,OQ5245,2025-10-22,1993,Caterpillar,D7,Heavy Equipment,Dozers,OH,Cincinnati,33837,37220,36563,31,2,1,Enterprise
+948,RP3038,2025-08-13,2017,Volvo,EC300,Heavy Equipment,Excavators,AZ,Phoenix,44087,48495,53254,33,2,1,Core Sales
+949,CG4297,2025-11-18,1995,Komatsu,WA470,Heavy Equipment,Wheel Loaders,PA,Philadelphia,27573,30330,34244,41,2,1,Core Sales
+950,NU2591,2025-09-16,1991,Peterbilt,348,Trucks,Dump Trucks,WI,Milwaukee,3869,4255,7601,30,2,1,Enterprise
+951,ZO9226,2025-08-20,2017,Case IH,1255,Agricultural,Planters,CA,Sacramento,44659,49124,48529,54,3,2,Enterprise
+952,DN7442,2025-10-09,2022,Case IH,2150,Agricultural,Planters,NE,Omaha,28446,31290,29748,48,2,1,Core Sales
+953,JK4049,2025-11-18,2017,Gleaner,S98,Agricultural,Combines,NY,Rochester,23557,25912,26170,96,4,2,Core Sales
+954,SL9695,2025-10-09,2006,John Deere,950K,Heavy Equipment,Dozers,MN,Minneapolis,21604,23764,22457,51,3,2,Core Sales
+955,GN4823,2025-11-13,1993,Volvo,L220H,Heavy Equipment,Wheel Loaders,GA,Savannah,38014,41815,38094,95,4,2,Enterprise
+956,UP7648,2025-09-23,1996,Ram,3500,Trucks,Pickup Trucks,NY,New York,3147,3461,7257,74,3,2,Enterprise
+957,RW1112,2025-10-08,1996,Case,SR250,Heavy Equipment,Skid Steers,FL,Tampa,6218,6839,9974,4,1,1,Enterprise
+958,CT8892,2025-10-21,2004,John Deere,850K,Heavy Equipment,Dozers,TX,Austin,22811,25092,28255,72,3,2,Core Sales
+959,DI9602,2025-11-20,2008,John Deere,8370R,Agricultural,Tractors,NY,Rochester,36941,40635,41315,27,2,1,Enterprise
+960,EA3592,2025-10-02,1998,Caterpillar,336,Heavy Equipment,Excavators,CA,Los Angeles,35288,38816,42713,70,3,2,Enterprise
+961,GV0682,2025-09-02,2001,Freightliner,Columbia,Trucks,Semi Tractors,AZ,Phoenix,28336,31169,30761,100,4,2,Enterprise
+962,AN1352,2025-10-02,2022,Volvo,VNL,Trucks,Semi Tractors,TX,Houston,14656,16121,15225,41,2,1,Core Sales
+963,ES6402,2025-09-30,2020,Massey Ferguson,8735,Agricultural,Tractors,NC,Raleigh,18881,20769,22536,98,4,2,Core Sales
+964,ZT3170,2025-10-01,2003,Kenworth,T880,Trucks,Dump Trucks,NC,Charlotte,34531,37984,39246,7,1,1,Enterprise
+965,XC3792,2025-11-27,2000,Kubota,M7-172,Agricultural,Tractors,WI,Milwaukee,20312,22343,25932,76,4,2,Enterprise
+966,OI4190,2025-08-14,1991,John Deere,210G,Heavy Equipment,Excavators,TN,Nashville,46093,50702,52670,45,2,1,Core Sales
+967,TB3392,2025-11-06,2001,Peterbilt,389,Trucks,Semi Tractors,WA,Seattle,37713,41484,42482,67,3,2,Enterprise
+968,EV0790,2025-08-20,2024,Volvo,VNR,Trucks,Semi Tractors,AR,Little Rock,13019,14320,13205,82,4,2,Core Sales
+969,PB3570,2025-09-02,1996,Gleaner,S98,Agricultural,Combines,NY,Rochester,35780,39358,37122,10,1,1,Enterprise
+970,JQ9926,2025-10-01,2022,Case,SR270,Heavy Equipment,Skid Steers,OH,Cleveland,22395,24634,24109,90,4,2,Enterprise
+971,TZ5568,2025-09-17,2005,Volvo,VNL,Trucks,Semi Tractors,FL,Orlando,24973,27470,27925,43,2,1,Core Sales
+972,QM1961,2025-08-12,1996,Case,1650M,Heavy Equipment,Dozers,CA,San Diego,25617,28178,30183,98,4,2,Enterprise
+973,JM4894,2025-10-08,2011,Gleaner,S98,Agricultural,Combines,OR,Portland,34019,37420,34070,65,3,2,Enterprise
+974,UY8269,2025-10-01,1998,Chevrolet,Silverado 3500,Trucks,Pickup Trucks,TN,Nashville,29594,32553,30805,20,1,1,Core Sales
+975,NJ1708,2025-11-20,1998,Volvo,VNL,Trucks,Semi Tractors,GA,Savannah,40082,44090,44155,71,3,2,Enterprise
+976,YS9404,2025-08-07,2008,Freightliner,Columbia,Trucks,Semi Tractors,FL,Tampa,4470,4917,9190,34,2,1,Core Sales
+977,WH2191,2025-08-06,1999,Bobcat,T650,Heavy Equipment,Skid Steers,KS,Wichita,31171,34288,35345,49,2,1,Core Sales
+978,TO4996,2025-08-19,2023,Case,SR250,Heavy Equipment,Skid Steers,CA,Sacramento,29939,32932,31058,82,4,2,Core Sales
+979,RF1768,2025-08-13,2013,Case,SR250,Heavy Equipment,Skid Steers,IA,Des Moines,49389,54327,56402,11,1,1,Enterprise
+980,JE9758,2025-10-08,2011,John Deere,724K,Heavy Equipment,Wheel Loaders,IL,Chicago,36775,40452,40435,100,4,2,Core Sales
+981,XT5898,2025-08-27,2005,Gleaner,S98,Agricultural,Combines,PA,Philadelphia,3161,3477,6264,62,3,2,Enterprise
+982,NO0054,2025-10-01,1997,John Deere,DB60,Agricultural,Planters,WA,Seattle,47090,51799,53564,7,1,1,Enterprise
+983,LT8647,2025-09-23,2017,John Deere,6155R,Agricultural,Tractors,WA,Seattle,45411,49952,53363,13,1,1,Enterprise
+984,UA3082,2025-08-26,2008,Kubota,M7-172,Agricultural,Tractors,NY,Rochester,11933,13126,16639,11,1,1,Enterprise
+985,WZ9252,2025-08-12,2023,Mack,Pinnacle,Trucks,Dump Trucks,TN,Nashville,2222,2444,4079,89,4,2,Enterprise
+986,VW9627,2025-08-12,2020,Freightliner,Columbia,Trucks,Semi Tractors,GA,Savannah,46815,51496,54985,55,3,2,Core Sales
+987,DV8677,2025-10-01,1992,Chevrolet,Silverado 2500,Trucks,Pickup Trucks,OR,Portland,40539,44592,44402,22,1,1,Core Sales
+988,QB9161,2025-10-22,2013,Case IH,Magnum 380,Agricultural,Tractors,WI,Milwaukee,36792,40471,39308,28,2,1,Enterprise
+989,IV2783,2025-09-24,2009,Case IH,8250,Agricultural,Combines,KS,Wichita,29851,32836,34798,18,1,1,Core Sales
+990,TQ5480,2025-08-21,2012,Freightliner,Columbia,Trucks,Semi Tractors,TX,Austin,20045,22049,21706,73,3,2,Enterprise
+991,SH2960,2025-10-23,2012,Volvo,VNR,Trucks,Semi Tractors,IN,Indianapolis,11428,12570,12549,46,2,1,Enterprise
+992,NS8685,2025-10-22,2015,John Deere,724K,Heavy Equipment,Wheel Loaders,FL,Jacksonville,12903,14193,19178,3,1,1,Core Sales
+993,UV9581,2025-10-23,2020,Kubota,M8-211,Agricultural,Tractors,AZ,Phoenix,49031,53934,54265,28,2,1,Core Sales
+994,NN5198,2025-09-04,2001,Kubota,M7-172,Agricultural,Tractors,WA,Spokane,46497,51146,51524,98,4,2,Core Sales
+995,NM6129,2025-09-10,2018,Case IH,8250,Agricultural,Combines,NY,Buffalo,9946,10940,15728,55,3,2,Core Sales
+996,VI7715,2025-08-14,2002,Case IH,1255,Agricultural,Planters,AR,Little Rock,34023,37425,40477,93,4,2,Enterprise
+997,YM2390,2025-09-30,2011,Mack,Granite,Trucks,Dump Trucks,NY,New York,28917,31808,31414,69,3,2,Core Sales
+998,LW0818,2025-11-11,2016,Volvo,L120H,Heavy Equipment,Wheel Loaders,NC,Raleigh,38426,42268,42091,23,1,1,Enterprise
+999,LY9715,2025-11-26,1993,Freightliner,Cascadia,Trucks,Semi Tractors,NV,Las Vegas,6158,6773,8765,13,1,1,Core Sales
+1000,JN6351,2025-09-02,2022,Kenworth,T680,Trucks,Semi Tractors,CO,Denver,45441,49985,48402,51,3,2,Enterprise

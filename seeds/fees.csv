@@ -1,0 +1,2728 @@
+fee_id,item_id,fee_type,fee_amount
+1,1,Lot Fee,150
+2,1,Seller Service Fee,200
+3,1,Decal Removal,100
+4,2,Lot Fee,150
+5,2,Seller Service Fee,200
+6,2,Power Washing,225
+7,3,Lot Fee,150
+8,3,Seller Service Fee,200
+9,3,Power Washing,225
+10,3,Decal Removal,100
+11,4,Lot Fee,150
+12,4,Seller Service Fee,200
+13,5,Lot Fee,150
+14,5,Seller Service Fee,200
+15,6,Lot Fee,150
+16,6,Seller Service Fee,200
+17,6,Decal Removal,100
+18,7,Lot Fee,150
+19,7,Seller Service Fee,200
+20,7,Power Washing,225
+21,8,Lot Fee,150
+22,8,Seller Service Fee,200
+23,9,Lot Fee,150
+24,9,Seller Service Fee,200
+25,9,Power Washing,225
+26,10,Lot Fee,150
+27,10,Seller Service Fee,200
+28,10,Power Washing,225
+29,11,Lot Fee,150
+30,11,Seller Service Fee,200
+31,12,Lot Fee,150
+32,12,Seller Service Fee,200
+33,13,Lot Fee,150
+34,13,Seller Service Fee,200
+35,14,Lot Fee,150
+36,14,Seller Service Fee,200
+37,15,Lot Fee,150
+38,15,Seller Service Fee,200
+39,15,Power Washing,225
+40,15,Decal Removal,100
+41,16,Lot Fee,150
+42,16,Seller Service Fee,200
+43,17,Lot Fee,150
+44,17,Seller Service Fee,200
+45,18,Lot Fee,150
+46,18,Seller Service Fee,200
+47,18,Power Washing,225
+48,19,Lot Fee,150
+49,19,Seller Service Fee,200
+50,20,Lot Fee,150
+51,20,Seller Service Fee,200
+52,21,Lot Fee,150
+53,21,Seller Service Fee,200
+54,21,Decal Removal,100
+55,22,Lot Fee,150
+56,22,Seller Service Fee,200
+57,22,Power Washing,225
+58,22,Decal Removal,100
+59,23,Lot Fee,150
+60,23,Seller Service Fee,200
+61,24,Lot Fee,150
+62,24,Seller Service Fee,200
+63,24,Power Washing,225
+64,25,Lot Fee,150
+65,25,Seller Service Fee,200
+66,25,Power Washing,225
+67,25,Decal Removal,100
+68,26,Lot Fee,150
+69,26,Seller Service Fee,200
+70,26,Decal Removal,100
+71,27,Lot Fee,150
+72,27,Seller Service Fee,200
+73,27,Power Washing,225
+74,28,Lot Fee,150
+75,28,Seller Service Fee,200
+76,29,Lot Fee,150
+77,29,Seller Service Fee,200
+78,30,Lot Fee,150
+79,30,Seller Service Fee,200
+80,31,Lot Fee,150
+81,31,Seller Service Fee,200
+82,31,Power Washing,225
+83,32,Lot Fee,150
+84,32,Seller Service Fee,200
+85,33,Lot Fee,150
+86,33,Seller Service Fee,200
+87,33,Power Washing,225
+88,33,Decal Removal,100
+89,34,Lot Fee,150
+90,34,Seller Service Fee,200
+91,34,Decal Removal,100
+92,35,Lot Fee,150
+93,35,Seller Service Fee,200
+94,35,Power Washing,225
+95,36,Lot Fee,150
+96,36,Seller Service Fee,200
+97,37,Lot Fee,150
+98,37,Seller Service Fee,200
+99,38,Lot Fee,150
+100,38,Seller Service Fee,200
+101,38,Power Washing,225
+102,39,Lot Fee,150
+103,39,Seller Service Fee,200
+104,40,Lot Fee,150
+105,40,Seller Service Fee,200
+106,41,Lot Fee,150
+107,41,Seller Service Fee,200
+108,42,Lot Fee,150
+109,42,Seller Service Fee,200
+110,42,Decal Removal,100
+111,43,Lot Fee,150
+112,43,Seller Service Fee,200
+113,43,Decal Removal,100
+114,44,Lot Fee,150
+115,44,Seller Service Fee,200
+116,44,Power Washing,225
+117,44,Decal Removal,100
+118,45,Lot Fee,150
+119,45,Seller Service Fee,200
+120,45,Power Washing,225
+121,46,Lot Fee,150
+122,46,Seller Service Fee,200
+123,46,Power Washing,225
+124,46,Decal Removal,100
+125,47,Lot Fee,150
+126,47,Seller Service Fee,200
+127,47,Decal Removal,100
+128,48,Lot Fee,150
+129,48,Seller Service Fee,200
+130,48,Power Washing,225
+131,48,Decal Removal,100
+132,49,Lot Fee,150
+133,49,Seller Service Fee,200
+134,50,Lot Fee,150
+135,50,Seller Service Fee,200
+136,50,Decal Removal,100
+137,51,Lot Fee,150
+138,51,Seller Service Fee,200
+139,51,Power Washing,225
+140,51,Decal Removal,100
+141,52,Lot Fee,150
+142,52,Seller Service Fee,200
+143,52,Power Washing,225
+144,52,Decal Removal,100
+145,53,Lot Fee,150
+146,53,Seller Service Fee,200
+147,53,Decal Removal,100
+148,54,Lot Fee,150
+149,54,Seller Service Fee,200
+150,55,Lot Fee,150
+151,55,Seller Service Fee,200
+152,55,Power Washing,225
+153,56,Lot Fee,150
+154,56,Seller Service Fee,200
+155,57,Lot Fee,150
+156,57,Seller Service Fee,200
+157,58,Lot Fee,150
+158,58,Seller Service Fee,200
+159,59,Lot Fee,150
+160,59,Seller Service Fee,200
+161,59,Power Washing,225
+162,60,Lot Fee,150
+163,60,Seller Service Fee,200
+164,61,Lot Fee,150
+165,61,Seller Service Fee,200
+166,61,Power Washing,225
+167,62,Lot Fee,150
+168,62,Seller Service Fee,200
+169,62,Power Washing,225
+170,63,Lot Fee,150
+171,63,Seller Service Fee,200
+172,63,Power Washing,225
+173,63,Decal Removal,100
+174,64,Lot Fee,150
+175,64,Seller Service Fee,200
+176,65,Lot Fee,150
+177,65,Seller Service Fee,200
+178,66,Lot Fee,150
+179,66,Seller Service Fee,200
+180,66,Power Washing,225
+181,67,Lot Fee,150
+182,67,Seller Service Fee,200
+183,67,Decal Removal,100
+184,68,Lot Fee,150
+185,68,Seller Service Fee,200
+186,69,Lot Fee,150
+187,69,Seller Service Fee,200
+188,69,Power Washing,225
+189,70,Lot Fee,150
+190,70,Seller Service Fee,200
+191,70,Decal Removal,100
+192,71,Lot Fee,150
+193,71,Seller Service Fee,200
+194,71,Power Washing,225
+195,72,Lot Fee,150
+196,72,Seller Service Fee,200
+197,72,Power Washing,225
+198,72,Decal Removal,100
+199,73,Lot Fee,150
+200,73,Seller Service Fee,200
+201,74,Lot Fee,150
+202,74,Seller Service Fee,200
+203,75,Lot Fee,150
+204,75,Seller Service Fee,200
+205,76,Lot Fee,150
+206,76,Seller Service Fee,200
+207,76,Power Washing,225
+208,77,Lot Fee,150
+209,77,Seller Service Fee,200
+210,77,Power Washing,225
+211,77,Decal Removal,100
+212,78,Lot Fee,150
+213,78,Seller Service Fee,200
+214,78,Power Washing,225
+215,79,Lot Fee,150
+216,79,Seller Service Fee,200
+217,80,Lot Fee,150
+218,80,Seller Service Fee,200
+219,81,Lot Fee,150
+220,81,Seller Service Fee,200
+221,81,Decal Removal,100
+222,82,Lot Fee,150
+223,82,Seller Service Fee,200
+224,82,Power Washing,225
+225,82,Decal Removal,100
+226,83,Lot Fee,150
+227,83,Seller Service Fee,200
+228,84,Lot Fee,150
+229,84,Seller Service Fee,200
+230,85,Lot Fee,150
+231,85,Seller Service Fee,200
+232,85,Decal Removal,100
+233,86,Lot Fee,150
+234,86,Seller Service Fee,200
+235,86,Power Washing,225
+236,87,Lot Fee,150
+237,87,Seller Service Fee,200
+238,88,Lot Fee,150
+239,88,Seller Service Fee,200
+240,88,Decal Removal,100
+241,89,Lot Fee,150
+242,89,Seller Service Fee,200
+243,89,Power Washing,225
+244,90,Lot Fee,150
+245,90,Seller Service Fee,200
+246,91,Lot Fee,150
+247,91,Seller Service Fee,200
+248,91,Power Washing,225
+249,92,Lot Fee,150
+250,92,Seller Service Fee,200
+251,92,Power Washing,225
+252,92,Decal Removal,100
+253,93,Lot Fee,150
+254,93,Seller Service Fee,200
+255,93,Power Washing,225
+256,94,Lot Fee,150
+257,94,Seller Service Fee,200
+258,94,Power Washing,225
+259,95,Lot Fee,150
+260,95,Seller Service Fee,200
+261,96,Lot Fee,150
+262,96,Seller Service Fee,200
+263,96,Power Washing,225
+264,97,Lot Fee,150
+265,97,Seller Service Fee,200
+266,97,Power Washing,225
+267,97,Decal Removal,100
+268,98,Lot Fee,150
+269,98,Seller Service Fee,200
+270,98,Power Washing,225
+271,99,Lot Fee,150
+272,99,Seller Service Fee,200
+273,99,Power Washing,225
+274,100,Lot Fee,150
+275,100,Seller Service Fee,200
+276,101,Lot Fee,150
+277,101,Seller Service Fee,200
+278,101,Decal Removal,100
+279,102,Lot Fee,150
+280,102,Seller Service Fee,200
+281,103,Lot Fee,150
+282,103,Seller Service Fee,200
+283,103,Decal Removal,100
+284,104,Lot Fee,150
+285,104,Seller Service Fee,200
+286,104,Decal Removal,100
+287,105,Lot Fee,150
+288,105,Seller Service Fee,200
+289,105,Power Washing,225
+290,105,Decal Removal,100
+291,106,Lot Fee,150
+292,106,Seller Service Fee,200
+293,106,Power Washing,225
+294,106,Decal Removal,100
+295,107,Lot Fee,150
+296,107,Seller Service Fee,200
+297,107,Power Washing,225
+298,108,Lot Fee,150
+299,108,Seller Service Fee,200
+300,109,Lot Fee,150
+301,109,Seller Service Fee,200
+302,109,Power Washing,225
+303,109,Decal Removal,100
+304,110,Lot Fee,150
+305,110,Seller Service Fee,200
+306,110,Power Washing,225
+307,111,Lot Fee,150
+308,111,Seller Service Fee,200
+309,112,Lot Fee,150
+310,112,Seller Service Fee,200
+311,113,Lot Fee,150
+312,113,Seller Service Fee,200
+313,113,Power Washing,225
+314,114,Lot Fee,150
+315,114,Seller Service Fee,200
+316,115,Lot Fee,150
+317,115,Seller Service Fee,200
+318,115,Power Washing,225
+319,116,Lot Fee,150
+320,116,Seller Service Fee,200
+321,116,Power Washing,225
+322,116,Decal Removal,100
+323,117,Lot Fee,150
+324,117,Seller Service Fee,200
+325,118,Lot Fee,150
+326,118,Seller Service Fee,200
+327,118,Power Washing,225
+328,118,Decal Removal,100
+329,119,Lot Fee,150
+330,119,Seller Service Fee,200
+331,119,Power Washing,225
+332,120,Lot Fee,150
+333,120,Seller Service Fee,200
+334,120,Power Washing,225
+335,121,Lot Fee,150
+336,121,Seller Service Fee,200
+337,121,Power Washing,225
+338,122,Lot Fee,150
+339,122,Seller Service Fee,200
+340,122,Power Washing,225
+341,123,Lot Fee,150
+342,123,Seller Service Fee,200
+343,123,Power Washing,225
+344,123,Decal Removal,100
+345,124,Lot Fee,150
+346,124,Seller Service Fee,200
+347,124,Power Washing,225
+348,125,Lot Fee,150
+349,125,Seller Service Fee,200
+350,126,Lot Fee,150
+351,126,Seller Service Fee,200
+352,127,Lot Fee,150
+353,127,Seller Service Fee,200
+354,127,Power Washing,225
+355,128,Lot Fee,150
+356,128,Seller Service Fee,200
+357,128,Power Washing,225
+358,128,Decal Removal,100
+359,129,Lot Fee,150
+360,129,Seller Service Fee,200
+361,129,Power Washing,225
+362,130,Lot Fee,150
+363,130,Seller Service Fee,200
+364,131,Lot Fee,150
+365,131,Seller Service Fee,200
+366,131,Decal Removal,100
+367,132,Lot Fee,150
+368,132,Seller Service Fee,200
+369,132,Power Washing,225
+370,133,Lot Fee,150
+371,133,Seller Service Fee,200
+372,134,Lot Fee,150
+373,134,Seller Service Fee,200
+374,135,Lot Fee,150
+375,135,Seller Service Fee,200
+376,135,Power Washing,225
+377,135,Decal Removal,100
+378,136,Lot Fee,150
+379,136,Seller Service Fee,200
+380,137,Lot Fee,150
+381,137,Seller Service Fee,200
+382,137,Decal Removal,100
+383,138,Lot Fee,150
+384,138,Seller Service Fee,200
+385,139,Lot Fee,150
+386,139,Seller Service Fee,200
+387,139,Power Washing,225
+388,140,Lot Fee,150
+389,140,Seller Service Fee,200
+390,140,Power Washing,225
+391,141,Lot Fee,150
+392,141,Seller Service Fee,200
+393,141,Power Washing,225
+394,142,Lot Fee,150
+395,142,Seller Service Fee,200
+396,143,Lot Fee,150
+397,143,Seller Service Fee,200
+398,143,Decal Removal,100
+399,144,Lot Fee,150
+400,144,Seller Service Fee,200
+401,145,Lot Fee,150
+402,145,Seller Service Fee,200
+403,146,Lot Fee,150
+404,146,Seller Service Fee,200
+405,146,Power Washing,225
+406,146,Decal Removal,100
+407,147,Lot Fee,150
+408,147,Seller Service Fee,200
+409,148,Lot Fee,150
+410,148,Seller Service Fee,200
+411,148,Power Washing,225
+412,149,Lot Fee,150
+413,149,Seller Service Fee,200
+414,149,Power Washing,225
+415,150,Lot Fee,150
+416,150,Seller Service Fee,200
+417,151,Lot Fee,150
+418,151,Seller Service Fee,200
+419,152,Lot Fee,150
+420,152,Seller Service Fee,200
+421,153,Lot Fee,150
+422,153,Seller Service Fee,200
+423,154,Lot Fee,150
+424,154,Seller Service Fee,200
+425,155,Lot Fee,150
+426,155,Seller Service Fee,200
+427,156,Lot Fee,150
+428,156,Seller Service Fee,200
+429,156,Decal Removal,100
+430,157,Lot Fee,150
+431,157,Seller Service Fee,200
+432,158,Lot Fee,150
+433,158,Seller Service Fee,200
+434,159,Lot Fee,150
+435,159,Seller Service Fee,200
+436,160,Lot Fee,150
+437,160,Seller Service Fee,200
+438,161,Lot Fee,150
+439,161,Seller Service Fee,200
+440,162,Lot Fee,150
+441,162,Seller Service Fee,200
+442,163,Lot Fee,150
+443,163,Seller Service Fee,200
+444,163,Power Washing,225
+445,164,Lot Fee,150
+446,164,Seller Service Fee,200
+447,164,Decal Removal,100
+448,165,Lot Fee,150
+449,165,Seller Service Fee,200
+450,166,Lot Fee,150
+451,166,Seller Service Fee,200
+452,167,Lot Fee,150
+453,167,Seller Service Fee,200
+454,167,Decal Removal,100
+455,168,Lot Fee,150
+456,168,Seller Service Fee,200
+457,168,Power Washing,225
+458,169,Lot Fee,150
+459,169,Seller Service Fee,200
+460,169,Power Washing,225
+461,169,Decal Removal,100
+462,170,Lot Fee,150
+463,170,Seller Service Fee,200
+464,170,Decal Removal,100
+465,171,Lot Fee,150
+466,171,Seller Service Fee,200
+467,172,Lot Fee,150
+468,172,Seller Service Fee,200
+469,173,Lot Fee,150
+470,173,Seller Service Fee,200
+471,173,Power Washing,225
+472,174,Lot Fee,150
+473,174,Seller Service Fee,200
+474,174,Power Washing,225
+475,175,Lot Fee,150
+476,175,Seller Service Fee,200
+477,175,Power Washing,225
+478,176,Lot Fee,150
+479,176,Seller Service Fee,200
+480,177,Lot Fee,150
+481,177,Seller Service Fee,200
+482,178,Lot Fee,150
+483,178,Seller Service Fee,200
+484,179,Lot Fee,150
+485,179,Seller Service Fee,200
+486,180,Lot Fee,150
+487,180,Seller Service Fee,200
+488,181,Lot Fee,150
+489,181,Seller Service Fee,200
+490,182,Lot Fee,150
+491,182,Seller Service Fee,200
+492,182,Power Washing,225
+493,183,Lot Fee,150
+494,183,Seller Service Fee,200
+495,183,Decal Removal,100
+496,184,Lot Fee,150
+497,184,Seller Service Fee,200
+498,185,Lot Fee,150
+499,185,Seller Service Fee,200
+500,186,Lot Fee,150
+501,186,Seller Service Fee,200
+502,186,Decal Removal,100
+503,187,Lot Fee,150
+504,187,Seller Service Fee,200
+505,188,Lot Fee,150
+506,188,Seller Service Fee,200
+507,188,Power Washing,225
+508,188,Decal Removal,100
+509,189,Lot Fee,150
+510,189,Seller Service Fee,200
+511,190,Lot Fee,150
+512,190,Seller Service Fee,200
+513,191,Lot Fee,150
+514,191,Seller Service Fee,200
+515,191,Decal Removal,100
+516,192,Lot Fee,150
+517,192,Seller Service Fee,200
+518,192,Power Washing,225
+519,193,Lot Fee,150
+520,193,Seller Service Fee,200
+521,193,Power Washing,225
+522,193,Decal Removal,100
+523,194,Lot Fee,150
+524,194,Seller Service Fee,200
+525,195,Lot Fee,150
+526,195,Seller Service Fee,200
+527,195,Power Washing,225
+528,195,Decal Removal,100
+529,196,Lot Fee,150
+530,196,Seller Service Fee,200
+531,196,Decal Removal,100
+532,197,Lot Fee,150
+533,197,Seller Service Fee,200
+534,197,Power Washing,225
+535,198,Lot Fee,150
+536,198,Seller Service Fee,200
+537,198,Power Washing,225
+538,198,Decal Removal,100
+539,199,Lot Fee,150
+540,199,Seller Service Fee,200
+541,200,Lot Fee,150
+542,200,Seller Service Fee,200
+543,200,Power Washing,225
+544,201,Lot Fee,150
+545,201,Seller Service Fee,200
+546,201,Power Washing,225
+547,202,Lot Fee,150
+548,202,Seller Service Fee,200
+549,202,Power Washing,225
+550,203,Lot Fee,150
+551,203,Seller Service Fee,200
+552,204,Lot Fee,150
+553,204,Seller Service Fee,200
+554,205,Lot Fee,150
+555,205,Seller Service Fee,200
+556,206,Lot Fee,150
+557,206,Seller Service Fee,200
+558,206,Power Washing,225
+559,207,Lot Fee,150
+560,207,Seller Service Fee,200
+561,208,Lot Fee,150
+562,208,Seller Service Fee,200
+563,208,Power Washing,225
+564,209,Lot Fee,150
+565,209,Seller Service Fee,200
+566,210,Lot Fee,150
+567,210,Seller Service Fee,200
+568,210,Power Washing,225
+569,211,Lot Fee,150
+570,211,Seller Service Fee,200
+571,211,Decal Removal,100
+572,212,Lot Fee,150
+573,212,Seller Service Fee,200
+574,212,Decal Removal,100
+575,213,Lot Fee,150
+576,213,Seller Service Fee,200
+577,213,Decal Removal,100
+578,214,Lot Fee,150
+579,214,Seller Service Fee,200
+580,214,Power Washing,225
+581,214,Decal Removal,100
+582,215,Lot Fee,150
+583,215,Seller Service Fee,200
+584,215,Power Washing,225
+585,216,Lot Fee,150
+586,216,Seller Service Fee,200
+587,217,Lot Fee,150
+588,217,Seller Service Fee,200
+589,217,Power Washing,225
+590,218,Lot Fee,150
+591,218,Seller Service Fee,200
+592,219,Lot Fee,150
+593,219,Seller Service Fee,200
+594,219,Power Washing,225
+595,219,Decal Removal,100
+596,220,Lot Fee,150
+597,220,Seller Service Fee,200
+598,221,Lot Fee,150
+599,221,Seller Service Fee,200
+600,222,Lot Fee,150
+601,222,Seller Service Fee,200
+602,222,Power Washing,225
+603,222,Decal Removal,100
+604,223,Lot Fee,150
+605,223,Seller Service Fee,200
+606,223,Decal Removal,100
+607,224,Lot Fee,150
+608,224,Seller Service Fee,200
+609,225,Lot Fee,150
+610,225,Seller Service Fee,200
+611,225,Power Washing,225
+612,225,Decal Removal,100
+613,226,Lot Fee,150
+614,226,Seller Service Fee,200
+615,226,Power Washing,225
+616,227,Lot Fee,150
+617,227,Seller Service Fee,200
+618,228,Lot Fee,150
+619,228,Seller Service Fee,200
+620,228,Power Washing,225
+621,229,Lot Fee,150
+622,229,Seller Service Fee,200
+623,229,Power Washing,225
+624,229,Decal Removal,100
+625,230,Lot Fee,150
+626,230,Seller Service Fee,200
+627,230,Decal Removal,100
+628,231,Lot Fee,150
+629,231,Seller Service Fee,200
+630,231,Power Washing,225
+631,232,Lot Fee,150
+632,232,Seller Service Fee,200
+633,233,Lot Fee,150
+634,233,Seller Service Fee,200
+635,233,Power Washing,225
+636,234,Lot Fee,150
+637,234,Seller Service Fee,200
+638,234,Decal Removal,100
+639,235,Lot Fee,150
+640,235,Seller Service Fee,200
+641,236,Lot Fee,150
+642,236,Seller Service Fee,200
+643,236,Power Washing,225
+644,237,Lot Fee,150
+645,237,Seller Service Fee,200
+646,238,Lot Fee,150
+647,238,Seller Service Fee,200
+648,238,Power Washing,225
+649,239,Lot Fee,150
+650,239,Seller Service Fee,200
+651,239,Decal Removal,100
+652,240,Lot Fee,150
+653,240,Seller Service Fee,200
+654,241,Lot Fee,150
+655,241,Seller Service Fee,200
+656,242,Lot Fee,150
+657,242,Seller Service Fee,200
+658,242,Power Washing,225
+659,243,Lot Fee,150
+660,243,Seller Service Fee,200
+661,244,Lot Fee,150
+662,244,Seller Service Fee,200
+663,245,Lot Fee,150
+664,245,Seller Service Fee,200
+665,246,Lot Fee,150
+666,246,Seller Service Fee,200
+667,247,Lot Fee,150
+668,247,Seller Service Fee,200
+669,247,Power Washing,225
+670,248,Lot Fee,150
+671,248,Seller Service Fee,200
+672,248,Power Washing,225
+673,249,Lot Fee,150
+674,249,Seller Service Fee,200
+675,250,Lot Fee,150
+676,250,Seller Service Fee,200
+677,250,Power Washing,225
+678,251,Lot Fee,150
+679,251,Seller Service Fee,200
+680,252,Lot Fee,150
+681,252,Seller Service Fee,200
+682,252,Power Washing,225
+683,253,Lot Fee,150
+684,253,Seller Service Fee,200
+685,253,Power Washing,225
+686,253,Decal Removal,100
+687,254,Lot Fee,150
+688,254,Seller Service Fee,200
+689,254,Power Washing,225
+690,254,Decal Removal,100
+691,255,Lot Fee,150
+692,255,Seller Service Fee,200
+693,255,Power Washing,225
+694,256,Lot Fee,150
+695,256,Seller Service Fee,200
+696,257,Lot Fee,150
+697,257,Seller Service Fee,200
+698,257,Power Washing,225
+699,258,Lot Fee,150
+700,258,Seller Service Fee,200
+701,258,Power Washing,225
+702,259,Lot Fee,150
+703,259,Seller Service Fee,200
+704,259,Decal Removal,100
+705,260,Lot Fee,150
+706,260,Seller Service Fee,200
+707,260,Decal Removal,100
+708,261,Lot Fee,150
+709,261,Seller Service Fee,200
+710,262,Lot Fee,150
+711,262,Seller Service Fee,200
+712,262,Power Washing,225
+713,263,Lot Fee,150
+714,263,Seller Service Fee,200
+715,263,Decal Removal,100
+716,264,Lot Fee,150
+717,264,Seller Service Fee,200
+718,265,Lot Fee,150
+719,265,Seller Service Fee,200
+720,266,Lot Fee,150
+721,266,Seller Service Fee,200
+722,266,Decal Removal,100
+723,267,Lot Fee,150
+724,267,Seller Service Fee,200
+725,268,Lot Fee,150
+726,268,Seller Service Fee,200
+727,268,Decal Removal,100
+728,269,Lot Fee,150
+729,269,Seller Service Fee,200
+730,270,Lot Fee,150
+731,270,Seller Service Fee,200
+732,271,Lot Fee,150
+733,271,Seller Service Fee,200
+734,271,Power Washing,225
+735,271,Decal Removal,100
+736,272,Lot Fee,150
+737,272,Seller Service Fee,200
+738,272,Decal Removal,100
+739,273,Lot Fee,150
+740,273,Seller Service Fee,200
+741,274,Lot Fee,150
+742,274,Seller Service Fee,200
+743,275,Lot Fee,150
+744,275,Seller Service Fee,200
+745,276,Lot Fee,150
+746,276,Seller Service Fee,200
+747,277,Lot Fee,150
+748,277,Seller Service Fee,200
+749,278,Lot Fee,150
+750,278,Seller Service Fee,200
+751,278,Power Washing,225
+752,278,Decal Removal,100
+753,279,Lot Fee,150
+754,279,Seller Service Fee,200
+755,279,Power Washing,225
+756,279,Decal Removal,100
+757,280,Lot Fee,150
+758,280,Seller Service Fee,200
+759,280,Decal Removal,100
+760,281,Lot Fee,150
+761,281,Seller Service Fee,200
+762,281,Power Washing,225
+763,281,Decal Removal,100
+764,282,Lot Fee,150
+765,282,Seller Service Fee,200
+766,282,Power Washing,225
+767,282,Decal Removal,100
+768,283,Lot Fee,150
+769,283,Seller Service Fee,200
+770,284,Lot Fee,150
+771,284,Seller Service Fee,200
+772,284,Power Washing,225
+773,285,Lot Fee,150
+774,285,Seller Service Fee,200
+775,285,Decal Removal,100
+776,286,Lot Fee,150
+777,286,Seller Service Fee,200
+778,286,Power Washing,225
+779,287,Lot Fee,150
+780,287,Seller Service Fee,200
+781,288,Lot Fee,150
+782,288,Seller Service Fee,200
+783,288,Decal Removal,100
+784,289,Lot Fee,150
+785,289,Seller Service Fee,200
+786,289,Power Washing,225
+787,290,Lot Fee,150
+788,290,Seller Service Fee,200
+789,290,Power Washing,225
+790,290,Decal Removal,100
+791,291,Lot Fee,150
+792,291,Seller Service Fee,200
+793,291,Decal Removal,100
+794,292,Lot Fee,150
+795,292,Seller Service Fee,200
+796,292,Power Washing,225
+797,293,Lot Fee,150
+798,293,Seller Service Fee,200
+799,293,Power Washing,225
+800,294,Lot Fee,150
+801,294,Seller Service Fee,200
+802,294,Decal Removal,100
+803,295,Lot Fee,150
+804,295,Seller Service Fee,200
+805,296,Lot Fee,150
+806,296,Seller Service Fee,200
+807,297,Lot Fee,150
+808,297,Seller Service Fee,200
+809,298,Lot Fee,150
+810,298,Seller Service Fee,200
+811,298,Power Washing,225
+812,299,Lot Fee,150
+813,299,Seller Service Fee,200
+814,299,Power Washing,225
+815,300,Lot Fee,150
+816,300,Seller Service Fee,200
+817,300,Decal Removal,100
+818,301,Lot Fee,150
+819,301,Seller Service Fee,200
+820,301,Power Washing,225
+821,302,Lot Fee,150
+822,302,Seller Service Fee,200
+823,303,Lot Fee,150
+824,303,Seller Service Fee,200
+825,304,Lot Fee,150
+826,304,Seller Service Fee,200
+827,304,Power Washing,225
+828,305,Lot Fee,150
+829,305,Seller Service Fee,200
+830,306,Lot Fee,150
+831,306,Seller Service Fee,200
+832,306,Power Washing,225
+833,307,Lot Fee,150
+834,307,Seller Service Fee,200
+835,307,Power Washing,225
+836,307,Decal Removal,100
+837,308,Lot Fee,150
+838,308,Seller Service Fee,200
+839,308,Decal Removal,100
+840,309,Lot Fee,150
+841,309,Seller Service Fee,200
+842,309,Power Washing,225
+843,310,Lot Fee,150
+844,310,Seller Service Fee,200
+845,311,Lot Fee,150
+846,311,Seller Service Fee,200
+847,312,Lot Fee,150
+848,312,Seller Service Fee,200
+849,313,Lot Fee,150
+850,313,Seller Service Fee,200
+851,314,Lot Fee,150
+852,314,Seller Service Fee,200
+853,315,Lot Fee,150
+854,315,Seller Service Fee,200
+855,316,Lot Fee,150
+856,316,Seller Service Fee,200
+857,317,Lot Fee,150
+858,317,Seller Service Fee,200
+859,318,Lot Fee,150
+860,318,Seller Service Fee,200
+861,318,Power Washing,225
+862,319,Lot Fee,150
+863,319,Seller Service Fee,200
+864,319,Power Washing,225
+865,320,Lot Fee,150
+866,320,Seller Service Fee,200
+867,321,Lot Fee,150
+868,321,Seller Service Fee,200
+869,321,Power Washing,225
+870,322,Lot Fee,150
+871,322,Seller Service Fee,200
+872,322,Power Washing,225
+873,323,Lot Fee,150
+874,323,Seller Service Fee,200
+875,324,Lot Fee,150
+876,324,Seller Service Fee,200
+877,324,Power Washing,225
+878,325,Lot Fee,150
+879,325,Seller Service Fee,200
+880,325,Power Washing,225
+881,326,Lot Fee,150
+882,326,Seller Service Fee,200
+883,326,Decal Removal,100
+884,327,Lot Fee,150
+885,327,Seller Service Fee,200
+886,328,Lot Fee,150
+887,328,Seller Service Fee,200
+888,328,Decal Removal,100
+889,329,Lot Fee,150
+890,329,Seller Service Fee,200
+891,329,Decal Removal,100
+892,330,Lot Fee,150
+893,330,Seller Service Fee,200
+894,330,Power Washing,225
+895,330,Decal Removal,100
+896,331,Lot Fee,150
+897,331,Seller Service Fee,200
+898,331,Power Washing,225
+899,332,Lot Fee,150
+900,332,Seller Service Fee,200
+901,332,Power Washing,225
+902,332,Decal Removal,100
+903,333,Lot Fee,150
+904,333,Seller Service Fee,200
+905,334,Lot Fee,150
+906,334,Seller Service Fee,200
+907,335,Lot Fee,150
+908,335,Seller Service Fee,200
+909,336,Lot Fee,150
+910,336,Seller Service Fee,200
+911,336,Power Washing,225
+912,336,Decal Removal,100
+913,337,Lot Fee,150
+914,337,Seller Service Fee,200
+915,338,Lot Fee,150
+916,338,Seller Service Fee,200
+917,339,Lot Fee,150
+918,339,Seller Service Fee,200
+919,339,Power Washing,225
+920,340,Lot Fee,150
+921,340,Seller Service Fee,200
+922,340,Power Washing,225
+923,341,Lot Fee,150
+924,341,Seller Service Fee,200
+925,341,Power Washing,225
+926,342,Lot Fee,150
+927,342,Seller Service Fee,200
+928,343,Lot Fee,150
+929,343,Seller Service Fee,200
+930,344,Lot Fee,150
+931,344,Seller Service Fee,200
+932,345,Lot Fee,150
+933,345,Seller Service Fee,200
+934,346,Lot Fee,150
+935,346,Seller Service Fee,200
+936,346,Power Washing,225
+937,346,Decal Removal,100
+938,347,Lot Fee,150
+939,347,Seller Service Fee,200
+940,347,Decal Removal,100
+941,348,Lot Fee,150
+942,348,Seller Service Fee,200
+943,349,Lot Fee,150
+944,349,Seller Service Fee,200
+945,350,Lot Fee,150
+946,350,Seller Service Fee,200
+947,351,Lot Fee,150
+948,351,Seller Service Fee,200
+949,352,Lot Fee,150
+950,352,Seller Service Fee,200
+951,353,Lot Fee,150
+952,353,Seller Service Fee,200
+953,354,Lot Fee,150
+954,354,Seller Service Fee,200
+955,355,Lot Fee,150
+956,355,Seller Service Fee,200
+957,356,Lot Fee,150
+958,356,Seller Service Fee,200
+959,356,Decal Removal,100
+960,357,Lot Fee,150
+961,357,Seller Service Fee,200
+962,358,Lot Fee,150
+963,358,Seller Service Fee,200
+964,359,Lot Fee,150
+965,359,Seller Service Fee,200
+966,359,Decal Removal,100
+967,360,Lot Fee,150
+968,360,Seller Service Fee,200
+969,360,Power Washing,225
+970,360,Decal Removal,100
+971,361,Lot Fee,150
+972,361,Seller Service Fee,200
+973,361,Power Washing,225
+974,361,Decal Removal,100
+975,362,Lot Fee,150
+976,362,Seller Service Fee,200
+977,363,Lot Fee,150
+978,363,Seller Service Fee,200
+979,363,Decal Removal,100
+980,364,Lot Fee,150
+981,364,Seller Service Fee,200
+982,364,Power Washing,225
+983,364,Decal Removal,100
+984,365,Lot Fee,150
+985,365,Seller Service Fee,200
+986,366,Lot Fee,150
+987,366,Seller Service Fee,200
+988,367,Lot Fee,150
+989,367,Seller Service Fee,200
+990,367,Decal Removal,100
+991,368,Lot Fee,150
+992,368,Seller Service Fee,200
+993,368,Power Washing,225
+994,369,Lot Fee,150
+995,369,Seller Service Fee,200
+996,370,Lot Fee,150
+997,370,Seller Service Fee,200
+998,371,Lot Fee,150
+999,371,Seller Service Fee,200
+1000,372,Lot Fee,150
+1001,372,Seller Service Fee,200
+1002,372,Power Washing,225
+1003,373,Lot Fee,150
+1004,373,Seller Service Fee,200
+1005,373,Power Washing,225
+1006,373,Decal Removal,100
+1007,374,Lot Fee,150
+1008,374,Seller Service Fee,200
+1009,374,Decal Removal,100
+1010,375,Lot Fee,150
+1011,375,Seller Service Fee,200
+1012,375,Power Washing,225
+1013,376,Lot Fee,150
+1014,376,Seller Service Fee,200
+1015,376,Power Washing,225
+1016,377,Lot Fee,150
+1017,377,Seller Service Fee,200
+1018,377,Power Washing,225
+1019,378,Lot Fee,150
+1020,378,Seller Service Fee,200
+1021,378,Decal Removal,100
+1022,379,Lot Fee,150
+1023,379,Seller Service Fee,200
+1024,379,Power Washing,225
+1025,380,Lot Fee,150
+1026,380,Seller Service Fee,200
+1027,381,Lot Fee,150
+1028,381,Seller Service Fee,200
+1029,382,Lot Fee,150
+1030,382,Seller Service Fee,200
+1031,383,Lot Fee,150
+1032,383,Seller Service Fee,200
+1033,383,Power Washing,225
+1034,384,Lot Fee,150
+1035,384,Seller Service Fee,200
+1036,384,Power Washing,225
+1037,385,Lot Fee,150
+1038,385,Seller Service Fee,200
+1039,386,Lot Fee,150
+1040,386,Seller Service Fee,200
+1041,386,Power Washing,225
+1042,387,Lot Fee,150
+1043,387,Seller Service Fee,200
+1044,388,Lot Fee,150
+1045,388,Seller Service Fee,200
+1046,388,Power Washing,225
+1047,389,Lot Fee,150
+1048,389,Seller Service Fee,200
+1049,389,Power Washing,225
+1050,390,Lot Fee,150
+1051,390,Seller Service Fee,200
+1052,390,Decal Removal,100
+1053,391,Lot Fee,150
+1054,391,Seller Service Fee,200
+1055,392,Lot Fee,150
+1056,392,Seller Service Fee,200
+1057,392,Power Washing,225
+1058,392,Decal Removal,100
+1059,393,Lot Fee,150
+1060,393,Seller Service Fee,200
+1061,394,Lot Fee,150
+1062,394,Seller Service Fee,200
+1063,394,Decal Removal,100
+1064,395,Lot Fee,150
+1065,395,Seller Service Fee,200
+1066,395,Power Washing,225
+1067,395,Decal Removal,100
+1068,396,Lot Fee,150
+1069,396,Seller Service Fee,200
+1070,396,Decal Removal,100
+1071,397,Lot Fee,150
+1072,397,Seller Service Fee,200
+1073,397,Decal Removal,100
+1074,398,Lot Fee,150
+1075,398,Seller Service Fee,200
+1076,398,Power Washing,225
+1077,398,Decal Removal,100
+1078,399,Lot Fee,150
+1079,399,Seller Service Fee,200
+1080,399,Decal Removal,100
+1081,400,Lot Fee,150
+1082,400,Seller Service Fee,200
+1083,400,Power Washing,225
+1084,400,Decal Removal,100
+1085,401,Lot Fee,150
+1086,401,Seller Service Fee,200
+1087,402,Lot Fee,150
+1088,402,Seller Service Fee,200
+1089,402,Decal Removal,100
+1090,403,Lot Fee,150
+1091,403,Seller Service Fee,200
+1092,403,Power Washing,225
+1093,403,Decal Removal,100
+1094,404,Lot Fee,150
+1095,404,Seller Service Fee,200
+1096,405,Lot Fee,150
+1097,405,Seller Service Fee,200
+1098,405,Power Washing,225
+1099,405,Decal Removal,100
+1100,406,Lot Fee,150
+1101,406,Seller Service Fee,200
+1102,407,Lot Fee,150
+1103,407,Seller Service Fee,200
+1104,407,Power Washing,225
+1105,407,Decal Removal,100
+1106,408,Lot Fee,150
+1107,408,Seller Service Fee,200
+1108,408,Power Washing,225
+1109,409,Lot Fee,150
+1110,409,Seller Service Fee,200
+1111,409,Power Washing,225
+1112,409,Decal Removal,100
+1113,410,Lot Fee,150
+1114,410,Seller Service Fee,200
+1115,410,Power Washing,225
+1116,411,Lot Fee,150
+1117,411,Seller Service Fee,200
+1118,412,Lot Fee,150
+1119,412,Seller Service Fee,200
+1120,412,Decal Removal,100
+1121,413,Lot Fee,150
+1122,413,Seller Service Fee,200
+1123,414,Lot Fee,150
+1124,414,Seller Service Fee,200
+1125,414,Decal Removal,100
+1126,415,Lot Fee,150
+1127,415,Seller Service Fee,200
+1128,416,Lot Fee,150
+1129,416,Seller Service Fee,200
+1130,416,Decal Removal,100
+1131,417,Lot Fee,150
+1132,417,Seller Service Fee,200
+1133,417,Power Washing,225
+1134,418,Lot Fee,150
+1135,418,Seller Service Fee,200
+1136,418,Power Washing,225
+1137,419,Lot Fee,150
+1138,419,Seller Service Fee,200
+1139,420,Lot Fee,150
+1140,420,Seller Service Fee,200
+1141,420,Power Washing,225
+1142,421,Lot Fee,150
+1143,421,Seller Service Fee,200
+1144,421,Power Washing,225
+1145,422,Lot Fee,150
+1146,422,Seller Service Fee,200
+1147,422,Decal Removal,100
+1148,423,Lot Fee,150
+1149,423,Seller Service Fee,200
+1150,423,Power Washing,225
+1151,424,Lot Fee,150
+1152,424,Seller Service Fee,200
+1153,425,Lot Fee,150
+1154,425,Seller Service Fee,200
+1155,425,Power Washing,225
+1156,425,Decal Removal,100
+1157,426,Lot Fee,150
+1158,426,Seller Service Fee,200
+1159,426,Power Washing,225
+1160,427,Lot Fee,150
+1161,427,Seller Service Fee,200
+1162,427,Power Washing,225
+1163,428,Lot Fee,150
+1164,428,Seller Service Fee,200
+1165,429,Lot Fee,150
+1166,429,Seller Service Fee,200
+1167,429,Decal Removal,100
+1168,430,Lot Fee,150
+1169,430,Seller Service Fee,200
+1170,431,Lot Fee,150
+1171,431,Seller Service Fee,200
+1172,431,Decal Removal,100
+1173,432,Lot Fee,150
+1174,432,Seller Service Fee,200
+1175,433,Lot Fee,150
+1176,433,Seller Service Fee,200
+1177,434,Lot Fee,150
+1178,434,Seller Service Fee,200
+1179,434,Power Washing,225
+1180,434,Decal Removal,100
+1181,435,Lot Fee,150
+1182,435,Seller Service Fee,200
+1183,435,Decal Removal,100
+1184,436,Lot Fee,150
+1185,436,Seller Service Fee,200
+1186,437,Lot Fee,150
+1187,437,Seller Service Fee,200
+1188,438,Lot Fee,150
+1189,438,Seller Service Fee,200
+1190,438,Power Washing,225
+1191,438,Decal Removal,100
+1192,439,Lot Fee,150
+1193,439,Seller Service Fee,200
+1194,440,Lot Fee,150
+1195,440,Seller Service Fee,200
+1196,440,Power Washing,225
+1197,441,Lot Fee,150
+1198,441,Seller Service Fee,200
+1199,441,Power Washing,225
+1200,441,Decal Removal,100
+1201,442,Lot Fee,150
+1202,442,Seller Service Fee,200
+1203,443,Lot Fee,150
+1204,443,Seller Service Fee,200
+1205,443,Decal Removal,100
+1206,444,Lot Fee,150
+1207,444,Seller Service Fee,200
+1208,445,Lot Fee,150
+1209,445,Seller Service Fee,200
+1210,446,Lot Fee,150
+1211,446,Seller Service Fee,200
+1212,447,Lot Fee,150
+1213,447,Seller Service Fee,200
+1214,448,Lot Fee,150
+1215,448,Seller Service Fee,200
+1216,449,Lot Fee,150
+1217,449,Seller Service Fee,200
+1218,449,Decal Removal,100
+1219,450,Lot Fee,150
+1220,450,Seller Service Fee,200
+1221,450,Decal Removal,100
+1222,451,Lot Fee,150
+1223,451,Seller Service Fee,200
+1224,452,Lot Fee,150
+1225,452,Seller Service Fee,200
+1226,453,Lot Fee,150
+1227,453,Seller Service Fee,200
+1228,453,Power Washing,225
+1229,454,Lot Fee,150
+1230,454,Seller Service Fee,200
+1231,455,Lot Fee,150
+1232,455,Seller Service Fee,200
+1233,455,Power Washing,225
+1234,456,Lot Fee,150
+1235,456,Seller Service Fee,200
+1236,456,Decal Removal,100
+1237,457,Lot Fee,150
+1238,457,Seller Service Fee,200
+1239,457,Power Washing,225
+1240,458,Lot Fee,150
+1241,458,Seller Service Fee,200
+1242,459,Lot Fee,150
+1243,459,Seller Service Fee,200
+1244,460,Lot Fee,150
+1245,460,Seller Service Fee,200
+1246,460,Decal Removal,100
+1247,461,Lot Fee,150
+1248,461,Seller Service Fee,200
+1249,461,Power Washing,225
+1250,462,Lot Fee,150
+1251,462,Seller Service Fee,200
+1252,462,Power Washing,225
+1253,463,Lot Fee,150
+1254,463,Seller Service Fee,200
+1255,464,Lot Fee,150
+1256,464,Seller Service Fee,200
+1257,464,Power Washing,225
+1258,464,Decal Removal,100
+1259,465,Lot Fee,150
+1260,465,Seller Service Fee,200
+1261,465,Power Washing,225
+1262,466,Lot Fee,150
+1263,466,Seller Service Fee,200
+1264,466,Power Washing,225
+1265,467,Lot Fee,150
+1266,467,Seller Service Fee,200
+1267,467,Power Washing,225
+1268,468,Lot Fee,150
+1269,468,Seller Service Fee,200
+1270,468,Decal Removal,100
+1271,469,Lot Fee,150
+1272,469,Seller Service Fee,200
+1273,470,Lot Fee,150
+1274,470,Seller Service Fee,200
+1275,470,Power Washing,225
+1276,470,Decal Removal,100
+1277,471,Lot Fee,150
+1278,471,Seller Service Fee,200
+1279,472,Lot Fee,150
+1280,472,Seller Service Fee,200
+1281,472,Decal Removal,100
+1282,473,Lot Fee,150
+1283,473,Seller Service Fee,200
+1284,473,Power Washing,225
+1285,474,Lot Fee,150
+1286,474,Seller Service Fee,200
+1287,475,Lot Fee,150
+1288,475,Seller Service Fee,200
+1289,476,Lot Fee,150
+1290,476,Seller Service Fee,200
+1291,477,Lot Fee,150
+1292,477,Seller Service Fee,200
+1293,477,Power Washing,225
+1294,478,Lot Fee,150
+1295,478,Seller Service Fee,200
+1296,479,Lot Fee,150
+1297,479,Seller Service Fee,200
+1298,479,Power Washing,225
+1299,479,Decal Removal,100
+1300,480,Lot Fee,150
+1301,480,Seller Service Fee,200
+1302,480,Power Washing,225
+1303,480,Decal Removal,100
+1304,481,Lot Fee,150
+1305,481,Seller Service Fee,200
+1306,481,Decal Removal,100
+1307,482,Lot Fee,150
+1308,482,Seller Service Fee,200
+1309,482,Power Washing,225
+1310,482,Decal Removal,100
+1311,483,Lot Fee,150
+1312,483,Seller Service Fee,200
+1313,484,Lot Fee,150
+1314,484,Seller Service Fee,200
+1315,484,Power Washing,225
+1316,484,Decal Removal,100
+1317,485,Lot Fee,150
+1318,485,Seller Service Fee,200
+1319,486,Lot Fee,150
+1320,486,Seller Service Fee,200
+1321,486,Power Washing,225
+1322,486,Decal Removal,100
+1323,487,Lot Fee,150
+1324,487,Seller Service Fee,200
+1325,487,Decal Removal,100
+1326,488,Lot Fee,150
+1327,488,Seller Service Fee,200
+1328,488,Power Washing,225
+1329,488,Decal Removal,100
+1330,489,Lot Fee,150
+1331,489,Seller Service Fee,200
+1332,490,Lot Fee,150
+1333,490,Seller Service Fee,200
+1334,491,Lot Fee,150
+1335,491,Seller Service Fee,200
+1336,492,Lot Fee,150
+1337,492,Seller Service Fee,200
+1338,492,Decal Removal,100
+1339,493,Lot Fee,150
+1340,493,Seller Service Fee,200
+1341,493,Power Washing,225
+1342,494,Lot Fee,150
+1343,494,Seller Service Fee,200
+1344,495,Lot Fee,150
+1345,495,Seller Service Fee,200
+1346,496,Lot Fee,150
+1347,496,Seller Service Fee,200
+1348,497,Lot Fee,150
+1349,497,Seller Service Fee,200
+1350,497,Power Washing,225
+1351,497,Decal Removal,100
+1352,498,Lot Fee,150
+1353,498,Seller Service Fee,200
+1354,499,Lot Fee,150
+1355,499,Seller Service Fee,200
+1356,500,Lot Fee,150
+1357,500,Seller Service Fee,200
+1358,500,Power Washing,225
+1359,501,Lot Fee,150
+1360,501,Seller Service Fee,200
+1361,502,Lot Fee,150
+1362,502,Seller Service Fee,200
+1363,502,Decal Removal,100
+1364,503,Lot Fee,150
+1365,503,Seller Service Fee,200
+1366,503,Power Washing,225
+1367,504,Lot Fee,150
+1368,504,Seller Service Fee,200
+1369,504,Decal Removal,100
+1370,505,Lot Fee,150
+1371,505,Seller Service Fee,200
+1372,505,Power Washing,225
+1373,505,Decal Removal,100
+1374,506,Lot Fee,150
+1375,506,Seller Service Fee,200
+1376,506,Power Washing,225
+1377,507,Lot Fee,150
+1378,507,Seller Service Fee,200
+1379,507,Power Washing,225
+1380,508,Lot Fee,150
+1381,508,Seller Service Fee,200
+1382,508,Decal Removal,100
+1383,509,Lot Fee,150
+1384,509,Seller Service Fee,200
+1385,510,Lot Fee,150
+1386,510,Seller Service Fee,200
+1387,511,Lot Fee,150
+1388,511,Seller Service Fee,200
+1389,512,Lot Fee,150
+1390,512,Seller Service Fee,200
+1391,513,Lot Fee,150
+1392,513,Seller Service Fee,200
+1393,513,Power Washing,225
+1394,514,Lot Fee,150
+1395,514,Seller Service Fee,200
+1396,514,Power Washing,225
+1397,515,Lot Fee,150
+1398,515,Seller Service Fee,200
+1399,515,Decal Removal,100
+1400,516,Lot Fee,150
+1401,516,Seller Service Fee,200
+1402,516,Decal Removal,100
+1403,517,Lot Fee,150
+1404,517,Seller Service Fee,200
+1405,517,Decal Removal,100
+1406,518,Lot Fee,150
+1407,518,Seller Service Fee,200
+1408,519,Lot Fee,150
+1409,519,Seller Service Fee,200
+1410,520,Lot Fee,150
+1411,520,Seller Service Fee,200
+1412,520,Decal Removal,100
+1413,521,Lot Fee,150
+1414,521,Seller Service Fee,200
+1415,522,Lot Fee,150
+1416,522,Seller Service Fee,200
+1417,523,Lot Fee,150
+1418,523,Seller Service Fee,200
+1419,523,Power Washing,225
+1420,523,Decal Removal,100
+1421,524,Lot Fee,150
+1422,524,Seller Service Fee,200
+1423,524,Decal Removal,100
+1424,525,Lot Fee,150
+1425,525,Seller Service Fee,200
+1426,526,Lot Fee,150
+1427,526,Seller Service Fee,200
+1428,527,Lot Fee,150
+1429,527,Seller Service Fee,200
+1430,527,Decal Removal,100
+1431,528,Lot Fee,150
+1432,528,Seller Service Fee,200
+1433,528,Decal Removal,100
+1434,529,Lot Fee,150
+1435,529,Seller Service Fee,200
+1436,530,Lot Fee,150
+1437,530,Seller Service Fee,200
+1438,530,Power Washing,225
+1439,531,Lot Fee,150
+1440,531,Seller Service Fee,200
+1441,532,Lot Fee,150
+1442,532,Seller Service Fee,200
+1443,533,Lot Fee,150
+1444,533,Seller Service Fee,200
+1445,534,Lot Fee,150
+1446,534,Seller Service Fee,200
+1447,535,Lot Fee,150
+1448,535,Seller Service Fee,200
+1449,535,Power Washing,225
+1450,536,Lot Fee,150
+1451,536,Seller Service Fee,200
+1452,537,Lot Fee,150
+1453,537,Seller Service Fee,200
+1454,537,Power Washing,225
+1455,538,Lot Fee,150
+1456,538,Seller Service Fee,200
+1457,538,Power Washing,225
+1458,539,Lot Fee,150
+1459,539,Seller Service Fee,200
+1460,540,Lot Fee,150
+1461,540,Seller Service Fee,200
+1462,541,Lot Fee,150
+1463,541,Seller Service Fee,200
+1464,542,Lot Fee,150
+1465,542,Seller Service Fee,200
+1466,542,Power Washing,225
+1467,542,Decal Removal,100
+1468,543,Lot Fee,150
+1469,543,Seller Service Fee,200
+1470,543,Power Washing,225
+1471,544,Lot Fee,150
+1472,544,Seller Service Fee,200
+1473,544,Decal Removal,100
+1474,545,Lot Fee,150
+1475,545,Seller Service Fee,200
+1476,546,Lot Fee,150
+1477,546,Seller Service Fee,200
+1478,547,Lot Fee,150
+1479,547,Seller Service Fee,200
+1480,548,Lot Fee,150
+1481,548,Seller Service Fee,200
+1482,548,Decal Removal,100
+1483,549,Lot Fee,150
+1484,549,Seller Service Fee,200
+1485,549,Decal Removal,100
+1486,550,Lot Fee,150
+1487,550,Seller Service Fee,200
+1488,551,Lot Fee,150
+1489,551,Seller Service Fee,200
+1490,552,Lot Fee,150
+1491,552,Seller Service Fee,200
+1492,552,Power Washing,225
+1493,553,Lot Fee,150
+1494,553,Seller Service Fee,200
+1495,553,Power Washing,225
+1496,553,Decal Removal,100
+1497,554,Lot Fee,150
+1498,554,Seller Service Fee,200
+1499,554,Power Washing,225
+1500,555,Lot Fee,150
+1501,555,Seller Service Fee,200
+1502,555,Decal Removal,100
+1503,556,Lot Fee,150
+1504,556,Seller Service Fee,200
+1505,557,Lot Fee,150
+1506,557,Seller Service Fee,200
+1507,557,Decal Removal,100
+1508,558,Lot Fee,150
+1509,558,Seller Service Fee,200
+1510,558,Power Washing,225
+1511,559,Lot Fee,150
+1512,559,Seller Service Fee,200
+1513,560,Lot Fee,150
+1514,560,Seller Service Fee,200
+1515,560,Power Washing,225
+1516,561,Lot Fee,150
+1517,561,Seller Service Fee,200
+1518,561,Decal Removal,100
+1519,562,Lot Fee,150
+1520,562,Seller Service Fee,200
+1521,563,Lot Fee,150
+1522,563,Seller Service Fee,200
+1523,563,Decal Removal,100
+1524,564,Lot Fee,150
+1525,564,Seller Service Fee,200
+1526,565,Lot Fee,150
+1527,565,Seller Service Fee,200
+1528,566,Lot Fee,150
+1529,566,Seller Service Fee,200
+1530,567,Lot Fee,150
+1531,567,Seller Service Fee,200
+1532,567,Power Washing,225
+1533,567,Decal Removal,100
+1534,568,Lot Fee,150
+1535,568,Seller Service Fee,200
+1536,569,Lot Fee,150
+1537,569,Seller Service Fee,200
+1538,570,Lot Fee,150
+1539,570,Seller Service Fee,200
+1540,571,Lot Fee,150
+1541,571,Seller Service Fee,200
+1542,572,Lot Fee,150
+1543,572,Seller Service Fee,200
+1544,573,Lot Fee,150
+1545,573,Seller Service Fee,200
+1546,573,Decal Removal,100
+1547,574,Lot Fee,150
+1548,574,Seller Service Fee,200
+1549,574,Power Washing,225
+1550,575,Lot Fee,150
+1551,575,Seller Service Fee,200
+1552,576,Lot Fee,150
+1553,576,Seller Service Fee,200
+1554,576,Power Washing,225
+1555,576,Decal Removal,100
+1556,577,Lot Fee,150
+1557,577,Seller Service Fee,200
+1558,577,Power Washing,225
+1559,578,Lot Fee,150
+1560,578,Seller Service Fee,200
+1561,578,Power Washing,225
+1562,578,Decal Removal,100
+1563,579,Lot Fee,150
+1564,579,Seller Service Fee,200
+1565,579,Decal Removal,100
+1566,580,Lot Fee,150
+1567,580,Seller Service Fee,200
+1568,580,Power Washing,225
+1569,581,Lot Fee,150
+1570,581,Seller Service Fee,200
+1571,581,Power Washing,225
+1572,582,Lot Fee,150
+1573,582,Seller Service Fee,200
+1574,583,Lot Fee,150
+1575,583,Seller Service Fee,200
+1576,583,Power Washing,225
+1577,584,Lot Fee,150
+1578,584,Seller Service Fee,200
+1579,585,Lot Fee,150
+1580,585,Seller Service Fee,200
+1581,585,Power Washing,225
+1582,585,Decal Removal,100
+1583,586,Lot Fee,150
+1584,586,Seller Service Fee,200
+1585,586,Power Washing,225
+1586,587,Lot Fee,150
+1587,587,Seller Service Fee,200
+1588,588,Lot Fee,150
+1589,588,Seller Service Fee,200
+1590,589,Lot Fee,150
+1591,589,Seller Service Fee,200
+1592,589,Power Washing,225
+1593,589,Decal Removal,100
+1594,590,Lot Fee,150
+1595,590,Seller Service Fee,200
+1596,590,Power Washing,225
+1597,591,Lot Fee,150
+1598,591,Seller Service Fee,200
+1599,591,Decal Removal,100
+1600,592,Lot Fee,150
+1601,592,Seller Service Fee,200
+1602,592,Power Washing,225
+1603,593,Lot Fee,150
+1604,593,Seller Service Fee,200
+1605,593,Power Washing,225
+1606,594,Lot Fee,150
+1607,594,Seller Service Fee,200
+1608,594,Power Washing,225
+1609,594,Decal Removal,100
+1610,595,Lot Fee,150
+1611,595,Seller Service Fee,200
+1612,596,Lot Fee,150
+1613,596,Seller Service Fee,200
+1614,596,Power Washing,225
+1615,597,Lot Fee,150
+1616,597,Seller Service Fee,200
+1617,598,Lot Fee,150
+1618,598,Seller Service Fee,200
+1619,599,Lot Fee,150
+1620,599,Seller Service Fee,200
+1621,600,Lot Fee,150
+1622,600,Seller Service Fee,200
+1623,600,Power Washing,225
+1624,600,Decal Removal,100
+1625,601,Lot Fee,150
+1626,601,Seller Service Fee,200
+1627,602,Lot Fee,150
+1628,602,Seller Service Fee,200
+1629,603,Lot Fee,150
+1630,603,Seller Service Fee,200
+1631,603,Decal Removal,100
+1632,604,Lot Fee,150
+1633,604,Seller Service Fee,200
+1634,604,Power Washing,225
+1635,605,Lot Fee,150
+1636,605,Seller Service Fee,200
+1637,606,Lot Fee,150
+1638,606,Seller Service Fee,200
+1639,606,Power Washing,225
+1640,607,Lot Fee,150
+1641,607,Seller Service Fee,200
+1642,607,Power Washing,225
+1643,607,Decal Removal,100
+1644,608,Lot Fee,150
+1645,608,Seller Service Fee,200
+1646,608,Decal Removal,100
+1647,609,Lot Fee,150
+1648,609,Seller Service Fee,200
+1649,610,Lot Fee,150
+1650,610,Seller Service Fee,200
+1651,611,Lot Fee,150
+1652,611,Seller Service Fee,200
+1653,612,Lot Fee,150
+1654,612,Seller Service Fee,200
+1655,612,Decal Removal,100
+1656,613,Lot Fee,150
+1657,613,Seller Service Fee,200
+1658,614,Lot Fee,150
+1659,614,Seller Service Fee,200
+1660,614,Power Washing,225
+1661,615,Lot Fee,150
+1662,615,Seller Service Fee,200
+1663,616,Lot Fee,150
+1664,616,Seller Service Fee,200
+1665,616,Decal Removal,100
+1666,617,Lot Fee,150
+1667,617,Seller Service Fee,200
+1668,618,Lot Fee,150
+1669,618,Seller Service Fee,200
+1670,618,Decal Removal,100
+1671,619,Lot Fee,150
+1672,619,Seller Service Fee,200
+1673,619,Power Washing,225
+1674,620,Lot Fee,150
+1675,620,Seller Service Fee,200
+1676,620,Power Washing,225
+1677,620,Decal Removal,100
+1678,621,Lot Fee,150
+1679,621,Seller Service Fee,200
+1680,621,Power Washing,225
+1681,621,Decal Removal,100
+1682,622,Lot Fee,150
+1683,622,Seller Service Fee,200
+1684,623,Lot Fee,150
+1685,623,Seller Service Fee,200
+1686,624,Lot Fee,150
+1687,624,Seller Service Fee,200
+1688,624,Power Washing,225
+1689,625,Lot Fee,150
+1690,625,Seller Service Fee,200
+1691,625,Decal Removal,100
+1692,626,Lot Fee,150
+1693,626,Seller Service Fee,200
+1694,626,Power Washing,225
+1695,627,Lot Fee,150
+1696,627,Seller Service Fee,200
+1697,628,Lot Fee,150
+1698,628,Seller Service Fee,200
+1699,628,Power Washing,225
+1700,629,Lot Fee,150
+1701,629,Seller Service Fee,200
+1702,629,Decal Removal,100
+1703,630,Lot Fee,150
+1704,630,Seller Service Fee,200
+1705,630,Power Washing,225
+1706,631,Lot Fee,150
+1707,631,Seller Service Fee,200
+1708,631,Power Washing,225
+1709,631,Decal Removal,100
+1710,632,Lot Fee,150
+1711,632,Seller Service Fee,200
+1712,632,Power Washing,225
+1713,632,Decal Removal,100
+1714,633,Lot Fee,150
+1715,633,Seller Service Fee,200
+1716,633,Power Washing,225
+1717,634,Lot Fee,150
+1718,634,Seller Service Fee,200
+1719,634,Decal Removal,100
+1720,635,Lot Fee,150
+1721,635,Seller Service Fee,200
+1722,635,Power Washing,225
+1723,635,Decal Removal,100
+1724,636,Lot Fee,150
+1725,636,Seller Service Fee,200
+1726,636,Power Washing,225
+1727,637,Lot Fee,150
+1728,637,Seller Service Fee,200
+1729,637,Decal Removal,100
+1730,638,Lot Fee,150
+1731,638,Seller Service Fee,200
+1732,638,Power Washing,225
+1733,639,Lot Fee,150
+1734,639,Seller Service Fee,200
+1735,639,Power Washing,225
+1736,640,Lot Fee,150
+1737,640,Seller Service Fee,200
+1738,640,Power Washing,225
+1739,641,Lot Fee,150
+1740,641,Seller Service Fee,200
+1741,642,Lot Fee,150
+1742,642,Seller Service Fee,200
+1743,643,Lot Fee,150
+1744,643,Seller Service Fee,200
+1745,643,Decal Removal,100
+1746,644,Lot Fee,150
+1747,644,Seller Service Fee,200
+1748,645,Lot Fee,150
+1749,645,Seller Service Fee,200
+1750,645,Power Washing,225
+1751,646,Lot Fee,150
+1752,646,Seller Service Fee,200
+1753,647,Lot Fee,150
+1754,647,Seller Service Fee,200
+1755,648,Lot Fee,150
+1756,648,Seller Service Fee,200
+1757,648,Decal Removal,100
+1758,649,Lot Fee,150
+1759,649,Seller Service Fee,200
+1760,650,Lot Fee,150
+1761,650,Seller Service Fee,200
+1762,650,Power Washing,225
+1763,651,Lot Fee,150
+1764,651,Seller Service Fee,200
+1765,651,Power Washing,225
+1766,651,Decal Removal,100
+1767,652,Lot Fee,150
+1768,652,Seller Service Fee,200
+1769,652,Power Washing,225
+1770,653,Lot Fee,150
+1771,653,Seller Service Fee,200
+1772,654,Lot Fee,150
+1773,654,Seller Service Fee,200
+1774,654,Decal Removal,100
+1775,655,Lot Fee,150
+1776,655,Seller Service Fee,200
+1777,655,Decal Removal,100
+1778,656,Lot Fee,150
+1779,656,Seller Service Fee,200
+1780,656,Power Washing,225
+1781,657,Lot Fee,150
+1782,657,Seller Service Fee,200
+1783,657,Decal Removal,100
+1784,658,Lot Fee,150
+1785,658,Seller Service Fee,200
+1786,659,Lot Fee,150
+1787,659,Seller Service Fee,200
+1788,660,Lot Fee,150
+1789,660,Seller Service Fee,200
+1790,660,Power Washing,225
+1791,661,Lot Fee,150
+1792,661,Seller Service Fee,200
+1793,662,Lot Fee,150
+1794,662,Seller Service Fee,200
+1795,662,Power Washing,225
+1796,663,Lot Fee,150
+1797,663,Seller Service Fee,200
+1798,664,Lot Fee,150
+1799,664,Seller Service Fee,200
+1800,665,Lot Fee,150
+1801,665,Seller Service Fee,200
+1802,666,Lot Fee,150
+1803,666,Seller Service Fee,200
+1804,667,Lot Fee,150
+1805,667,Seller Service Fee,200
+1806,667,Power Washing,225
+1807,668,Lot Fee,150
+1808,668,Seller Service Fee,200
+1809,668,Power Washing,225
+1810,669,Lot Fee,150
+1811,669,Seller Service Fee,200
+1812,669,Power Washing,225
+1813,670,Lot Fee,150
+1814,670,Seller Service Fee,200
+1815,671,Lot Fee,150
+1816,671,Seller Service Fee,200
+1817,671,Power Washing,225
+1818,672,Lot Fee,150
+1819,672,Seller Service Fee,200
+1820,672,Power Washing,225
+1821,673,Lot Fee,150
+1822,673,Seller Service Fee,200
+1823,674,Lot Fee,150
+1824,674,Seller Service Fee,200
+1825,674,Power Washing,225
+1826,675,Lot Fee,150
+1827,675,Seller Service Fee,200
+1828,676,Lot Fee,150
+1829,676,Seller Service Fee,200
+1830,676,Decal Removal,100
+1831,677,Lot Fee,150
+1832,677,Seller Service Fee,200
+1833,678,Lot Fee,150
+1834,678,Seller Service Fee,200
+1835,679,Lot Fee,150
+1836,679,Seller Service Fee,200
+1837,680,Lot Fee,150
+1838,680,Seller Service Fee,200
+1839,680,Decal Removal,100
+1840,681,Lot Fee,150
+1841,681,Seller Service Fee,200
+1842,682,Lot Fee,150
+1843,682,Seller Service Fee,200
+1844,682,Decal Removal,100
+1845,683,Lot Fee,150
+1846,683,Seller Service Fee,200
+1847,683,Power Washing,225
+1848,683,Decal Removal,100
+1849,684,Lot Fee,150
+1850,684,Seller Service Fee,200
+1851,684,Power Washing,225
+1852,685,Lot Fee,150
+1853,685,Seller Service Fee,200
+1854,685,Power Washing,225
+1855,686,Lot Fee,150
+1856,686,Seller Service Fee,200
+1857,687,Lot Fee,150
+1858,687,Seller Service Fee,200
+1859,688,Lot Fee,150
+1860,688,Seller Service Fee,200
+1861,689,Lot Fee,150
+1862,689,Seller Service Fee,200
+1863,689,Power Washing,225
+1864,690,Lot Fee,150
+1865,690,Seller Service Fee,200
+1866,690,Power Washing,225
+1867,691,Lot Fee,150
+1868,691,Seller Service Fee,200
+1869,691,Decal Removal,100
+1870,692,Lot Fee,150
+1871,692,Seller Service Fee,200
+1872,692,Decal Removal,100
+1873,693,Lot Fee,150
+1874,693,Seller Service Fee,200
+1875,694,Lot Fee,150
+1876,694,Seller Service Fee,200
+1877,695,Lot Fee,150
+1878,695,Seller Service Fee,200
+1879,695,Power Washing,225
+1880,696,Lot Fee,150
+1881,696,Seller Service Fee,200
+1882,696,Power Washing,225
+1883,696,Decal Removal,100
+1884,697,Lot Fee,150
+1885,697,Seller Service Fee,200
+1886,698,Lot Fee,150
+1887,698,Seller Service Fee,200
+1888,699,Lot Fee,150
+1889,699,Seller Service Fee,200
+1890,699,Decal Removal,100
+1891,700,Lot Fee,150
+1892,700,Seller Service Fee,200
+1893,700,Power Washing,225
+1894,701,Lot Fee,150
+1895,701,Seller Service Fee,200
+1896,701,Decal Removal,100
+1897,702,Lot Fee,150
+1898,702,Seller Service Fee,200
+1899,702,Power Washing,225
+1900,703,Lot Fee,150
+1901,703,Seller Service Fee,200
+1902,704,Lot Fee,150
+1903,704,Seller Service Fee,200
+1904,704,Decal Removal,100
+1905,705,Lot Fee,150
+1906,705,Seller Service Fee,200
+1907,705,Power Washing,225
+1908,706,Lot Fee,150
+1909,706,Seller Service Fee,200
+1910,707,Lot Fee,150
+1911,707,Seller Service Fee,200
+1912,708,Lot Fee,150
+1913,708,Seller Service Fee,200
+1914,708,Decal Removal,100
+1915,709,Lot Fee,150
+1916,709,Seller Service Fee,200
+1917,710,Lot Fee,150
+1918,710,Seller Service Fee,200
+1919,710,Power Washing,225
+1920,710,Decal Removal,100
+1921,711,Lot Fee,150
+1922,711,Seller Service Fee,200
+1923,711,Power Washing,225
+1924,712,Lot Fee,150
+1925,712,Seller Service Fee,200
+1926,712,Decal Removal,100
+1927,713,Lot Fee,150
+1928,713,Seller Service Fee,200
+1929,713,Power Washing,225
+1930,714,Lot Fee,150
+1931,714,Seller Service Fee,200
+1932,715,Lot Fee,150
+1933,715,Seller Service Fee,200
+1934,716,Lot Fee,150
+1935,716,Seller Service Fee,200
+1936,716,Power Washing,225
+1937,717,Lot Fee,150
+1938,717,Seller Service Fee,200
+1939,717,Power Washing,225
+1940,718,Lot Fee,150
+1941,718,Seller Service Fee,200
+1942,719,Lot Fee,150
+1943,719,Seller Service Fee,200
+1944,719,Power Washing,225
+1945,719,Decal Removal,100
+1946,720,Lot Fee,150
+1947,720,Seller Service Fee,200
+1948,721,Lot Fee,150
+1949,721,Seller Service Fee,200
+1950,721,Power Washing,225
+1951,722,Lot Fee,150
+1952,722,Seller Service Fee,200
+1953,722,Power Washing,225
+1954,722,Decal Removal,100
+1955,723,Lot Fee,150
+1956,723,Seller Service Fee,200
+1957,723,Power Washing,225
+1958,724,Lot Fee,150
+1959,724,Seller Service Fee,200
+1960,724,Decal Removal,100
+1961,725,Lot Fee,150
+1962,725,Seller Service Fee,200
+1963,725,Decal Removal,100
+1964,726,Lot Fee,150
+1965,726,Seller Service Fee,200
+1966,726,Decal Removal,100
+1967,727,Lot Fee,150
+1968,727,Seller Service Fee,200
+1969,727,Power Washing,225
+1970,727,Decal Removal,100
+1971,728,Lot Fee,150
+1972,728,Seller Service Fee,200
+1973,728,Power Washing,225
+1974,729,Lot Fee,150
+1975,729,Seller Service Fee,200
+1976,729,Power Washing,225
+1977,730,Lot Fee,150
+1978,730,Seller Service Fee,200
+1979,730,Decal Removal,100
+1980,731,Lot Fee,150
+1981,731,Seller Service Fee,200
+1982,731,Decal Removal,100
+1983,732,Lot Fee,150
+1984,732,Seller Service Fee,200
+1985,732,Power Washing,225
+1986,733,Lot Fee,150
+1987,733,Seller Service Fee,200
+1988,733,Power Washing,225
+1989,734,Lot Fee,150
+1990,734,Seller Service Fee,200
+1991,735,Lot Fee,150
+1992,735,Seller Service Fee,200
+1993,736,Lot Fee,150
+1994,736,Seller Service Fee,200
+1995,736,Power Washing,225
+1996,737,Lot Fee,150
+1997,737,Seller Service Fee,200
+1998,737,Power Washing,225
+1999,738,Lot Fee,150
+2000,738,Seller Service Fee,200
+2001,739,Lot Fee,150
+2002,739,Seller Service Fee,200
+2003,739,Power Washing,225
+2004,740,Lot Fee,150
+2005,740,Seller Service Fee,200
+2006,740,Power Washing,225
+2007,740,Decal Removal,100
+2008,741,Lot Fee,150
+2009,741,Seller Service Fee,200
+2010,741,Decal Removal,100
+2011,742,Lot Fee,150
+2012,742,Seller Service Fee,200
+2013,742,Power Washing,225
+2014,743,Lot Fee,150
+2015,743,Seller Service Fee,200
+2016,743,Decal Removal,100
+2017,744,Lot Fee,150
+2018,744,Seller Service Fee,200
+2019,745,Lot Fee,150
+2020,745,Seller Service Fee,200
+2021,746,Lot Fee,150
+2022,746,Seller Service Fee,200
+2023,747,Lot Fee,150
+2024,747,Seller Service Fee,200
+2025,748,Lot Fee,150
+2026,748,Seller Service Fee,200
+2027,749,Lot Fee,150
+2028,749,Seller Service Fee,200
+2029,749,Power Washing,225
+2030,750,Lot Fee,150
+2031,750,Seller Service Fee,200
+2032,750,Decal Removal,100
+2033,751,Lot Fee,150
+2034,751,Seller Service Fee,200
+2035,751,Power Washing,225
+2036,752,Lot Fee,150
+2037,752,Seller Service Fee,200
+2038,752,Power Washing,225
+2039,753,Lot Fee,150
+2040,753,Seller Service Fee,200
+2041,753,Power Washing,225
+2042,753,Decal Removal,100
+2043,754,Lot Fee,150
+2044,754,Seller Service Fee,200
+2045,755,Lot Fee,150
+2046,755,Seller Service Fee,200
+2047,755,Decal Removal,100
+2048,756,Lot Fee,150
+2049,756,Seller Service Fee,200
+2050,756,Decal Removal,100
+2051,757,Lot Fee,150
+2052,757,Seller Service Fee,200
+2053,757,Power Washing,225
+2054,757,Decal Removal,100
+2055,758,Lot Fee,150
+2056,758,Seller Service Fee,200
+2057,759,Lot Fee,150
+2058,759,Seller Service Fee,200
+2059,759,Power Washing,225
+2060,759,Decal Removal,100
+2061,760,Lot Fee,150
+2062,760,Seller Service Fee,200
+2063,760,Decal Removal,100
+2064,761,Lot Fee,150
+2065,761,Seller Service Fee,200
+2066,762,Lot Fee,150
+2067,762,Seller Service Fee,200
+2068,762,Power Washing,225
+2069,763,Lot Fee,150
+2070,763,Seller Service Fee,200
+2071,764,Lot Fee,150
+2072,764,Seller Service Fee,200
+2073,765,Lot Fee,150
+2074,765,Seller Service Fee,200
+2075,765,Power Washing,225
+2076,766,Lot Fee,150
+2077,766,Seller Service Fee,200
+2078,767,Lot Fee,150
+2079,767,Seller Service Fee,200
+2080,768,Lot Fee,150
+2081,768,Seller Service Fee,200
+2082,769,Lot Fee,150
+2083,769,Seller Service Fee,200
+2084,770,Lot Fee,150
+2085,770,Seller Service Fee,200
+2086,770,Power Washing,225
+2087,770,Decal Removal,100
+2088,771,Lot Fee,150
+2089,771,Seller Service Fee,200
+2090,771,Power Washing,225
+2091,772,Lot Fee,150
+2092,772,Seller Service Fee,200
+2093,772,Power Washing,225
+2094,773,Lot Fee,150
+2095,773,Seller Service Fee,200
+2096,774,Lot Fee,150
+2097,774,Seller Service Fee,200
+2098,775,Lot Fee,150
+2099,775,Seller Service Fee,200
+2100,775,Power Washing,225
+2101,776,Lot Fee,150
+2102,776,Seller Service Fee,200
+2103,776,Power Washing,225
+2104,777,Lot Fee,150
+2105,777,Seller Service Fee,200
+2106,777,Power Washing,225
+2107,778,Lot Fee,150
+2108,778,Seller Service Fee,200
+2109,779,Lot Fee,150
+2110,779,Seller Service Fee,200
+2111,780,Lot Fee,150
+2112,780,Seller Service Fee,200
+2113,781,Lot Fee,150
+2114,781,Seller Service Fee,200
+2115,782,Lot Fee,150
+2116,782,Seller Service Fee,200
+2117,782,Power Washing,225
+2118,783,Lot Fee,150
+2119,783,Seller Service Fee,200
+2120,783,Decal Removal,100
+2121,784,Lot Fee,150
+2122,784,Seller Service Fee,200
+2123,785,Lot Fee,150
+2124,785,Seller Service Fee,200
+2125,786,Lot Fee,150
+2126,786,Seller Service Fee,200
+2127,787,Lot Fee,150
+2128,787,Seller Service Fee,200
+2129,787,Power Washing,225
+2130,788,Lot Fee,150
+2131,788,Seller Service Fee,200
+2132,789,Lot Fee,150
+2133,789,Seller Service Fee,200
+2134,789,Power Washing,225
+2135,790,Lot Fee,150
+2136,790,Seller Service Fee,200
+2137,790,Decal Removal,100
+2138,791,Lot Fee,150
+2139,791,Seller Service Fee,200
+2140,791,Power Washing,225
+2141,792,Lot Fee,150
+2142,792,Seller Service Fee,200
+2143,793,Lot Fee,150
+2144,793,Seller Service Fee,200
+2145,794,Lot Fee,150
+2146,794,Seller Service Fee,200
+2147,795,Lot Fee,150
+2148,795,Seller Service Fee,200
+2149,795,Power Washing,225
+2150,795,Decal Removal,100
+2151,796,Lot Fee,150
+2152,796,Seller Service Fee,200
+2153,796,Decal Removal,100
+2154,797,Lot Fee,150
+2155,797,Seller Service Fee,200
+2156,798,Lot Fee,150
+2157,798,Seller Service Fee,200
+2158,798,Decal Removal,100
+2159,799,Lot Fee,150
+2160,799,Seller Service Fee,200
+2161,800,Lot Fee,150
+2162,800,Seller Service Fee,200
+2163,800,Power Washing,225
+2164,800,Decal Removal,100
+2165,801,Lot Fee,150
+2166,801,Seller Service Fee,200
+2167,801,Decal Removal,100
+2168,802,Lot Fee,150
+2169,802,Seller Service Fee,200
+2170,802,Power Washing,225
+2171,802,Decal Removal,100
+2172,803,Lot Fee,150
+2173,803,Seller Service Fee,200
+2174,804,Lot Fee,150
+2175,804,Seller Service Fee,200
+2176,805,Lot Fee,150
+2177,805,Seller Service Fee,200
+2178,805,Decal Removal,100
+2179,806,Lot Fee,150
+2180,806,Seller Service Fee,200
+2181,806,Decal Removal,100
+2182,807,Lot Fee,150
+2183,807,Seller Service Fee,200
+2184,807,Decal Removal,100
+2185,808,Lot Fee,150
+2186,808,Seller Service Fee,200
+2187,809,Lot Fee,150
+2188,809,Seller Service Fee,200
+2189,810,Lot Fee,150
+2190,810,Seller Service Fee,200
+2191,811,Lot Fee,150
+2192,811,Seller Service Fee,200
+2193,811,Power Washing,225
+2194,812,Lot Fee,150
+2195,812,Seller Service Fee,200
+2196,812,Power Washing,225
+2197,813,Lot Fee,150
+2198,813,Seller Service Fee,200
+2199,814,Lot Fee,150
+2200,814,Seller Service Fee,200
+2201,814,Power Washing,225
+2202,814,Decal Removal,100
+2203,815,Lot Fee,150
+2204,815,Seller Service Fee,200
+2205,816,Lot Fee,150
+2206,816,Seller Service Fee,200
+2207,817,Lot Fee,150
+2208,817,Seller Service Fee,200
+2209,818,Lot Fee,150
+2210,818,Seller Service Fee,200
+2211,818,Power Washing,225
+2212,819,Lot Fee,150
+2213,819,Seller Service Fee,200
+2214,820,Lot Fee,150
+2215,820,Seller Service Fee,200
+2216,820,Power Washing,225
+2217,821,Lot Fee,150
+2218,821,Seller Service Fee,200
+2219,821,Power Washing,225
+2220,822,Lot Fee,150
+2221,822,Seller Service Fee,200
+2222,822,Power Washing,225
+2223,822,Decal Removal,100
+2224,823,Lot Fee,150
+2225,823,Seller Service Fee,200
+2226,824,Lot Fee,150
+2227,824,Seller Service Fee,200
+2228,824,Power Washing,225
+2229,824,Decal Removal,100
+2230,825,Lot Fee,150
+2231,825,Seller Service Fee,200
+2232,826,Lot Fee,150
+2233,826,Seller Service Fee,200
+2234,826,Power Washing,225
+2235,826,Decal Removal,100
+2236,827,Lot Fee,150
+2237,827,Seller Service Fee,200
+2238,828,Lot Fee,150
+2239,828,Seller Service Fee,200
+2240,828,Power Washing,225
+2241,829,Lot Fee,150
+2242,829,Seller Service Fee,200
+2243,829,Power Washing,225
+2244,830,Lot Fee,150
+2245,830,Seller Service Fee,200
+2246,830,Power Washing,225
+2247,831,Lot Fee,150
+2248,831,Seller Service Fee,200
+2249,832,Lot Fee,150
+2250,832,Seller Service Fee,200
+2251,832,Decal Removal,100
+2252,833,Lot Fee,150
+2253,833,Seller Service Fee,200
+2254,834,Lot Fee,150
+2255,834,Seller Service Fee,200
+2256,834,Power Washing,225
+2257,835,Lot Fee,150
+2258,835,Seller Service Fee,200
+2259,835,Power Washing,225
+2260,835,Decal Removal,100
+2261,836,Lot Fee,150
+2262,836,Seller Service Fee,200
+2263,836,Power Washing,225
+2264,836,Decal Removal,100
+2265,837,Lot Fee,150
+2266,837,Seller Service Fee,200
+2267,837,Power Washing,225
+2268,838,Lot Fee,150
+2269,838,Seller Service Fee,200
+2270,838,Power Washing,225
+2271,839,Lot Fee,150
+2272,839,Seller Service Fee,200
+2273,840,Lot Fee,150
+2274,840,Seller Service Fee,200
+2275,841,Lot Fee,150
+2276,841,Seller Service Fee,200
+2277,842,Lot Fee,150
+2278,842,Seller Service Fee,200
+2279,842,Power Washing,225
+2280,842,Decal Removal,100
+2281,843,Lot Fee,150
+2282,843,Seller Service Fee,200
+2283,843,Decal Removal,100
+2284,844,Lot Fee,150
+2285,844,Seller Service Fee,200
+2286,845,Lot Fee,150
+2287,845,Seller Service Fee,200
+2288,846,Lot Fee,150
+2289,846,Seller Service Fee,200
+2290,847,Lot Fee,150
+2291,847,Seller Service Fee,200
+2292,848,Lot Fee,150
+2293,848,Seller Service Fee,200
+2294,849,Lot Fee,150
+2295,849,Seller Service Fee,200
+2296,850,Lot Fee,150
+2297,850,Seller Service Fee,200
+2298,851,Lot Fee,150
+2299,851,Seller Service Fee,200
+2300,851,Decal Removal,100
+2301,852,Lot Fee,150
+2302,852,Seller Service Fee,200
+2303,853,Lot Fee,150
+2304,853,Seller Service Fee,200
+2305,853,Power Washing,225
+2306,854,Lot Fee,150
+2307,854,Seller Service Fee,200
+2308,854,Decal Removal,100
+2309,855,Lot Fee,150
+2310,855,Seller Service Fee,200
+2311,855,Power Washing,225
+2312,855,Decal Removal,100
+2313,856,Lot Fee,150
+2314,856,Seller Service Fee,200
+2315,856,Power Washing,225
+2316,857,Lot Fee,150
+2317,857,Seller Service Fee,200
+2318,858,Lot Fee,150
+2319,858,Seller Service Fee,200
+2320,858,Decal Removal,100
+2321,859,Lot Fee,150
+2322,859,Seller Service Fee,200
+2323,860,Lot Fee,150
+2324,860,Seller Service Fee,200
+2325,860,Power Washing,225
+2326,861,Lot Fee,150
+2327,861,Seller Service Fee,200
+2328,861,Power Washing,225
+2329,862,Lot Fee,150
+2330,862,Seller Service Fee,200
+2331,863,Lot Fee,150
+2332,863,Seller Service Fee,200
+2333,864,Lot Fee,150
+2334,864,Seller Service Fee,200
+2335,864,Power Washing,225
+2336,864,Decal Removal,100
+2337,865,Lot Fee,150
+2338,865,Seller Service Fee,200
+2339,865,Power Washing,225
+2340,866,Lot Fee,150
+2341,866,Seller Service Fee,200
+2342,866,Power Washing,225
+2343,867,Lot Fee,150
+2344,867,Seller Service Fee,200
+2345,867,Power Washing,225
+2346,868,Lot Fee,150
+2347,868,Seller Service Fee,200
+2348,868,Power Washing,225
+2349,869,Lot Fee,150
+2350,869,Seller Service Fee,200
+2351,870,Lot Fee,150
+2352,870,Seller Service Fee,200
+2353,870,Power Washing,225
+2354,871,Lot Fee,150
+2355,871,Seller Service Fee,200
+2356,871,Power Washing,225
+2357,872,Lot Fee,150
+2358,872,Seller Service Fee,200
+2359,873,Lot Fee,150
+2360,873,Seller Service Fee,200
+2361,873,Power Washing,225
+2362,874,Lot Fee,150
+2363,874,Seller Service Fee,200
+2364,875,Lot Fee,150
+2365,875,Seller Service Fee,200
+2366,875,Power Washing,225
+2367,876,Lot Fee,150
+2368,876,Seller Service Fee,200
+2369,877,Lot Fee,150
+2370,877,Seller Service Fee,200
+2371,878,Lot Fee,150
+2372,878,Seller Service Fee,200
+2373,878,Power Washing,225
+2374,879,Lot Fee,150
+2375,879,Seller Service Fee,200
+2376,879,Power Washing,225
+2377,880,Lot Fee,150
+2378,880,Seller Service Fee,200
+2379,880,Power Washing,225
+2380,880,Decal Removal,100
+2381,881,Lot Fee,150
+2382,881,Seller Service Fee,200
+2383,881,Power Washing,225
+2384,881,Decal Removal,100
+2385,882,Lot Fee,150
+2386,882,Seller Service Fee,200
+2387,882,Power Washing,225
+2388,883,Lot Fee,150
+2389,883,Seller Service Fee,200
+2390,883,Decal Removal,100
+2391,884,Lot Fee,150
+2392,884,Seller Service Fee,200
+2393,885,Lot Fee,150
+2394,885,Seller Service Fee,200
+2395,885,Power Washing,225
+2396,885,Decal Removal,100
+2397,886,Lot Fee,150
+2398,886,Seller Service Fee,200
+2399,886,Power Washing,225
+2400,887,Lot Fee,150
+2401,887,Seller Service Fee,200
+2402,888,Lot Fee,150
+2403,888,Seller Service Fee,200
+2404,889,Lot Fee,150
+2405,889,Seller Service Fee,200
+2406,889,Power Washing,225
+2407,890,Lot Fee,150
+2408,890,Seller Service Fee,200
+2409,890,Power Washing,225
+2410,890,Decal Removal,100
+2411,891,Lot Fee,150
+2412,891,Seller Service Fee,200
+2413,892,Lot Fee,150
+2414,892,Seller Service Fee,200
+2415,892,Power Washing,225
+2416,893,Lot Fee,150
+2417,893,Seller Service Fee,200
+2418,893,Power Washing,225
+2419,893,Decal Removal,100
+2420,894,Lot Fee,150
+2421,894,Seller Service Fee,200
+2422,894,Decal Removal,100
+2423,895,Lot Fee,150
+2424,895,Seller Service Fee,200
+2425,896,Lot Fee,150
+2426,896,Seller Service Fee,200
+2427,896,Power Washing,225
+2428,897,Lot Fee,150
+2429,897,Seller Service Fee,200
+2430,897,Decal Removal,100
+2431,898,Lot Fee,150
+2432,898,Seller Service Fee,200
+2433,898,Decal Removal,100
+2434,899,Lot Fee,150
+2435,899,Seller Service Fee,200
+2436,899,Power Washing,225
+2437,900,Lot Fee,150
+2438,900,Seller Service Fee,200
+2439,900,Power Washing,225
+2440,900,Decal Removal,100
+2441,901,Lot Fee,150
+2442,901,Seller Service Fee,200
+2443,902,Lot Fee,150
+2444,902,Seller Service Fee,200
+2445,902,Decal Removal,100
+2446,903,Lot Fee,150
+2447,903,Seller Service Fee,200
+2448,904,Lot Fee,150
+2449,904,Seller Service Fee,200
+2450,904,Power Washing,225
+2451,905,Lot Fee,150
+2452,905,Seller Service Fee,200
+2453,906,Lot Fee,150
+2454,906,Seller Service Fee,200
+2455,906,Power Washing,225
+2456,907,Lot Fee,150
+2457,907,Seller Service Fee,200
+2458,907,Power Washing,225
+2459,908,Lot Fee,150
+2460,908,Seller Service Fee,200
+2461,908,Decal Removal,100
+2462,909,Lot Fee,150
+2463,909,Seller Service Fee,200
+2464,909,Decal Removal,100
+2465,910,Lot Fee,150
+2466,910,Seller Service Fee,200
+2467,910,Power Washing,225
+2468,911,Lot Fee,150
+2469,911,Seller Service Fee,200
+2470,911,Power Washing,225
+2471,912,Lot Fee,150
+2472,912,Seller Service Fee,200
+2473,912,Power Washing,225
+2474,913,Lot Fee,150
+2475,913,Seller Service Fee,200
+2476,914,Lot Fee,150
+2477,914,Seller Service Fee,200
+2478,914,Power Washing,225
+2479,915,Lot Fee,150
+2480,915,Seller Service Fee,200
+2481,915,Power Washing,225
+2482,915,Decal Removal,100
+2483,916,Lot Fee,150
+2484,916,Seller Service Fee,200
+2485,917,Lot Fee,150
+2486,917,Seller Service Fee,200
+2487,918,Lot Fee,150
+2488,918,Seller Service Fee,200
+2489,918,Power Washing,225
+2490,918,Decal Removal,100
+2491,919,Lot Fee,150
+2492,919,Seller Service Fee,200
+2493,919,Power Washing,225
+2494,920,Lot Fee,150
+2495,920,Seller Service Fee,200
+2496,921,Lot Fee,150
+2497,921,Seller Service Fee,200
+2498,922,Lot Fee,150
+2499,922,Seller Service Fee,200
+2500,922,Decal Removal,100
+2501,923,Lot Fee,150
+2502,923,Seller Service Fee,200
+2503,924,Lot Fee,150
+2504,924,Seller Service Fee,200
+2505,924,Decal Removal,100
+2506,925,Lot Fee,150
+2507,925,Seller Service Fee,200
+2508,926,Lot Fee,150
+2509,926,Seller Service Fee,200
+2510,926,Power Washing,225
+2511,926,Decal Removal,100
+2512,927,Lot Fee,150
+2513,927,Seller Service Fee,200
+2514,927,Power Washing,225
+2515,927,Decal Removal,100
+2516,928,Lot Fee,150
+2517,928,Seller Service Fee,200
+2518,928,Power Washing,225
+2519,929,Lot Fee,150
+2520,929,Seller Service Fee,200
+2521,929,Decal Removal,100
+2522,930,Lot Fee,150
+2523,930,Seller Service Fee,200
+2524,930,Power Washing,225
+2525,931,Lot Fee,150
+2526,931,Seller Service Fee,200
+2527,932,Lot Fee,150
+2528,932,Seller Service Fee,200
+2529,933,Lot Fee,150
+2530,933,Seller Service Fee,200
+2531,933,Power Washing,225
+2532,934,Lot Fee,150
+2533,934,Seller Service Fee,200
+2534,934,Power Washing,225
+2535,934,Decal Removal,100
+2536,935,Lot Fee,150
+2537,935,Seller Service Fee,200
+2538,935,Power Washing,225
+2539,935,Decal Removal,100
+2540,936,Lot Fee,150
+2541,936,Seller Service Fee,200
+2542,936,Power Washing,225
+2543,936,Decal Removal,100
+2544,937,Lot Fee,150
+2545,937,Seller Service Fee,200
+2546,937,Power Washing,225
+2547,938,Lot Fee,150
+2548,938,Seller Service Fee,200
+2549,939,Lot Fee,150
+2550,939,Seller Service Fee,200
+2551,939,Power Washing,225
+2552,940,Lot Fee,150
+2553,940,Seller Service Fee,200
+2554,940,Decal Removal,100
+2555,941,Lot Fee,150
+2556,941,Seller Service Fee,200
+2557,942,Lot Fee,150
+2558,942,Seller Service Fee,200
+2559,942,Power Washing,225
+2560,942,Decal Removal,100
+2561,943,Lot Fee,150
+2562,943,Seller Service Fee,200
+2563,944,Lot Fee,150
+2564,944,Seller Service Fee,200
+2565,944,Power Washing,225
+2566,945,Lot Fee,150
+2567,945,Seller Service Fee,200
+2568,945,Power Washing,225
+2569,946,Lot Fee,150
+2570,946,Seller Service Fee,200
+2571,946,Decal Removal,100
+2572,947,Lot Fee,150
+2573,947,Seller Service Fee,200
+2574,948,Lot Fee,150
+2575,948,Seller Service Fee,200
+2576,949,Lot Fee,150
+2577,949,Seller Service Fee,200
+2578,949,Power Washing,225
+2579,950,Lot Fee,150
+2580,950,Seller Service Fee,200
+2581,951,Lot Fee,150
+2582,951,Seller Service Fee,200
+2583,952,Lot Fee,150
+2584,952,Seller Service Fee,200
+2585,952,Power Washing,225
+2586,953,Lot Fee,150
+2587,953,Seller Service Fee,200
+2588,953,Power Washing,225
+2589,953,Decal Removal,100
+2590,954,Lot Fee,150
+2591,954,Seller Service Fee,200
+2592,954,Power Washing,225
+2593,955,Lot Fee,150
+2594,955,Seller Service Fee,200
+2595,955,Power Washing,225
+2596,956,Lot Fee,150
+2597,956,Seller Service Fee,200
+2598,956,Decal Removal,100
+2599,957,Lot Fee,150
+2600,957,Seller Service Fee,200
+2601,957,Power Washing,225
+2602,957,Decal Removal,100
+2603,958,Lot Fee,150
+2604,958,Seller Service Fee,200
+2605,958,Power Washing,225
+2606,958,Decal Removal,100
+2607,959,Lot Fee,150
+2608,959,Seller Service Fee,200
+2609,960,Lot Fee,150
+2610,960,Seller Service Fee,200
+2611,960,Power Washing,225
+2612,960,Decal Removal,100
+2613,961,Lot Fee,150
+2614,961,Seller Service Fee,200
+2615,961,Power Washing,225
+2616,961,Decal Removal,100
+2617,962,Lot Fee,150
+2618,962,Seller Service Fee,200
+2619,962,Power Washing,225
+2620,963,Lot Fee,150
+2621,963,Seller Service Fee,200
+2622,963,Power Washing,225
+2623,964,Lot Fee,150
+2624,964,Seller Service Fee,200
+2625,964,Decal Removal,100
+2626,965,Lot Fee,150
+2627,965,Seller Service Fee,200
+2628,965,Power Washing,225
+2629,966,Lot Fee,150
+2630,966,Seller Service Fee,200
+2631,966,Power Washing,225
+2632,966,Decal Removal,100
+2633,967,Lot Fee,150
+2634,967,Seller Service Fee,200
+2635,967,Decal Removal,100
+2636,968,Lot Fee,150
+2637,968,Seller Service Fee,200
+2638,968,Power Washing,225
+2639,969,Lot Fee,150
+2640,969,Seller Service Fee,200
+2641,969,Power Washing,225
+2642,969,Decal Removal,100
+2643,970,Lot Fee,150
+2644,970,Seller Service Fee,200
+2645,970,Decal Removal,100
+2646,971,Lot Fee,150
+2647,971,Seller Service Fee,200
+2648,971,Power Washing,225
+2649,972,Lot Fee,150
+2650,972,Seller Service Fee,200
+2651,972,Power Washing,225
+2652,973,Lot Fee,150
+2653,973,Seller Service Fee,200
+2654,974,Lot Fee,150
+2655,974,Seller Service Fee,200
+2656,975,Lot Fee,150
+2657,975,Seller Service Fee,200
+2658,975,Power Washing,225
+2659,975,Decal Removal,100
+2660,976,Lot Fee,150
+2661,976,Seller Service Fee,200
+2662,976,Decal Removal,100
+2663,977,Lot Fee,150
+2664,977,Seller Service Fee,200
+2665,978,Lot Fee,150
+2666,978,Seller Service Fee,200
+2667,979,Lot Fee,150
+2668,979,Seller Service Fee,200
+2669,979,Power Washing,225
+2670,980,Lot Fee,150
+2671,980,Seller Service Fee,200
+2672,980,Decal Removal,100
+2673,981,Lot Fee,150
+2674,981,Seller Service Fee,200
+2675,981,Power Washing,225
+2676,982,Lot Fee,150
+2677,982,Seller Service Fee,200
+2678,982,Power Washing,225
+2679,983,Lot Fee,150
+2680,983,Seller Service Fee,200
+2681,983,Decal Removal,100
+2682,984,Lot Fee,150
+2683,984,Seller Service Fee,200
+2684,984,Power Washing,225
+2685,985,Lot Fee,150
+2686,985,Seller Service Fee,200
+2687,986,Lot Fee,150
+2688,986,Seller Service Fee,200
+2689,986,Power Washing,225
+2690,987,Lot Fee,150
+2691,987,Seller Service Fee,200
+2692,988,Lot Fee,150
+2693,988,Seller Service Fee,200
+2694,988,Power Washing,225
+2695,989,Lot Fee,150
+2696,989,Seller Service Fee,200
+2697,989,Decal Removal,100
+2698,990,Lot Fee,150
+2699,990,Seller Service Fee,200
+2700,990,Power Washing,225
+2701,991,Lot Fee,150
+2702,991,Seller Service Fee,200
+2703,992,Lot Fee,150
+2704,992,Seller Service Fee,200
+2705,993,Lot Fee,150
+2706,993,Seller Service Fee,200
+2707,993,Decal Removal,100
+2708,994,Lot Fee,150
+2709,994,Seller Service Fee,200
+2710,994,Power Washing,225
+2711,995,Lot Fee,150
+2712,995,Seller Service Fee,200
+2713,995,Power Washing,225
+2714,995,Decal Removal,100
+2715,996,Lot Fee,150
+2716,996,Seller Service Fee,200
+2717,997,Lot Fee,150
+2718,997,Seller Service Fee,200
+2719,997,Power Washing,225
+2720,997,Decal Removal,100
+2721,998,Lot Fee,150
+2722,998,Seller Service Fee,200
+2723,999,Lot Fee,150
+2724,999,Seller Service Fee,200
+2725,1000,Lot Fee,150
+2726,1000,Seller Service Fee,200
+2727,1000,Power Washing,225
