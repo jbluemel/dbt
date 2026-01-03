@@ -1,22 +1,217 @@
 version: '3.8'
 
 services:
+  # Your existing analytics PostgreSQL
   postgres:
     image: postgres:15
     container_name: dbt-local-postgres
     environment:
       POSTGRES_USER: dbt_user
       POSTGRES_PASSWORD: dbt_password
-      POSTGRES_DB: analytics
+      POSTGRES_DB: dbt_dev
     ports:
-      - "5432:5432"
+      - "5434:5432"
     volumes:
       - postgres_data:/var/lib/postgresql/data
+    networks:
+      - dbt-network
     healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U dbt_user -d analytics"]
+      test: ["CMD-SHELL", "pg_isready -U dbt_user -d dbt_dev"]
       interval: 10s
       timeout: 5s
       retries: 5
 
+  # Redis for Superset caching
+  redis:
+    image: redis:7-alpine
+    container_name: superset-redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    networks:
+      - dbt-network
+
+  # PostgreSQL for Superset metadata
+  superset-db:
+    image: postgres:15
+    container_name: superset-postgres
+    environment:
+      POSTGRES_USER: superset
+      POSTGRES_PASSWORD: superset
+      POSTGRES_DB: superset
+    ports:
+      - "5433:5432"
+    volumes:
+      - superset_db_data:/var/lib/postgresql/data
+    networks:
+      - dbt-network
+
+  # Apache Superset
+  superset:
+    build:
+      context: .
+      dockerfile: Dockerfile.superset
+    container_name: superset
+    environment:
+      - SUPERSET_CONFIG_PATH=/app/pythonpath/superset_config.py
+    ports:
+      - "8088:8088"
+    volumes:
+      - superset_home:/app/superset_home
+      - ./superset_config.py:/app/pythonpath/superset_config.py
+    depends_on:
+      - superset-db
+      - redis
+    networks:
+      - dbt-network
+    entrypoint: >
+      bash -c "
+      superset db upgrade &&
+      superset fab create-admin --username admin --firstname Admin --lastname User --email admin@superset.com --password admin || true &&
+      superset init &&
+      gunicorn -b 0.0.0.0:8088 'superset.app:create_app()'
+      "
+
+# ==========================================
+  # AIRBYTE SERVICES (NEW)
+  # ==========================================
+
+  # Mock CRM database (source to extract from)
+  mock-crm-db:
+    image: postgres:15
+    container_name: mock-crm-db
+    environment:
+      POSTGRES_USER: crm_user
+      POSTGRES_PASSWORD: crm_password
+      POSTGRES_DB: crm
+    ports:
+      - "5435:5432"
+    volumes:
+      - mock_crm_data:/var/lib/postgresql/data
+    networks:
+      - dbt-network
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U crm_user -d crm"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # Airbyte's internal database
+  airbyte-db:
+    image: postgres:13-alpine
+    container_name: airbyte-db
+    environment:
+      POSTGRES_USER: docker
+      POSTGRES_PASSWORD: docker
+      POSTGRES_DB: airbyte
+    volumes:
+      - airbyte_db_data:/var/lib/postgresql/data
+    networks:
+      - dbt-network
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U docker -d airbyte"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+ # Airbyte Server (API/orchestration)
+  airbyte-server:
+    image: airbyte/server:0.50.33
+    container_name: airbyte-server
+    environment:
+      DATABASE_USER: docker
+      DATABASE_PASSWORD: docker
+      DATABASE_HOST: airbyte-db
+      DATABASE_PORT: 5432
+      DATABASE_DB: airbyte
+      CONFIG_ROOT: /data
+      WORKSPACE_ROOT: /tmp/workspace
+      TRACKING_STRATEGY: logging
+      AIRBYTE_VERSION: 0.50.33
+      WEBAPP_URL: http://localhost:8000
+      WORKER_ENVIRONMENT: docker
+      LOG_LEVEL: INFO
+    ports:
+      - "8001:8001"
+    volumes:
+      - airbyte_workspace:/tmp/workspace
+      - airbyte_data:/data
+      - /var/run/docker.sock:/var/run/docker.sock
+    networks:
+      - dbt-network
+    depends_on:
+      airbyte-db:
+        condition: service_healthy
+
+  # Airbyte Webapp (UI)
+  airbyte-webapp:
+    image: airbyte/webapp:0.50.33
+    container_name: airbyte-webapp
+    ports:
+      - "8000:80"
+    environment:
+      AIRBYTE_VERSION: 0.50.33
+      API_URL: http://localhost:8001
+      TRACKING_STRATEGY: logging
+    networks:
+      - dbt-network
+    depends_on:
+      - airbyte-server
+
+ # Airbyte Worker (runs sync jobs)
+  airbyte-worker:
+    image: airbyte/worker:0.50.33
+    container_name: airbyte-worker
+    environment:
+      DATABASE_USER: docker
+      DATABASE_PASSWORD: docker
+      DATABASE_HOST: airbyte-db
+      DATABASE_PORT: 5432
+      DATABASE_DB: airbyte
+      WORKSPACE_ROOT: /tmp/workspace
+      CONFIG_ROOT: /data
+      AIRBYTE_VERSION: 0.50.33
+      WORKER_ENVIRONMENT: docker
+      LOG_LEVEL: INFO
+      INTERNAL_API_HOST: airbyte-server:8001
+    volumes:
+      - airbyte_workspace:/tmp/workspace
+      - airbyte_data:/data
+      - /var/run/docker.sock:/var/run/docker.sock
+    networks:
+      - dbt-network
+    depends_on:
+      - airbyte-server
+
+  # Airbyte Temporal (workflow engine)
+  airbyte-temporal:
+    image: airbyte/temporal:0.50.33
+    container_name: airbyte-temporal
+    environment:
+      DB: postgresql
+      DB_PORT: 5432
+      POSTGRES_USER: docker
+      POSTGRES_PWD: docker
+      POSTGRES_SEEDS: airbyte-db
+      DYNAMIC_CONFIG_FILE_PATH: config/dynamicconfig/development.yaml
+    networks:
+      - dbt-network
+    depends_on:
+      airbyte-db:
+        condition: service_healthy
+
+
 volumes:
   postgres_data:
+  redis_data:
+  superset_db_data:
+  superset_home:
+  mock_crm_data:
+  airbyte_db_data:
+  airbyte_workspace:
+  airbyte_data:
+
+networks:
+  dbt-network:
+    driver: bridge

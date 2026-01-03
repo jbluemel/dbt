@@ -4,39 +4,39 @@ my_dbt_project:
     local:
       type: postgres
       host: localhost
-      port: 5432
+      port: 5434
       user: dbt_user
       password: dbt_password
-      dbname: analytics
+      dbname: dbt_dev
       schema: public
       threads: 4
     
     dev:
       type: postgres
-      host: "{{ env_var('DEV_DB_HOST') }}"
-      port: 5432
+      host: localhost
+      port: 5436  # Port-forward to K8s dev
       user: dbt_user
-      password: "{{ env_var('DEV_DB_PASSWORD') }}"
+      password: dbt_password
       dbname: dbt_dev
       schema: public
       threads: 4
     
     staging:
       type: postgres
-      host: "{{ env_var('STAGING_DB_HOST') }}"
-      port: 5432
+      host: localhost
+      port: 5437  # Port-forward to K8s staging
       user: dbt_user
-      password: "{{ env_var('STAGING_DB_PASSWORD') }}"
+      password: dbt_password
       dbname: dbt_dev
       schema: public
       threads: 4
     
     prod:
       type: postgres
-      host: "{{ env_var('PROD_DB_HOST') }}"
-      port: 5432
+      host: localhost
+      port: 5438  # Port-forward to K8s prod
       user: dbt_user
-      password: "{{ env_var('PROD_DB_PASSWORD') }}"
+      password: dbt_password
       dbname: dbt_dev
       schema: public
       threads: 8
