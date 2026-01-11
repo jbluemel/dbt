@@ -1,23 +1,16 @@
 version: 2
 
 models:
-  - name: category_performance
-    description: "Total winning bid amounts by auction category"
+  - name: weekly_metrics_summary
+    description: "Weekly auction performance metrics by fiscal week"
     columns:
-      - name: category
-        description: "Item category (Equipment, Vehicle, Tools)"
-        tests:
-          - not_null
-          - unique
-      
-      - name: total_winning_bid_amount
-        description: "Sum of all winning bids for this category"
-        tests:
-          - not_null
-          
-
-  - name: customer_lifetime_value
-    description: "Customer spending analysis"
-    
-  - name: item_performance
-    description: "Item-level performance metrics"
+      - name: fiscal_year
+        description: "Fiscal year (Aug 1 - Jul 31), e.g. 2026"
+      - name: fiscal_week_number
+        description: "Week number within fiscal year (1-52)"
+      - name: total_items_sold
+        description: "Count of items sold (safe_for_alv = true)"
+      - name: avg_lot_value
+        description: "Average contract price for sold items"
+      - name: total_contract_price
+        description: "Sum of all contract prices"

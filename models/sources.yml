@@ -1,11 +1,3 @@
 version: 2
 
-sources:
-  - name: raw_data
-    schema: public
-    tables:
-      - name: customers
-      - name: item
-      - name: bids
-      - name: items_v2
-      - name: fees
+sources: []
