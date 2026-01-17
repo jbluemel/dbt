@@ -15,6 +15,13 @@ with weekly_data as (
         end as fiscal_week_number,
         
         taxonomy_industry,
+        taxonomy_family,
+        taxonomy_category,
+        item_region_id,
+        item_region_name,
+        item_district_id,
+        item_territory_id,
+        business_category,
         contract_price,
         buyer_premium,
         seller_service_fee,
@@ -28,6 +35,13 @@ select
     fiscal_year,
     fiscal_week_number,
     taxonomy_industry,
+    taxonomy_family,
+    taxonomy_category,
+    item_region_id,
+    item_region_name,
+    item_district_id,
+    item_territory_id,
+    business_category,
     count(*) as total_items_sold,
     round(avg(contract_price)::numeric, 2) as avg_lot_value,
     sum(contract_price) as total_contract_price,
@@ -37,5 +51,15 @@ select
     sum(case when contract_price >= 10000 then 1 else 0 end) as items_10k_plus,
     round(100.0 * sum(case when contract_price >= 10000 then 1 else 0 end) / count(*), 2) as pct_items_10k_plus
 from weekly_data
-group by fiscal_year, fiscal_week_number, taxonomy_industry
-order by fiscal_year, fiscal_week_number, taxonomy_industry
+group by 
+    fiscal_year,
+    fiscal_week_number,
+    taxonomy_industry,
+    taxonomy_family,
+    taxonomy_category,
+    item_region_id,
+    item_region_name,
+    item_district_id,
+    item_territory_id,
+    business_category
+order by fiscal_year, fiscal_week_number
