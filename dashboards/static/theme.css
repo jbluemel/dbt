@@ -1,0 +1,57 @@
+/* ============================================
+   Purple Wave Dashboard Theme
+   Light theme matching IMS design system
+   ============================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+:root {
+  /* Brand */
+  --pw-purple: #5B2D8E;
+  --pw-purple-light: #7B4FAE;
+  --pw-purple-dark: #3E1A6B;
+  --pw-gold: #D4A843;
+  --pw-gold-light: #E8C976;
+
+  /* Surfaces - light theme */
+  --surface-0: #F3F4F6;
+  --surface-1: #FFFFFF;
+  --surface-2: #F9FAFB;
+  --surface-3: #F3F4F6;
+  --border: #E5E7EB;
+
+  /* Text */
+  --text-primary: #1F2937;
+  --text-secondary: #6B7280;
+  --text-muted: #9CA3AF;
+
+  /* Status */
+  --green: #059669;
+  --green-bg: rgba(5, 150, 105, 0.08);
+  --red: #DC2626;
+  --red-bg: rgba(220, 38, 38, 0.08);
+  --amber: #D97706;
+  --amber-bg: rgba(217, 119, 6, 0.08);
+
+  /* Chart palette */
+  --chart-1: #7C3AED;
+  --chart-2: #4F46E5;
+  --chart-3: #2563EB;
+  --chart-4: #0891B2;
+  --chart-5: #059669;
+  --chart-6: #D4A843;
+  --chart-7: #DB2777;
+  --chart-8: #7C3AED;
+
+  /* Goal */
+  --alv-goal: 10000;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  background: var(--surface-0);
+  color: var(--text-primary);
+  min-height: 100vh;
+}

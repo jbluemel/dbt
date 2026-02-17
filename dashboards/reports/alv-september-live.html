@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Purple Wave - ALV | September FY2026</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<link rel="stylesheet" href="../static/theme.css">
+<link rel="stylesheet" href="../static/layout.css">
+</head>
+<body>
+
+<div class="pw-header">
+  <div class="pw-header-left">
+    <div class="pw-logo">PW</div>
+    <div>
+      <h1>Average Lot Value Dashboard</h1>
+      <div class="pw-header-subtitle">September FY 2026 - Purple Wave Auction</div>
+    </div>
+  </div>
+  <div class="pw-header-right">Goal: $10,000 ALV <span id="dataMode" style="color:var(--green); margin-left:12px;">LIVE</span></div>
+</div>
+
+<div class="pw-filters">
+  <span class="pw-filter-label">Filter by</span>
+  <div class="pw-filter-group"><select id="regionFilter"></select></div>
+  <div class="pw-filter-group"><select id="districtFilter"></select></div>
+  <div class="pw-filter-group"><select id="territoryFilter"></select></div>
+  <button class="pw-reset-btn" id="resetBtn">Reset Filters</button>
+</div>
+
+<div class="pw-content">
+  <div class="pw-scope" id="scope" style="display:none;"></div>
+  <div class="pw-kpi-row" id="kpis"></div>
+
+  <div class="pw-charts-grid">
+    <div class="pw-card">
+      <div class="pw-card-header">
+        <div>
+          <div class="pw-card-title" id="barTitle">Average Lot Value by Region</div>
+          <div class="pw-card-subtitle">Goal line at $10,000</div>
+        </div>
+      </div>
+      <div class="pw-chart tall"><canvas id="barChart"></canvas></div>
+    </div>
+    <div class="pw-card">
+      <div class="pw-card-header">
+        <div>
+          <div class="pw-card-title" id="doughnutTitle">Lot Distribution</div>
+          <div class="pw-card-subtitle">By volume share</div>
+        </div>
+      </div>
+      <div class="pw-chart medium"><canvas id="doughnutChart"></canvas></div>
+    </div>
+  </div>
+
+  <div class="pw-card">
+    <div class="pw-card-header">
+      <div>
+        <div class="pw-card-title" id="tableTitle">Detail Breakdown</div>
+        <div class="pw-card-subtitle" id="tableSub">By geographic hierarchy</div>
+      </div>
+    </div>
+    <div id="tableBody"></div>
+  </div>
+</div>
+
+<div class="pw-footer">
+  <span>Data source: itemv2 - <span id="footerMode">PostgreSQL (live)</span></span>
+  <span>Dashboard POC - Purple Wave Data Team</span>
+</div>
+
+<script src="../static/pw-utils.js"></script>
+<script src="../static/pw-filters.js"></script>
+<script>
+var REPORT = {
+  table: "itemv2",
+  filters: {
+    "Year of Auction Endtime - Fiscal Year": "FY 2026",
+    "Month of Auction Endtime - Calendar Year": "September"
+  },
+  regionCol: "Item Region Id",
+  districtCol: "Item District",
+  territoryCol: "Item Territory Id",
+  metricCol: "Contract Price"
+};
+
+var API_BASE = window.location.origin + "/api";
+var DATA = [];
+var barChart = null;
+var doughnutChart = null;
+var filters;
+
+async function loadData() {
+  try {
+    var groupBy = [REPORT.regionCol, REPORT.districtCol, REPORT.territoryCol].join(",");
+    var filtersParam = encodeURIComponent(JSON.stringify(REPORT.filters));
+    var url = API_BASE + "/query?table=" + REPORT.table + "&group_by=" + groupBy + "&filters=" + filtersParam;
+
+    var response = await fetch(url);
+    if (!response.ok) throw new Error("API returned " + response.status);
+
+    var result = await response.json();
+
+    DATA = result.data.map(function(row) {
+      return {
+        region: row[REPORT.regionCol],
+        district: row[REPORT.districtCol],
+        territory: row[REPORT.territoryCol],
+        lots: row.lots,
+        alv: row.avg_lot_value,
+        revenue: row.total_revenue
+      };
+    });
+
+    document.getElementById("dataMode").textContent = "LIVE";
+    document.getElementById("dataMode").style.color = "var(--green)";
+    document.getElementById("footerMode").textContent = "PostgreSQL (live) - " + DATA.length + " territories loaded";
+    return true;
+  } catch (err) {
+    console.error("API fetch failed:", err);
+    document.getElementById("dataMode").textContent = "OFFLINE";
+    document.getElementById("dataMode").style.color = "var(--red)";
+    document.getElementById("footerMode").textContent = "API unavailable";
+    return false;
+  }
+}
+
+function render() {
+  if (DATA.length === 0) {
+    document.getElementById("kpis").innerHTML = PW.kpiCard("Status", "No Data", "Check API connection", "");
+    return;
+  }
+
+  var filtered = filters.filterData(DATA);
+  var drill = filters.drillLevel();
+  var agg = PW.aggregate(filtered);
+
+  var scopeEl = document.getElementById("scope");
+  var scopeText = filters.scopeText();
+  if (scopeText) {
+    scopeEl.style.display = "flex";
+    scopeEl.textContent = "Viewing: " + scopeText;
+  } else {
+    scopeEl.style.display = "none";
+  }
+
+  var s = PW.status(agg.alv);
+  var hitCount = filtered.filter(function(r) { return r.alv >= PW.GOAL; }).length;
+
+  document.getElementById("kpis").innerHTML =
+    PW.kpiCard("Average Lot Value", PW.fmtDec(agg.alv), PW.badge(agg.alv), s) +
+    PW.kpiCard("Total Lots", PW.num(agg.lots), "items sold") +
+    PW.kpiCard("Total Revenue", PW.fmt(agg.revenue), "contract price") +
+    PW.kpiCard("Goal Hit Rate", hitCount + " / " + filtered.length,
+      (filtered.length > 0 ? PW.pct(hitCount / filtered.length) : "0%") + " of territories at or above $10k");
+
+  var grouped = PW.groupBy(filtered, drill.groupKey);
+  var keys = Object.keys(grouped).sort(function(a, b) { return a - b; });
+  var alvValues = keys.map(function(k) { return PW.aggregate(grouped[k]).alv; });
+  var lotValues = keys.map(function(k) { return PW.aggregate(grouped[k]).lots; });
+
+  document.getElementById("barTitle").textContent = "Average Lot Value by " + drill.label;
+  document.getElementById("doughnutTitle").textContent = "Lot Distribution by " + drill.label;
+
+  var ctx1 = document.getElementById("barChart").getContext("2d");
+  if (barChart) barChart.destroy();
+
+  barChart = new Chart(ctx1, {
+    type: "bar",
+    data: {
+      labels: keys.map(function(k) { return drill.label + " " + k; }),
+      datasets: [{
+        label: "ALV",
+        data: alvValues,
+        backgroundColor: PW.barColorByGoal(alvValues),
+        borderColor: PW.barColorByGoal(alvValues).map(function(c) { return c.replace(/0\.\d+\)/, "1)"); }),
+        borderWidth: 1,
+        borderRadius: 4,
+        barPercentage: 0.7
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      interaction: { mode: "index", intersect: false },
+      plugins: {
+        legend: { display: false },
+        tooltip: Object.assign({}, PW.tooltipConfig(), {
+          callbacks: {
+            label: function(ctx) {
+              return ["ALV: " + PW.fmtDec(ctx.raw), "Lots: " + lotValues[ctx.dataIndex].toLocaleString()];
+            }
+          }
+        })
+      },
+      scales: {
+        x: PW.xAxisConfig(),
+        y: Object.assign({}, PW.yAxisConfig(), {
+          afterDataLimits: function(scale) { scale.max = Math.max(scale.max, PW.GOAL * 1.3); }
+        })
+      }
+    },
+    plugins: [PW.goalLinePlugin()]
+  });
+
+  var ctx2 = document.getElementById("doughnutChart").getContext("2d");
+  if (doughnutChart) doughnutChart.destroy();
+
+  doughnutChart = new Chart(ctx2, {
+    type: "doughnut",
+    data: {
+      labels: keys.map(function(k) { return drill.label + " " + k; }),
+      datasets: [{
+        data: keys.map(function(k) { return PW.aggregate(grouped[k]).lots; }),
+        backgroundColor: PW.CHART_COLORS.slice(0, keys.length),
+        borderColor: "#17171E",
+        borderWidth: 2,
+        hoverOffset: 6
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      cutout: "60%",
+      plugins: {
+        legend: PW.doughnutLegendConfig(),
+        tooltip: Object.assign({}, PW.tooltipConfig(), {
+          callbacks: {
+            label: function(ctx) {
+              var total = ctx.dataset.data.reduce(function(a, b) { return a + b; }, 0);
+              return " " + ctx.raw.toLocaleString() + " lots (" + (ctx.raw / total * 100).toFixed(1) + "%)";
+            }
+          }
+        })
+      }
+    }
+  });
+
+  document.getElementById("tableTitle").textContent = drill.label + " Breakdown";
+  document.getElementById("tableSub").textContent = scopeText || "All regions";
+
+  var aggs = keys.map(function(k) { return Object.assign({ key: k }, PW.aggregate(grouped[k])); });
+  var maxRev = Math.max.apply(null, aggs.map(function(a) { return a.revenue; }));
+  var totalRev = aggs.reduce(function(s, a) { return s + a.revenue; }, 0);
+
+  var html = '<table class="pw-table"><thead><tr>';
+  html += "<th>" + drill.label + "</th>";
+  html += '<th class="num">ALV</th>';
+  html += '<th class="num">Lots</th>';
+  html += '<th class="num">Revenue</th>';
+  html += "<th>Share</th>";
+  html += '<th class="num">vs Goal</th>';
+  html += "</tr></thead><tbody>";
+
+  aggs.forEach(function(a) {
+    var st = PW.status(a.alv);
+    var share = (a.revenue / totalRev * 100).toFixed(1);
+    var barW = (a.revenue / maxRev * 100).toFixed(0);
+    var barColor = st === "hit" ? "var(--green)" : st === "near" ? "var(--amber)" : "var(--chart-1)";
+    var gap = PW.gapPct(a.alv);
+    var sign = gap > 0 ? "+" : "";
+
+    html += "<tr>";
+    html += "<td>" + drill.label + " " + a.key + "</td>";
+    html += '<td class="num">' + PW.alvCell(a.alv) + "</td>";
+    html += '<td class="num">' + PW.num(a.lots) + "</td>";
+    html += '<td class="num">' + PW.fmt(a.revenue) + "</td>";
+    html += "<td>";
+    html += '<div class="pw-bar-inline">';
+    html += '<div class="pw-bar-track"><div class="pw-bar-fill" style="width:' + barW + "%;background:" + barColor + '"></div></div>';
+    html += '<span style="font-size:11px;color:var(--text-muted);font-family:JetBrains Mono;min-width:40px">' + share + "%</span>";
+    html += "</div></td>";
+    html += '<td class="num"><span class="pw-badge ' + st + '">' + sign + gap + "%</span></td>";
+    html += "</tr>";
+  });
+
+  html += "</tbody></table>";
+  document.getElementById("tableBody").innerHTML = html;
+}
+
+async function init() {
+  var loaded = await loadData();
+  if (loaded && DATA.length > 0) {
+    filters = new PWGeoFilters({
+      data: DATA,
+      regionId: "regionFilter",
+      districtId: "districtFilter",
+      territoryId: "territoryFilter",
+      onChange: render
+    });
+    document.getElementById("resetBtn").addEventListener("click", function() { filters.reset(); });
+    render();
+  }
+}
+
+init();
+</script>
+</body>
+</html>

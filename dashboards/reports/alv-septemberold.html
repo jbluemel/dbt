@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Purple Wave — ALV | September FY2026</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<link rel="stylesheet" href="../static/theme.css">
+<link rel="stylesheet" href="../static/layout.css">
+</head>
+<body>
+
+<!-- === HEADER === -->
+<div class="pw-header">
+  <div class="pw-header-left">
+    <div class="pw-logo">PW</div>
+    <div>
+      <h1>Average Lot Value Dashboard</h1>
+      <div class="pw-header-subtitle">September FY 2026 · Purple Wave Auction</div>
+    </div>
+  </div>
+  <div class="pw-header-right">Goal: $10,000 ALV</div>
+</div>
+
+<!-- === FILTERS === -->
+<div class="pw-filters">
+  <span class="pw-filter-label">Filter by</span>
+  <div class="pw-filter-group">
+    <select id="regionFilter"></select>
+  </div>
+  <div class="pw-filter-group">
+    <select id="districtFilter"></select>
+  </div>
+  <div class="pw-filter-group">
+    <select id="territoryFilter"></select>
+  </div>
+  <button class="pw-reset-btn" id="resetBtn">Reset Filters</button>
+</div>
+
+<!-- === CONTENT === -->
+<div class="pw-content">
+  <div class="pw-scope" id="scope" style="display:none;"></div>
+
+  <!-- KPIs -->
+  <div class="pw-kpi-row" id="kpis"></div>
+
+  <!-- Charts -->
+  <div class="pw-charts-grid">
+    <div class="pw-card">
+      <div class="pw-card-header">
+        <div>
+          <div class="pw-card-title" id="barTitle">Average Lot Value by Region</div>
+          <div class="pw-card-subtitle">Goal line at $10,000</div>
+        </div>
+      </div>
+      <div class="pw-chart tall"><canvas id="barChart"></canvas></div>
+    </div>
+    <div class="pw-card">
+      <div class="pw-card-header">
+        <div>
+          <div class="pw-card-title" id="doughnutTitle">Lot Distribution</div>
+          <div class="pw-card-subtitle">By volume share</div>
+        </div>
+      </div>
+      <div class="pw-chart medium"><canvas id="doughnutChart"></canvas></div>
+    </div>
+  </div>
+
+  <!-- Table -->
+  <div class="pw-card">
+    <div class="pw-card-header">
+      <div>
+        <div class="pw-card-title" id="tableTitle">Detail Breakdown</div>
+        <div class="pw-card-subtitle" id="tableSub">By geographic hierarchy</div>
+      </div>
+    </div>
+    <div id="tableBody"></div>
+  </div>
+</div>
+
+<!-- === FOOTER === -->
+<div class="pw-footer">
+  <span>Data source: itemv2 gold table · PostgreSQL</span>
+  <span>Dashboard POC · Purple Wave Data Team</span>
+</div>
+
+<!-- === SHARED SCRIPTS === -->
+<script src="../static/pw-utils.js"></script>
+<script src="../static/pw-filters.js"></script>
+
+<!-- === REPORT DATA & LOGIC === -->
+<script>
+// =============================================
+// DATA — September FY2026 territory-level grain
+// This is the ONLY section that changes per report.
+// Everything above is template. Everything below is rendering.
+// =============================================
+
+const DATA = [
+  {region:1,district:26,territory:299,lots:2,alv:1306.25,revenue:2612.50},
+  {region:1,district:26,territory:302,lots:2,alv:12100.00,revenue:24200.00},
+  {region:1,district:26,territory:375,lots:3,alv:15400.00,revenue:46200.00},
+  {region:1,district:26,territory:376,lots:1,alv:36300.00,revenue:36300.00},
+  {region:1,district:27,territory:301,lots:3,alv:26766.67,revenue:80300.00},
+  {region:1,district:27,territory:305,lots:5,alv:4845.50,revenue:24227.50},
+  {region:1,district:27,territory:308,lots:3,alv:12723.33,revenue:38170.00},
+  {region:1,district:28,territory:306,lots:2,alv:2480.50,revenue:4961.00},
+  {region:1,district:28,territory:314,lots:1,alv:907.50,revenue:907.50},
+  {region:1,district:28,territory:408,lots:1,alv:19250.00,revenue:19250.00},
+  {region:1,district:29,territory:411,lots:1,alv:962.50,revenue:962.50},
+  {region:1,district:30,territory:319,lots:1,alv:30250.00,revenue:30250.00},
+  {region:2,district:8,territory:110,lots:11,alv:7610.00,revenue:83710.00},
+  {region:2,district:8,territory:326,lots:1,alv:12650.00,revenue:12650.00},
+  {region:2,district:8,territory:367,lots:64,alv:41331.81,revenue:2645236.00},
+  {region:2,district:8,territory:401,lots:1,alv:15950.00,revenue:15950.00},
+  {region:2,district:9,territory:392,lots:3,alv:59335.83,revenue:178007.50},
+  {region:2,district:9,territory:393,lots:1,alv:935.00,revenue:935.00},
+  {region:2,district:9,territory:394,lots:1,alv:24200.00,revenue:24200.00},
+  {region:2,district:9,territory:399,lots:1,alv:10230.00,revenue:10230.00},
+  {region:2,district:9,territory:400,lots:7,alv:4368.57,revenue:30580.00},
+  {region:2,district:10,territory:341,lots:3,alv:6645.83,revenue:19937.50},
+  {region:2,district:11,territory:334,lots:5,alv:6930.00,revenue:34650.00},
+  {region:2,district:11,territory:335,lots:2,alv:4235.00,revenue:8470.00},
+  {region:2,district:11,territory:337,lots:1,alv:10010.00,revenue:10010.00},
+  {region:2,district:11,territory:340,lots:4,alv:1938.75,revenue:7755.00},
+  {region:2,district:11,territory:368,lots:4,alv:2145.00,revenue:8580.00},
+  {region:2,district:12,territory:327,lots:14,alv:10237.86,revenue:143330.00},
+  {region:2,district:12,territory:330,lots:2,alv:701.25,revenue:1402.50},
+  {region:2,district:12,territory:331,lots:2,alv:10340.00,revenue:20680.00},
+  {region:2,district:12,territory:333,lots:1,alv:231.00,revenue:231.00},
+  {region:2,district:12,territory:369,lots:1,alv:110.00,revenue:110.00},
+  {region:2,district:31,territory:384,lots:3,alv:7920.00,revenue:23760.00},
+  {region:2,district:31,territory:390,lots:1,alv:2970.00,revenue:2970.00},
+  {region:2,district:32,territory:380,lots:2,alv:10560.00,revenue:21120.00},
+  {region:2,district:32,territory:382,lots:1,alv:27500.00,revenue:27500.00},
+  {region:3,district:1,territory:2,lots:64,alv:10456.19,revenue:669196.00},
+  {region:3,district:1,territory:3,lots:146,alv:7271.72,revenue:1061670.50},
+  {region:3,district:1,territory:5,lots:238,alv:9227.68,revenue:2196188.50},
+  {region:3,district:1,territory:6,lots:59,alv:8578.42,revenue:506126.50},
+  {region:3,district:1,territory:22,lots:133,alv:9021.41,revenue:1199847.00},
+  {region:3,district:1,territory:99,lots:264,alv:3945.68,revenue:1041658.75},
+  {region:3,district:2,territory:4,lots:311,alv:7343.04,revenue:2283685.25},
+  {region:3,district:2,territory:9,lots:222,alv:7791.96,revenue:1729816.00},
+  {region:3,district:2,territory:19,lots:176,alv:10104.23,revenue:1778345.25},
+  {region:3,district:2,territory:25,lots:42,alv:5954.73,revenue:250098.75},
+  {region:3,district:2,territory:60,lots:82,alv:6648.19,revenue:545151.75},
+  {region:3,district:2,territory:108,lots:53,alv:7808.86,revenue:413869.50},
+  {region:3,district:2,territory:421,lots:87,alv:7268.16,revenue:632329.50},
+  {region:3,district:3,territory:13,lots:88,alv:4246.56,revenue:373697.50},
+  {region:3,district:3,territory:23,lots:40,alv:11336.88,revenue:453475.00},
+  {region:3,district:3,territory:31,lots:79,alv:10504.51,revenue:829856.50},
+  {region:3,district:3,territory:39,lots:6,alv:10376.67,revenue:62260.00},
+  {region:3,district:3,territory:346,lots:148,alv:9165.60,revenue:1356509.00},
+  {region:3,district:3,territory:347,lots:17,alv:10433.50,revenue:177369.50},
+  {region:3,district:3,territory:348,lots:31,alv:4714.39,revenue:146146.00},
+  {region:3,district:7,territory:54,lots:14,alv:2332.00,revenue:32648.00},
+  {region:3,district:7,territory:208,lots:9,alv:22317.78,revenue:200860.00},
+  {region:3,district:7,territory:209,lots:19,alv:6075.18,revenue:115428.50},
+  {region:3,district:7,territory:210,lots:36,alv:5099.26,revenue:183573.50},
+  {region:3,district:7,territory:211,lots:4,alv:1237.50,revenue:4950.00},
+  {region:3,district:7,territory:396,lots:1,alv:34100.00,revenue:34100.00},
+  {region:3,district:21,territory:21,lots:48,alv:7189.42,revenue:345092.00},
+  {region:3,district:21,territory:50,lots:53,alv:5619.44,revenue:297830.50},
+  {region:3,district:21,territory:51,lots:100,alv:8763.59,revenue:876359.00},
+  {region:3,district:21,territory:349,lots:6,alv:40956.67,revenue:245740.00},
+  {region:3,district:21,territory:350,lots:198,alv:3573.40,revenue:707533.75},
+  {region:4,district:4,territory:27,lots:7,alv:4407.86,revenue:30855.00},
+  {region:4,district:4,territory:40,lots:1,alv:10340.00,revenue:10340.00},
+  {region:4,district:4,territory:88,lots:30,alv:6513.28,revenue:195398.50},
+  {region:4,district:4,territory:197,lots:7,alv:7008.57,revenue:49060.00},
+  {region:4,district:4,territory:353,lots:1,alv:3850.00,revenue:3850.00},
+  {region:4,district:4,territory:354,lots:41,alv:10452.68,revenue:428560.00},
+  {region:4,district:4,territory:423,lots:6,alv:30690.00,revenue:184140.00},
+  {region:4,district:5,territory:69,lots:68,alv:7534.07,revenue:512316.75},
+  {region:4,district:5,territory:70,lots:9,alv:11910.56,revenue:107195.00},
+  {region:4,district:5,territory:71,lots:2,alv:2516.25,revenue:5032.50},
+  {region:4,district:5,territory:215,lots:14,alv:36559.29,revenue:511830.00},
+  {region:4,district:13,territory:7,lots:113,alv:8967.58,revenue:1013336.50},
+  {region:4,district:13,territory:18,lots:263,alv:9188.61,revenue:2416603.75},
+  {region:4,district:13,territory:87,lots:6,alv:29443.33,revenue:176660.00},
+  {region:4,district:13,territory:355,lots:63,alv:9520.59,revenue:599797.00},
+  {region:4,district:13,territory:356,lots:22,alv:20737.50,revenue:456225.00},
+  {region:4,district:13,territory:422,lots:105,alv:4022.70,revenue:422383.50},
+  {region:4,district:14,territory:15,lots:12,alv:17141.67,revenue:205700.00},
+  {region:4,district:14,territory:17,lots:67,alv:12878.70,revenue:862873.00},
+  {region:4,district:14,territory:131,lots:4,alv:2681.25,revenue:10725.00},
+  {region:4,district:14,territory:133,lots:1,alv:16500.00,revenue:16500.00},
+  {region:4,district:14,territory:324,lots:1,alv:45650.00,revenue:45650.00},
+  {region:4,district:14,territory:357,lots:10,alv:6583.50,revenue:65835.00},
+  {region:4,district:15,territory:45,lots:18,alv:7113.79,revenue:128048.25},
+  {region:4,district:15,territory:46,lots:3,alv:31203.33,revenue:93610.00},
+  {region:4,district:15,territory:47,lots:1,alv:9680.00,revenue:9680.00},
+  {region:4,district:15,territory:77,lots:3,alv:13933.33,revenue:41800.00},
+  {region:4,district:15,territory:351,lots:8,alv:6958.88,revenue:55671.00},
+  {region:4,district:15,territory:352,lots:10,alv:28886.00,revenue:288860.00},
+  {region:5,district:16,territory:150,lots:4,alv:9480.63,revenue:37922.50},
+  {region:5,district:16,territory:176,lots:4,alv:5170.00,revenue:20680.00},
+  {region:5,district:16,territory:178,lots:18,alv:8268.33,revenue:148830.00},
+  {region:5,district:16,territory:179,lots:2,alv:7370.00,revenue:14740.00},
+  {region:5,district:16,territory:183,lots:2,alv:12100.00,revenue:24200.00},
+  {region:5,district:16,territory:359,lots:2,alv:10835.00,revenue:21670.00},
+  {region:5,district:17,territory:135,lots:3,alv:99733.33,revenue:299200.00},
+  {region:5,district:17,territory:143,lots:1,alv:1815.00,revenue:1815.00},
+  {region:5,district:17,territory:145,lots:7,alv:9318.57,revenue:65230.00},
+  {region:5,district:18,territory:168,lots:1,alv:17600.00,revenue:17600.00},
+  {region:5,district:18,territory:169,lots:3,alv:15803.33,revenue:47410.00},
+  {region:5,district:18,territory:170,lots:5,alv:17710.00,revenue:88550.00},
+  {region:5,district:18,territory:172,lots:2,alv:6820.00,revenue:13640.00},
+  {region:5,district:18,territory:296,lots:6,alv:32591.17,revenue:195547.00},
+  {region:5,district:19,territory:164,lots:1,alv:17050.00,revenue:17050.00},
+  {region:5,district:19,territory:298,lots:9,alv:58287.78,revenue:524590.00},
+  {region:5,district:19,territory:363,lots:2,alv:12100.00,revenue:24200.00},
+  {region:6,district:6,territory:116,lots:1,alv:28600.00,revenue:28600.00},
+  {region:6,district:6,territory:196,lots:21,alv:8583.93,revenue:180262.50},
+  {region:6,district:6,territory:216,lots:13,alv:13281.65,revenue:172661.50},
+  {region:6,district:6,territory:321,lots:1,alv:1155.00,revenue:1155.00},
+  {region:6,district:22,territory:115,lots:26,alv:14998.08,revenue:389950.00},
+  {region:6,district:22,territory:117,lots:17,alv:7691.26,revenue:130751.50},
+  {region:6,district:22,territory:213,lots:3,alv:13420.00,revenue:40260.00},
+  {region:6,district:22,territory:370,lots:31,alv:12381.56,revenue:383828.50},
+  {region:6,district:22,territory:371,lots:10,alv:9765.25,revenue:97652.50},
+  {region:6,district:22,territory:372,lots:2,alv:16252.50,revenue:32505.00},
+  {region:6,district:23,territory:184,lots:5,alv:7634.00,revenue:38170.00},
+  {region:6,district:23,territory:185,lots:6,alv:11330.00,revenue:67980.00},
+  {region:6,district:23,territory:186,lots:1,alv:23650.00,revenue:23650.00},
+  {region:6,district:24,territory:188,lots:1,alv:3960.00,revenue:3960.00},
+  {region:6,district:24,territory:192,lots:6,alv:37583.33,revenue:225500.00},
+  {region:6,district:24,territory:212,lots:4,alv:7562.50,revenue:30250.00},
+  {region:6,district:24,territory:214,lots:9,alv:6109.28,revenue:54983.50},
+  {region:6,district:24,territory:320,lots:2,alv:17215.00,revenue:34430.00},
+  {region:6,district:25,territory:311,lots:1,alv:742.50,revenue:742.50},
+  {region:6,district:25,territory:312,lots:3,alv:29150.00,revenue:87450.00},
+  {region:6,district:25,territory:313,lots:2,alv:4020.50,revenue:8041.00},
+  {region:6,district:25,territory:315,lots:5,alv:162580.00,revenue:812900.00}
+];
+
+// =============================================
+// RENDERING — uses shared PW utilities
+// =============================================
+
+let barChart = null;
+let doughnutChart = null;
+
+function render() {
+  const filtered = filters.filterData(DATA);
+  const drill = filters.drillLevel();
+  const agg = PW.aggregate(filtered);
+
+  // Scope label
+  const scopeEl = document.getElementById('scope');
+  const scopeText = filters.scopeText();
+  if (scopeText) {
+    scopeEl.style.display = 'flex';
+    scopeEl.textContent = 'Viewing: ' + scopeText;
+  } else {
+    scopeEl.style.display = 'none';
+  }
+
+  // KPIs
+  const s = PW.status(agg.alv);
+  const hitCount = filtered.filter(r => r.alv >= PW.GOAL).length;
+
+  document.getElementById('kpis').innerHTML =
+    PW.kpiCard('Average Lot Value', PW.fmtDec(agg.alv), PW.badge(agg.alv), s) +
+    PW.kpiCard('Total Lots', PW.num(agg.lots), 'items sold') +
+    PW.kpiCard('Total Revenue', PW.fmt(agg.revenue), 'contract price') +
+    PW.kpiCard('Goal Hit Rate', `${hitCount} / ${filtered.length}`,
+      `${filtered.length > 0 ? PW.pct(hitCount / filtered.length) : '0%'} of territories ≥ $10k`);
+
+  // Bar chart
+  const grouped = PW.groupBy(filtered, drill.groupKey);
+  const keys = Object.keys(grouped).sort((a, b) => a - b);
+  const alvValues = keys.map(k => PW.aggregate(grouped[k]).alv);
+  const lotValues = keys.map(k => PW.aggregate(grouped[k]).lots);
+
+  document.getElementById('barTitle').textContent = `Average Lot Value by ${drill.label}`;
+  document.getElementById('doughnutTitle').textContent = `Lot Distribution by ${drill.label}`;
+
+  const ctx1 = document.getElementById('barChart').getContext('2d');
+  if (barChart) barChart.destroy();
+
+  barChart = new Chart(ctx1, {
+    type: 'bar',
+    data: {
+      labels: keys.map(k => `${drill.label} ${k}`),
+      datasets: [{
+        label: 'ALV',
+        data: alvValues,
+        backgroundColor: PW.barColorByGoal(alvValues),
+        borderColor: PW.barColorByGoal(alvValues).map(c => c.replace(/0\.\d+\)/, '1)')),
+        borderWidth: 1,
+        borderRadius: 4,
+        barPercentage: 0.7
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      interaction: { mode: 'index', intersect: false },
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          ...PW.tooltipConfig(),
+          callbacks: {
+            label: (ctx) => [`ALV: ${PW.fmtDec(ctx.raw)}`, `Lots: ${lotValues[ctx.dataIndex].toLocaleString()}`]
+          }
+        }
+      },
+      scales: {
+        x: PW.xAxisConfig(),
+        y: {
+          ...PW.yAxisConfig(),
+          afterDataLimits: (scale) => { scale.max = Math.max(scale.max, PW.GOAL * 1.3); }
+        }
+      }
+    },
+    plugins: [PW.goalLinePlugin()]
+  });
+
+  // Doughnut
+  const ctx2 = document.getElementById('doughnutChart').getContext('2d');
+  if (doughnutChart) doughnutChart.destroy();
+
+  doughnutChart = new Chart(ctx2, {
+    type: 'doughnut',
+    data: {
+      labels: keys.map(k => `${drill.label} ${k}`),
+      datasets: [{
+        data: keys.map(k => PW.aggregate(grouped[k]).lots),
+        backgroundColor: PW.CHART_COLORS.slice(0, keys.length),
+        borderColor: '#17171E',
+        borderWidth: 2,
+        hoverOffset: 6
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      cutout: '60%',
+      plugins: {
+        legend: PW.doughnutLegendConfig(),
+        tooltip: {
+          ...PW.tooltipConfig(),
+          callbacks: {
+            label: (ctx) => {
+              const total = ctx.dataset.data.reduce((a, b) => a + b, 0);
+              return ` ${ctx.raw.toLocaleString()} lots (${(ctx.raw / total * 100).toFixed(1)}%)`;
+            }
+          }
+        }
+      }
+    }
+  });
+
+  // Table
+  document.getElementById('tableTitle').textContent = `${drill.label} Breakdown`;
+  document.getElementById('tableSub').textContent = scopeText || 'All regions';
+
+  const aggs = keys.map(k => ({ key: k, ...PW.aggregate(grouped[k]) }));
+  const maxRev = Math.max(...aggs.map(a => a.revenue));
+  const totalRev = aggs.reduce((s, a) => s + a.revenue, 0);
+
+  let html = `<table class="pw-table">
+    <thead><tr>
+      <th>${drill.label}</th>
+      <th class="num">ALV</th>
+      <th class="num">Lots</th>
+      <th class="num">Revenue</th>
+      <th>Share</th>
+      <th class="num">vs Goal</th>
+    </tr></thead><tbody>`;
+
+  aggs.forEach(a => {
+    const st = PW.status(a.alv);
+    const share = (a.revenue / totalRev * 100).toFixed(1);
+    const barW = (a.revenue / maxRev * 100).toFixed(0);
+    const barColor = st === 'hit' ? 'var(--green)' : st === 'near' ? 'var(--amber)' : 'var(--chart-1)';
+    const gap = PW.gapPct(a.alv);
+
+    html += `<tr>
+      <td>${drill.label} ${a.key}</td>
+      <td class="num">${PW.alvCell(a.alv)}</td>
+      <td class="num">${PW.num(a.lots)}</td>
+      <td class="num">${PW.fmt(a.revenue)}</td>
+      <td><div class="pw-bar-inline">
+        <div class="pw-bar-track"><div class="pw-bar-fill" style="width:${barW}%;background:${barColor}"></div></div>
+        <span style="font-size:11px;color:var(--text-muted);font-family:'JetBrains Mono';min-width:40px">${share}%</span>
+      </div></td>
+      <td class="num"><span class="pw-badge ${st}">${gap > 0 ? '+' : ''}${gap}%</span></td>
+    </tr>`;
+  });
+
+  html += '</tbody></table>';
+  document.getElementById('tableBody').innerHTML = html;
+}
+
+// =============================================
+// INIT
+// =============================================
+
+const filters = new PWGeoFilters({
+  data: DATA,
+  regionId: 'regionFilter',
+  districtId: 'districtFilter',
+  territoryId: 'territoryFilter',
+  onChange: render
+});
+
+document.getElementById('resetBtn').addEventListener('click', () => filters.reset());
+
+render();
+</script>
+</body>
+</html>

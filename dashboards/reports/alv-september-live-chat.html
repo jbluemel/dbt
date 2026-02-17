@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Purple Wave - ALV | September FY2026</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<link rel="stylesheet" href="../static/theme.css">
+<link rel="stylesheet" href="../static/layout.css">
+<style>
+  .pw-chat-toggle {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--pw-purple) 0%, var(--pw-purple-light) 100%);
+    border: 2px solid var(--pw-gold);
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 20px rgba(91,45,142,0.4);
+    z-index: 1000;
+    transition: transform 0.2s;
+  }
+  .pw-chat-toggle:hover { transform: scale(1.08); }
+
+  .pw-chat-panel {
+    position: fixed;
+    bottom: 92px;
+    right: 24px;
+    width: 420px;
+    height: 520px;
+    background: var(--surface-1);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    display: none;
+    flex-direction: column;
+    z-index: 1000;
+    box-shadow: 0 8px 40px rgba(0,0,0,0.5);
+    overflow: hidden;
+  }
+  .pw-chat-panel.open { display: flex; }
+
+  .pw-chat-header {
+    background: var(--pw-purple-dark);
+    padding: 14px 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--pw-gold);
+  }
+  .pw-chat-header-title {
+    font-size: 13px;
+    font-weight: 600;
+    color: #fff;
+  }
+  .pw-chat-header-sub {
+    font-size: 10px;
+    color: rgba(255,255,255,0.5);
+    margin-top: 2px;
+  }
+  .pw-chat-close {
+    background: none;
+    border: none;
+    color: rgba(255,255,255,0.5);
+    font-size: 18px;
+    cursor: pointer;
+    padding: 4px;
+  }
+  .pw-chat-close:hover { color: #fff; }
+
+  .pw-chat-messages {
+    flex: 1;
+    overflow-y: auto;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .pw-chat-msg {
+    max-width: 90%;
+    padding: 10px 14px;
+    border-radius: 10px;
+    font-size: 13px;
+    line-height: 1.5;
+  }
+  .pw-chat-msg.user {
+    align-self: flex-end;
+    background: var(--pw-purple);
+    color: #fff;
+    border-bottom-right-radius: 4px;
+  }
+  .pw-chat-msg.assistant {
+    align-self: flex-start;
+    background: var(--surface-2);
+    color: var(--text-primary);
+    border-bottom-left-radius: 4px;
+  }
+  .pw-chat-msg.system {
+    align-self: center;
+    background: transparent;
+    color: var(--text-muted);
+    font-size: 11px;
+    font-style: italic;
+    padding: 4px;
+  }
+  .pw-chat-msg.assistant pre {
+    background: var(--surface-3);
+    padding: 8px;
+    border-radius: 6px;
+    overflow-x: auto;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 11px;
+    margin: 6px 0;
+  }
+
+  .pw-chat-typing {
+    align-self: flex-start;
+    color: var(--text-muted);
+    font-size: 12px;
+    font-style: italic;
+    padding: 4px 14px;
+    display: none;
+  }
+  .pw-chat-typing.visible { display: block; }
+
+  .pw-chat-input-row {
+    padding: 12px;
+    border-top: 1px solid var(--border);
+    display: flex;
+    gap: 8px;
+  }
+  .pw-chat-input {
+    flex: 1;
+    background: var(--surface-2);
+    border: 1px solid var(--border);
+    color: var(--text-primary);
+    padding: 10px 14px;
+    border-radius: 8px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 13px;
+    resize: none;
+    outline: none;
+  }
+  .pw-chat-input:focus { border-color: var(--pw-purple); }
+  .pw-chat-input::placeholder { color: var(--text-muted); }
+
+  .pw-chat-send {
+    background: var(--pw-purple);
+    border: none;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.15s;
+  }
+  .pw-chat-send:hover { background: var(--pw-purple-light); }
+  .pw-chat-send:disabled { opacity: 0.4; cursor: not-allowed; }
+</style>
+</head>
+<body>
+
+<div class="pw-header">
+  <div class="pw-header-left">
+    <div class="pw-logo">PW</div>
+    <div>
+      <h1>Average Lot Value Dashboard</h1>
+      <div class="pw-header-subtitle">September FY 2026 - Purple Wave Auction</div>
+    </div>
+  </div>
+  <div class="pw-header-right">Goal: $10,000 ALV <span id="dataMode" style="color:var(--green); margin-left:12px;">LIVE</span></div>
+</div>
+
+<div class="pw-filters">
+  <span class="pw-filter-label">Filter by</span>
+  <div class="pw-filter-group"><select id="regionFilter"></select></div>
+  <div class="pw-filter-group"><select id="districtFilter"></select></div>
+  <div class="pw-filter-group"><select id="territoryFilter"></select></div>
+  <button class="pw-reset-btn" id="resetBtn">Reset Filters</button>
+</div>
+
+<div class="pw-content">
+  <div class="pw-scope" id="scope" style="display:none;"></div>
+  <div class="pw-kpi-row" id="kpis"></div>
+
+  <div class="pw-charts-grid">
+    <div class="pw-card">
+      <div class="pw-card-header">
+        <div>
+          <div class="pw-card-title" id="barTitle">Average Lot Value by Region</div>
+          <div class="pw-card-subtitle">Goal line at $10,000</div>
+        </div>
+      </div>
+      <div class="pw-chart tall"><canvas id="barChart"></canvas></div>
+    </div>
+    <div class="pw-card">
+      <div class="pw-card-header">
+        <div>
+          <div class="pw-card-title" id="doughnutTitle">Lot Distribution</div>
+          <div class="pw-card-subtitle">By volume share</div>
+        </div>
+      </div>
+      <div class="pw-chart medium"><canvas id="doughnutChart"></canvas></div>
+    </div>
+  </div>
+
+  <div class="pw-card">
+    <div class="pw-card-header">
+      <div>
+        <div class="pw-card-title" id="tableTitle">Detail Breakdown</div>
+        <div class="pw-card-subtitle" id="tableSub">By geographic hierarchy</div>
+      </div>
+    </div>
+    <div id="tableBody"></div>
+  </div>
+</div>
+
+<div class="pw-footer">
+  <span>Data source: itemv2 - <span id="footerMode">PostgreSQL (live)</span></span>
+  <span>Dashboard POC - Purple Wave Data Team</span>
+</div>
+
+<button class="pw-chat-toggle" id="chatToggle" title="Ask about this data">?</button>
+
+<div class="pw-chat-panel" id="chatPanel">
+  <div class="pw-chat-header">
+    <div>
+      <div class="pw-chat-header-title">Ask Claude about this data</div>
+      <div class="pw-chat-header-sub">Context-aware analytics assistant</div>
+    </div>
+    <button class="pw-chat-close" id="chatClose">x</button>
+  </div>
+  <div class="pw-chat-messages" id="chatMessages">
+    <div class="pw-chat-msg system">Ask questions about the data on this dashboard. Claude sees all the numbers on your screen including territory-level detail.</div>
+  </div>
+  <div class="pw-chat-typing" id="chatTyping">Claude is thinking...</div>
+  <div class="pw-chat-input-row">
+    <input type="text" class="pw-chat-input" id="chatInput" placeholder="Why did we miss goal in Region 3?" />
+    <button class="pw-chat-send" id="chatSend">&#x27A4;</button>
+  </div>
+</div>
+
+<script src="../static/pw-utils.js"></script>
+<script src="../static/pw-filters.js"></script>
+<script>
+var REPORT = {
+  table: "itemv2",
+  filters: {
+    "Year of Auction Endtime - Fiscal Year": "FY 2026",
+    "Month of Auction Endtime - Calendar Year": "September"
+  },
+  regionCol: "Item Region Id",
+  districtCol: "Item District",
+  territoryCol: "Item Territory Id",
+  metricCol: "Contract Price"
+};
+
+var API_BASE = window.location.origin + "/api";
+var DATA = [];
+var barChart = null;
+var doughnutChart = null;
+var filters;
+var chatHistory = [];
+
+// =============================================
+// DATA LOADING
+// =============================================
+
+async function loadData() {
+  try {
+    var groupBy = [REPORT.regionCol, REPORT.districtCol, REPORT.territoryCol].join(",");
+    var filtersParam = encodeURIComponent(JSON.stringify(REPORT.filters));
+    var url = API_BASE + "/query?table=" + REPORT.table + "&group_by=" + groupBy + "&filters=" + filtersParam;
+
+    var response = await fetch(url);
+    if (!response.ok) throw new Error("API returned " + response.status);
+
+    var result = await response.json();
+
+    DATA = result.data.map(function(row) {
+      return {
+        region: row[REPORT.regionCol],
+        district: row[REPORT.districtCol],
+        territory: row[REPORT.territoryCol],
+        lots: row.lots,
+        alv: row.avg_lot_value,
+        revenue: row.total_revenue
+      };
+    });
+
+    document.getElementById("dataMode").textContent = "LIVE";
+    document.getElementById("dataMode").style.color = "var(--green)";
+    document.getElementById("footerMode").textContent = "PostgreSQL (live) - " + DATA.length + " territories loaded";
+    return true;
+  } catch (err) {
+    console.error("API fetch failed:", err);
+    document.getElementById("dataMode").textContent = "OFFLINE";
+    document.getElementById("dataMode").style.color = "var(--red)";
+    document.getElementById("footerMode").textContent = "API unavailable";
+    return false;
+  }
+}
+
+// =============================================
+// CHAT
+// =============================================
+
+function getReportContext() {
+  var filtered = filters ? filters.filterData(DATA) : DATA;
+  var agg = PW.aggregate(filtered);
+  var scopeText = filters ? filters.scopeText() : null;
+
+  var regionGroups = PW.groupBy(filtered, "region");
+  var regionSummary = Object.keys(regionGroups).sort(function(a, b) { return a - b; }).map(function(k) {
+    var ra = PW.aggregate(regionGroups[k]);
+    return "Region " + k + ": ALV=" + PW.fmtDec(ra.alv) + ", " + ra.lots + " lots, " + PW.fmt(ra.revenue) + " revenue, Goal " + (ra.alv >= PW.GOAL ? "HIT" : "MISS");
+  }).join("\n");
+
+  var districtGroups = PW.groupBy(filtered, "district");
+  var districtSummary = Object.keys(districtGroups).sort(function(a, b) { return a - b; }).map(function(k) {
+    var da = PW.aggregate(districtGroups[k]);
+    var region = districtGroups[k][0].region;
+    return "Region " + region + " / District " + k + ": ALV=" + PW.fmtDec(da.alv) + ", " + da.lots + " lots";
+  }).join("\n");
+
+  var territorySummary = filtered.map(function(t) {
+    return "R" + t.region + "/D" + t.district + "/T" + t.territory + ": ALV=" + PW.fmtDec(t.alv) + ", " + t.lots + " lots, " + PW.fmt(t.revenue);
+  }).join("\n");
+
+  var context = "You are an analytics assistant for Purple Wave, a no-reserve auction company.\n";
+  context += "The user is viewing the ALV (Average Lot Value) Dashboard for September FY 2026.\n";
+  context += "The company goal is $10,000 ALV.\n\n";
+  context += "CURRENT VIEW:\n";
+  context += "Scope: " + (scopeText || "All Regions (company-wide)") + "\n";
+  context += "Company ALV: " + PW.fmtDec(agg.alv) + ", Total Lots: " + PW.num(agg.lots) + ", Total Revenue: " + PW.fmt(agg.revenue) + "\n";
+  context += "Goal Status: " + (agg.alv >= PW.GOAL ? "HIT" : "MISS") + " (" + PW.gapPct(agg.alv) + "% vs goal)\n\n";
+  context += "REGION BREAKDOWN:\n" + regionSummary + "\n\n";
+  context += "DISTRICT BREAKDOWN:\n" + districtSummary + "\n\n";
+  context += "TERRITORY DETAIL:\n" + territorySummary + "\n\n";
+  context += "Answer concisely using the data above. Focus on actionable insights. ";
+  context += "If the user asks something that requires data not shown here (like category or taxonomy breakdowns), ";
+  context += "explain what you can see and suggest they check those dimensions.";
+
+  return context;
+}
+
+function addChatMessage(role, text) {
+  var container = document.getElementById("chatMessages");
+  var msg = document.createElement("div");
+  msg.className = "pw-chat-msg " + role;
+
+  if (role === "assistant") {
+    text = text.replace(/```([\s\S]*?)```/g, "<pre>$1</pre>");
+    text = text.replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>");
+    text = text.replace(/\n/g, "<br>");
+    msg.innerHTML = text;
+  } else {
+    msg.textContent = text;
+  }
+
+  container.appendChild(msg);
+  container.scrollTop = container.scrollHeight;
+}
+
+async function sendChat() {
+  var input = document.getElementById("chatInput");
+  var message = input.value.trim();
+  if (!message) return;
+
+  input.value = "";
+  addChatMessage("user", message);
+
+  chatHistory.push({ role: "user", content: message });
+
+  var typing = document.getElementById("chatTyping");
+  typing.classList.add("visible");
+  document.getElementById("chatSend").disabled = true;
+
+  try {
+    var response = await fetch(API_BASE + "/chat", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        system: getReportContext(),
+        messages: chatHistory
+      })
+    });
+
+    var data = await response.json();
+
+    if (data.content) {
+      var fullText = data.content
+        .filter(function(item) { return item.type === "text"; })
+        .map(function(item) { return item.text; })
+        .join("\n");
+
+      if (fullText) {
+        addChatMessage("assistant", fullText);
+        chatHistory.push({ role: "assistant", content: fullText });
+      } else {
+        addChatMessage("assistant", "I could not generate a response. Try rephrasing your question.");
+      }
+    } else if (data.error) {
+      addChatMessage("system", "Error: " + (data.error.message || "Something went wrong"));
+    }
+  } catch (err) {
+    console.error("Chat error:", err);
+    addChatMessage("system", "Failed to reach Claude. Check that the server is running.");
+  }
+
+  typing.classList.remove("visible");
+  document.getElementById("chatSend").disabled = false;
+  document.getElementById("chatInput").focus();
+}
+
+document.getElementById("chatToggle").addEventListener("click", function() {
+  document.getElementById("chatPanel").classList.toggle("open");
+  document.getElementById("chatInput").focus();
+});
+
+document.getElementById("chatClose").addEventListener("click", function() {
+  document.getElementById("chatPanel").classList.remove("open");
+});
+
+document.getElementById("chatSend").addEventListener("click", sendChat);
+
+document.getElementById("chatInput").addEventListener("keydown", function(e) {
+  if (e.key === "Enter" && !e.shiftKey) {
+    e.preventDefault();
+    sendChat();
+  }
+});
+
+// =============================================
+// RENDERING
+// =============================================
+
+function render() {
+  if (DATA.length === 0) {
+    document.getElementById("kpis").innerHTML = PW.kpiCard("Status", "No Data", "Check API connection", "");
+    return;
+  }
+
+  var filtered = filters.filterData(DATA);
+  var drill = filters.drillLevel();
+  var agg = PW.aggregate(filtered);
+
+  var scopeEl = document.getElementById("scope");
+  var scopeText = filters.scopeText();
+  if (scopeText) {
+    scopeEl.style.display = "flex";
+    scopeEl.textContent = "Viewing: " + scopeText;
+  } else {
+    scopeEl.style.display = "none";
+  }
+
+  var s = PW.status(agg.alv);
+  var hitCount = filtered.filter(function(r) { return r.alv >= PW.GOAL; }).length;
+
+  document.getElementById("kpis").innerHTML =
+    PW.kpiCard("Average Lot Value", PW.fmtDec(agg.alv), PW.badge(agg.alv), s) +
+    PW.kpiCard("Total Lots", PW.num(agg.lots), "items sold") +
+    PW.kpiCard("Total Revenue", PW.fmt(agg.revenue), "contract price") +
+    PW.kpiCard("Goal Hit Rate", hitCount + " / " + filtered.length,
+      (filtered.length > 0 ? PW.pct(hitCount / filtered.length) : "0%") + " of territories at or above $10k");
+
+  var grouped = PW.groupBy(filtered, drill.groupKey);
+  var keys = Object.keys(grouped).sort(function(a, b) { return a - b; });
+  var alvValues = keys.map(function(k) { return PW.aggregate(grouped[k]).alv; });
+  var lotValues = keys.map(function(k) { return PW.aggregate(grouped[k]).lots; });
+
+  document.getElementById("barTitle").textContent = "Average Lot Value by " + drill.label;
+  document.getElementById("doughnutTitle").textContent = "Lot Distribution by " + drill.label;
+
+  var ctx1 = document.getElementById("barChart").getContext("2d");
+  if (barChart) barChart.destroy();
+
+  barChart = new Chart(ctx1, {
+    type: "bar",
+    data: {
+      labels: keys.map(function(k) { return drill.label + " " + k; }),
+      datasets: [{
+        label: "ALV",
+        data: alvValues,
+        backgroundColor: PW.barColorByGoal(alvValues),
+        borderColor: PW.barColorByGoal(alvValues).map(function(c) { return c.replace(/0\.\d+\)/, "1)"); }),
+        borderWidth: 1,
+        borderRadius: 4,
+        barPercentage: 0.7
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      interaction: { mode: "index", intersect: false },
+      plugins: {
+        legend: { display: false },
+        tooltip: Object.assign({}, PW.tooltipConfig(), {
+          callbacks: {
+            label: function(ctx) {
+              return ["ALV: " + PW.fmtDec(ctx.raw), "Lots: " + lotValues[ctx.dataIndex].toLocaleString()];
+            }
+          }
+        })
+      },
+      scales: {
+        x: PW.xAxisConfig(),
+        y: Object.assign({}, PW.yAxisConfig(), {
+          afterDataLimits: function(scale) { scale.max = Math.max(scale.max, PW.GOAL * 1.3); }
+        })
+      }
+    },
+    plugins: [PW.goalLinePlugin()]
+  });
+
+  var ctx2 = document.getElementById("doughnutChart").getContext("2d");
+  if (doughnutChart) doughnutChart.destroy();
+
+  doughnutChart = new Chart(ctx2, {
+    type: "doughnut",
+    data: {
+      labels: keys.map(function(k) { return drill.label + " " + k; }),
+      datasets: [{
+        data: keys.map(function(k) { return PW.aggregate(grouped[k]).lots; }),
+        backgroundColor: PW.CHART_COLORS.slice(0, keys.length),
+        borderColor: "#17171E",
+        borderWidth: 2,
+        hoverOffset: 6
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      cutout: "60%",
+      plugins: {
+        legend: PW.doughnutLegendConfig(),
+        tooltip: Object.assign({}, PW.tooltipConfig(), {
+          callbacks: {
+            label: function(ctx) {
+              var total = ctx.dataset.data.reduce(function(a, b) { return a + b; }, 0);
+              return " " + ctx.raw.toLocaleString() + " lots (" + (ctx.raw / total * 100).toFixed(1) + "%)";
+            }
+          }
+        })
+      }
+    }
+  });
+
+  document.getElementById("tableTitle").textContent = drill.label + " Breakdown";
+  document.getElementById("tableSub").textContent = scopeText || "All regions";
+
+  var aggs = keys.map(function(k) { return Object.assign({ key: k }, PW.aggregate(grouped[k])); });
+  var maxRev = Math.max.apply(null, aggs.map(function(a) { return a.revenue; }));
+  var totalRev = aggs.reduce(function(s, a) { return s + a.revenue; }, 0);
+
+  var html = '<table class="pw-table"><thead><tr>';
+  html += "<th>" + drill.label + "</th>";
+  html += '<th class="num">ALV</th>';
+  html += '<th class="num">Lots</th>';
+  html += '<th class="num">Revenue</th>';
+  html += "<th>Share</th>";
+  html += '<th class="num">vs Goal</th>';
+  html += "</tr></thead><tbody>";
+
+  aggs.forEach(function(a) {
+    var st = PW.status(a.alv);
+    var share = (a.revenue / totalRev * 100).toFixed(1);
+    var barW = (a.revenue / maxRev * 100).toFixed(0);
+    var barColor = st === "hit" ? "var(--green)" : st === "near" ? "var(--amber)" : "var(--chart-1)";
+    var gap = PW.gapPct(a.alv);
+    var sign = gap > 0 ? "+" : "";
+
+    html += "<tr>";
+    html += "<td>" + drill.label + " " + a.key + "</td>";
+    html += '<td class="num">' + PW.alvCell(a.alv) + "</td>";
+    html += '<td class="num">' + PW.num(a.lots) + "</td>";
+    html += '<td class="num">' + PW.fmt(a.revenue) + "</td>";
+    html += "<td>";
+    html += '<div class="pw-bar-inline">';
+    html += '<div class="pw-bar-track"><div class="pw-bar-fill" style="width:' + barW + "%;background:" + barColor + '"></div></div>';
+    html += '<span style="font-size:11px;color:var(--text-muted);font-family:JetBrains Mono;min-width:40px">' + share + "%</span>";
+    html += "</div></td>";
+    html += '<td class="num"><span class="pw-badge ' + st + '">' + sign + gap + "%</span></td>";
+    html += "</tr>";
+  });
+
+  html += "</tbody></table>";
+  document.getElementById("tableBody").innerHTML = html;
+}
+
+// =============================================
+// INIT
+// =============================================
+
+async function init() {
+  var loaded = await loadData();
+  if (loaded && DATA.length > 0) {
+    filters = new PWGeoFilters({
+      data: DATA,
+      regionId: "regionFilter",
+      districtId: "districtFilter",
+      territoryId: "territoryFilter",
+      onChange: render
+    });
+    document.getElementById("resetBtn").addEventListener("click", function() { filters.reset(); });
+    render();
+  }
+}
+
+init();
+</script>
+</body>
+</html>
